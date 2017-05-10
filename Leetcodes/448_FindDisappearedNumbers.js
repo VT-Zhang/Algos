@@ -22,11 +22,12 @@ var findDisappearedNumbers = function(nums) {
     //find the missing numbers
     var result = [];
     for(var l=0;l<nums.length; l++){
-        if(nums[l]+1 != nums[l+1]){
-            // nums.splice(l+1,0,nums[l]+1);
-            result.push(nums[l]+1);
+        if(nums[l] != l+1){
+            // nums.splice(0,0,10);
+            result.push(nums[l-1]+1);
         }
     }
+    console.log(nums);
     console.log(result);
 };
 
