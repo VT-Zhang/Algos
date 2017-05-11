@@ -4,6 +4,6 @@
 var countPrimes = function(n) {
     var counter = 0;
     for(var i = 2; i<n; i++){
-        if(i%)
+        if(i % )
     }
 };
