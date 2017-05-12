@@ -19,11 +19,28 @@ var minMoves = function(nums) {
     var result;
     //find max;
     var max = nums[0];
-    for(var i=0; i<nums.length; i++){
+    for(let i=0; i<nums.length; i++){
         if(max < nums[i]){
             max = nums[i];
         }
     }
-    //
+
+    //add 1 to all execept max;
+    for(let i=0; i<nums.length; i++){
+        if(nums[i] !== max){
+            nums[i]++;
+        }
+    }
     if(result > max && sum%nums.length===0 && )
+
+
+    var checker = false;
+    while(checker === false){
+        //determin if all the elements in the array are identical;
+        for(let i=0; i<nums.length; i++){
+            if(nums[i] !== nums[i+1]){
+                checker = false;
+            }
+        }
+    }
 };
