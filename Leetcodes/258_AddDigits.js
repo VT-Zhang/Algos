@@ -8,14 +8,10 @@
 // Could you do it without any loop/recursion in O(1) runtime?
 
 var addDigits = function(num) {
-    var temp = num;
-    while(temp.length > 1){
-        for(var i=0; i<num.length; i++){
-            temp += num[i];
-        }
-        num = temp;
-    }
-    console.log(num);
+    var result = (num - 1) % 9 + 1;
+    return result;
 };
 
-addDigits(38);
+console.log(addDigits(38));
+console.log(addDigits(27));
+console.log(addDigits(101));
