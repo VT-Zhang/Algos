@@ -6,11 +6,18 @@
 // Follow up: Could you solve it without loops/recursion?
 
 var isPowerOfFour = function(num) {
-    if(num%4===0){
+    if(num===0){
+        console.log(false);
+        return false;
+    }
+    while(num % 4 === 0){
+        num /= 4;
+    }
+    if(num === 1){
         console.log(true);
         return true;
     }
-    else {
+    else{
         console.log(false);
         return false;
     }
@@ -21,3 +28,7 @@ isPowerOfFour(0);
 isPowerOfFour(16);
 isPowerOfFour(3);
 isPowerOfFour(-4);
+isPowerOfFour(12);
+isPowerOfFour(24);
+isPowerOfFour(64);
+isPowerOfFour(256);
