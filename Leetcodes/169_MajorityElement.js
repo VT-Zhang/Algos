@@ -5,19 +5,25 @@
 //  in the array.
 
 var majorityElement = function(nums) {
+    //bubbleSort the array first;
     var counter = 0;
-    for(var i=0; i<nums.length; i++){
-        for(var j=0; j<nums.length; j++){
-            if(nums[i]===nums[j]){
-                counter++;
-            }
-            if(counter > nums.length/2){
-                console.log(nums[i]);
-                return nums[i];
+    while(counter < nums.length){
+        for(var i=0; i<nums.length; i++){
+            var temp;
+            if(nums[i] > nums[i+1]){
+                temp = nums[i];
+                nums[i] = nums[i+1];
+                nums[i+1] = temp;
             }
         }
-        counter = 0;
+        console.log(nums);
+        counter++;
+        i=0;
     }
+    //return the center element of the array;
+    var result = nums[Math.floor(nums.length/2)];
+    console.log(result);
+    return result;
 };
 
 majorityElement([1,2,2,2,1]);
