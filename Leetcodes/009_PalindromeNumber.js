@@ -13,26 +13,31 @@
 // There is a more generic way of solving this problem.
 
 var isPalindrome = function(x) {
-    //counting how many digit of the number first
-    var digit = 0;
-    if(x > 1){
-        digit++;
+    if(x < 0){
+        return false;
     }
-    while(x/10 >= 1){
-        x /= 10;
-        digit++;
+    var i = 1;
+    while(x/i >= 10){
+        i *= 10;
     }
-    console.log(digit);
-    count = digit;
-    while(count>1){
-        if(Math.floor(x/Math.pow(10,digit-1))) !== x % 10){
+    console.log("This is i", i);
+    while(x > 0){
+        var left = parseInt(x/i);
+        console.log("Left now is", left);
+        var right = x % 10;
+        console.log("Right now is", right);
+        if(left !== right){
+            console.log(false);
             return false;
         }
+        x = x % i; //remove the leftmost digit
+        x = parseInt(x/10) //remove the rightmost digit
+        i /= 100;
     }
-
+    console.log(true);
+    return true;
 };
 
-isPalindrome(2222);
-
-console.log(2222/Math.pow(10, 3));
-console.log(2222%10);
+isPalindrome(11211);
+isPalindrome(6345436);
+isPalindrome(88);
