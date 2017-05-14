@@ -8,9 +8,8 @@ var containsDuplicate = function(nums) {
     }
     var dict = {};
     for(var i=0; i<nums.length; i++){
-        var val = nums[i];
-        if(!dict[val]){
-            dict[val] = "yes";
+        if(!dict[nums[i]]){
+            dict[nums[i]] = "yes";
             console.log(dict);
         }
         else{
