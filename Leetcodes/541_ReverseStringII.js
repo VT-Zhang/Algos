@@ -12,15 +12,33 @@
 
 var reverseStr = function(s, k) {
     var arr = s.split("");
-    for(var i=0;i<arr.length; i++){
-        for(var j=i; j<k/2; j++){
-            for(var l=j+k; l>k/2; l--){
-                var temp = arr[l];
-                arr[l] = arr[j];
-                arr[j] = temp;
-                j++
+    var result = ""
+    console.log(arr);
+    var counter = 0;
+    for(var i=0; i<arr.length; i++){
+        if(counter === 0){
+            for(var j=i+k-1; j>=i; j--){
+                result += arr[j];
             }
-            
+            console.log(result);
         }
+        counter = k;
+        i += k;
+        while(counter > 0){
+            result += arr[i];
+            i++;
+            counter--;
+        }
+        console.log(result);
+        // if(reverse === false){
+        //     for(var l=i; i<=k; l++){
+        //         console.log(l);
+        //         result += arr[l];
+        //     }
+        //     reverse = true;
+        // }
     }
+    console.log(result);
 };
+
+reverseStr("abcdefg", 2);
