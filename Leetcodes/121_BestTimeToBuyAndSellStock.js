@@ -18,21 +18,38 @@
 
 var maxProfit = function(prices) {
     var max = 0;
-    for(var i=prices.length-1; i>=0; i--){
-        for(var j=prices.length-1; j>=0; j--){
-            if(max < prices[j]-prices[i] && j > i){
-                max = prices[j]-prices[i];
-            }
+    var diff = 0;
+    var min = Infinity;
+
+    for(var i=0; i<prices.length; i++){
+        if(min > prices[i]){
+            min = prices[i];
+        }
+        diff = prices[i] - min;
+        if(max < diff){
+            max = diff;
         }
     }
-    if(max<=0){
-        console.log(0);
-        return max;
-    }
-    else{
-        console.log(max);
-        return max;
-    }
+
+    console.log(max);
+    return max;
+
+    // var max = 0;
+    // for(var i=prices.length-1; i>=0; i--){
+    //     for(var j=prices.length-1; j>=0; j--){
+    //         if(max < prices[j]-prices[i] && j > i){
+    //             max = prices[j]-prices[i];
+    //         }
+    //     }
+    // }
+    // if(max<=0){
+    //     console.log(0);
+    //     return max;
+    // }
+    // else{
+    //     console.log(max);
+    //     return max;
+    // }
 };
 
 maxProfit([7,1,5,3,6,4]);
