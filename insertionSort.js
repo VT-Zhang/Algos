@@ -8,6 +8,7 @@ function insertionSort(arr){
                 arr[j-1] = temp;
             }
         }
+        console.log(arr);
     }
     console.log(arr);
     return arr;
