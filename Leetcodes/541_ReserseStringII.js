@@ -12,14 +12,21 @@
 
 var reverseStr = function(s, k) {
     var ns = "";
-    var counter = k - 1;
-    for(var i = 0; i < s.length; i+=2){
-        for(var j = i + counter; j > i; j--){
-            ns += s[j];
+    for(var i = 0; i < s.length; i += k){
+        for(var j = i + k - 1; j >= i; j--){
+            if(s[j] != undefined){
+                ns += s[j];
+            }
+        }
+        i += k;
+        for(var l = i; l < i + k; l++){
+            if(s[l] != undefined){
+                ns += s[l];
+            }
         }
     }
     console.log(ns);
     return ns;
 };
 
-reverseStr("abcdefg", 2);
+reverseStr("abcdefgh", 2);
