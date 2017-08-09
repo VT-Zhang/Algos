@@ -30,15 +30,23 @@
 var nextGreaterElement = function(findNums, nums) {
     var result = [];
     for(var i=0; i<findNums.length;i++){
-        for(var j=i; j<nums.length;j++){
-            if(findNums[i]<nums[j]){
-                result.push(nums[j]);
-                j=nums.length;
+        for(var j=0; j<nums.length;j++){
+            if(findNums[i]===nums[j]){
+                break;
             }
         }
-        result.push(-1);
+        for(var k=j+1; k<nums.length; k++){
+            if(nums[k] > nums[j]){
+                result.push(nums[k]);
+                break;
+            }
+        }
+        if(k === nums.length){
+            result.push(-1);
+        }
     }
     console.log(result);
+    return result;
 };
 
 nextGreaterElement([2,4], [1,2,3,4]);
