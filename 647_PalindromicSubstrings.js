@@ -13,15 +13,6 @@
 // Output: 6
 // Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
-/**
- * @param {string} s
- * @return {number}
- */
-var countSubstrings = function(s) {
-    var result = s.length;
-    
-};
-
 var isPalindromic = function(str){
     for(var i=0; i<str.length/2; i++){
         if(str[i] != str[str.length-1-i]){
@@ -32,7 +23,32 @@ var isPalindromic = function(str){
     console.log(true);
     return true;
 }
-isPalindromic('abcba');
-isPalindromic('abccba');
-isPalindromic('abc');
-isPalindromic('abccbaa');
+// isPalindromic('abcba');
+// isPalindromic('abccba');
+// isPalindromic('abc');
+// isPalindromic('abccbaa');
+
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var countSubstrings = function(s) {
+    var result = 0;
+    var string = "";
+    for(var i=0; i<s.length; i++){
+        for(var j=i; j<s.length; j++){
+             string += s[j];
+             console.log(string);
+             if(isPalindromic(string)==true){
+                 result++;
+             }
+        }
+        string = "";
+    }
+    console.log(result);
+    return result;
+};
+
+countSubstrings('aba');
+countSubstrings('aaa');
+
