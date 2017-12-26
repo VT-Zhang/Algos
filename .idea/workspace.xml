@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/414_ArrangingCoins.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/643_MaximumAverageSubarray.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="414_ArrangingCoins.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="414_ArrangingCoins.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/414_ArrangingCoins.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="35" column="18" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="768">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="643_MaximumAverageSubarray.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/643_MaximumAverageSubarray.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -43,6 +55,7 @@
         <option value="$PROJECT_DIR$/645_SetMismatch.js" />
         <option value="$PROJECT_DIR$/459_RepeatedSubstringPattern.js" />
         <option value="$PROJECT_DIR$/414_ArrangingCoins.js" />
+        <option value="$PROJECT_DIR$/643_MaximumAverageSubarray.js" />
       </list>
     </option>
   </component>
@@ -53,9 +66,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="881" />
+    <option name="x" value="908" />
     <option name="y" value="43" />
-    <option name="width" value="1558" />
+    <option name="width" value="1531" />
     <option name="height" value="1347" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -108,26 +121,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.414_ArrangingCoins.js">
+  <component name="RunManager" selected="Node.js.643_MaximumAverageSubarray.js">
     <configuration name="345_ReverseVowelsOfAString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="345_ReverseVowelsOfAString.js" working-dir="$PROJECT_DIR$" />
     <configuration name="414_ArrangingCoins.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="414_ArrangingCoins.js" working-dir="$PROJECT_DIR$" />
     <configuration name="459_RepeatedSubstringPattern.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="459_RepeatedSubstringPattern.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="643_MaximumAverageSubarray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="643_MaximumAverageSubarray.js" working-dir="$PROJECT_DIR$" />
     <configuration name="645_SetMismatch.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="645_SetMismatch.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="728_SelfDividingNumbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="728_SelfDividingNumbers.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.728_SelfDividingNumbers.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.345_ReverseVowelsOfAString.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.645_SetMismatch.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.459_RepeatedSubstringPattern.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.414_ArrangingCoins.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.345_ReverseVowelsOfAString.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.645_SetMismatch.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.459_RepeatedSubstringPattern.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.414_ArrangingCoins.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.643_MaximumAverageSubarray.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.414_ArrangingCoins.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.459_RepeatedSubstringPattern.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.645_SetMismatch.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.345_ReverseVowelsOfAString.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.728_SelfDividingNumbers.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.643_MaximumAverageSubarray.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.414_ArrangingCoins.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.459_RepeatedSubstringPattern.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.645_SetMismatch.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.345_ReverseVowelsOfAString.js" />
       </list>
     </recent_temporary>
   </component>
@@ -144,18 +157,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514307371840</updated>
-      <workItem from="1514307373526" duration="10138000" />
+      <workItem from="1514307373526" duration="12041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10138000" />
+    <option name="totallyTimeSpent" value="12041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="881" y="43" width="1558" height="1347" extended-state="0" />
+    <frame x="908" y="43" width="1531" height="1347" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2978177" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24820378" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -173,25 +186,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2454902" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2978177" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -282,8 +276,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/414_ArrangingCoins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="768">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/643_MaximumAverageSubarray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
