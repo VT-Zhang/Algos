@@ -49,7 +49,7 @@ var isIsomorphic = function(s, t) {
     console.log(arr2);
     for(var k = 0; k < s.length; k++) {
         if(arr1[k] != arr2[k]) {
-            return false
+            return false;
         }
     }
     return true;

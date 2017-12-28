@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/#205_IsomorphicStrings.js" afterPath="$PROJECT_DIR$/205_IsomorphicStrings.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/724_FindPivotIndex.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/205_IsomorphicStrings.js" afterPath="$PROJECT_DIR$/205_IsomorphicStrings.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,11 +66,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="205_IsomorphicStrings.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="205_IsomorphicStrings.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/205_IsomorphicStrings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="450">
+              <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="724_FindPivotIndex.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/724_FindPivotIndex.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="785">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -97,6 +111,7 @@
         <option value="$PROJECT_DIR$/674_LongestContinuousIncreasingSubsequence.js" />
         <option value="$PROJECT_DIR$/482_LicenseKeyFormatting.js" />
         <option value="$PROJECT_DIR$/205_IsomorphicStrings.js" />
+        <option value="$PROJECT_DIR$/724_FindPivotIndex.js" />
       </list>
     </option>
   </component>
@@ -110,7 +125,7 @@
     <option name="x" value="934" />
     <option name="y" value="117" />
     <option name="width" value="1418" />
-    <option name="height" value="1154" />
+    <option name="height" value="1233" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -163,26 +178,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.205_IsomorphicStrings.js">
+  <component name="RunManager" selected="Node.js.724_FindPivotIndex.js">
     <configuration name="205_IsomorphicStrings.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="205_IsomorphicStrings.js" working-dir="$PROJECT_DIR$" />
     <configuration name="242_ValidAnagram.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="242_ValidAnagram.js" working-dir="$PROJECT_DIR$" />
     <configuration name="482_LicenseKeyFormatting.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="482_LicenseKeyFormatting.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="500_KeyboardRow.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="500_KeyboardRow.js" working-dir="$PROJECT_DIR$" />
     <configuration name="674_LongestContinuousIncreasingSubsequence.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="674_LongestContinuousIncreasingSubsequence.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="724_FindPivotIndex.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="724_FindPivotIndex.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.500_KeyboardRow.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.674_LongestContinuousIncreasingSubsequence.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.482_LicenseKeyFormatting.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.205_IsomorphicStrings.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.674_LongestContinuousIncreasingSubsequence.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.482_LicenseKeyFormatting.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.205_IsomorphicStrings.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.724_FindPivotIndex.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.205_IsomorphicStrings.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.482_LicenseKeyFormatting.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.674_LongestContinuousIncreasingSubsequence.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.500_KeyboardRow.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.724_FindPivotIndex.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.205_IsomorphicStrings.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.482_LicenseKeyFormatting.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.674_LongestContinuousIncreasingSubsequence.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
       </list>
     </recent_temporary>
   </component>
@@ -201,22 +216,22 @@
       <updated>1514307371840</updated>
       <workItem from="1514307373526" duration="28468000" />
       <workItem from="1514430984281" duration="231000" />
-      <workItem from="1514494122892" duration="1351000" />
+      <workItem from="1514494122892" duration="3277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30050000" />
+    <option name="totallyTimeSpent" value="31976000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="934" y="117" width="1418" height="1154" extended-state="0" />
+    <frame x="934" y="117" width="1418" height="1233" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2235543" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22181146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20671834" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -441,8 +456,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/205_IsomorphicStrings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="450">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/724_FindPivotIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
