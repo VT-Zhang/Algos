@@ -28,7 +28,7 @@
  * @return {string}
  */
 var licenseKeyFormatting = function(S, K) {
-    if(S.length == K) {
+    if(S.length == K && S[0] != "-") {
         return S.toUpperCase();
     }
     var temp = [];
