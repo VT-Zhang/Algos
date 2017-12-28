@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/482_LicenseKeyFormatting.js" afterPath="$PROJECT_DIR$/482_LicenseKeyFormatting.js" />
+      <change beforePath="$PROJECT_DIR$/#205_IsomorphicStrings.js" afterPath="$PROJECT_DIR$/205_IsomorphicStrings.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,11 +52,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="482_LicenseKeyFormatting.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="482_LicenseKeyFormatting.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/482_LicenseKeyFormatting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+            <state relative-caret-position="562">
+              <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="205_IsomorphicStrings.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/205_IsomorphicStrings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -85,6 +96,7 @@
         <option value="$PROJECT_DIR$/242_ValidAnagram.js" />
         <option value="$PROJECT_DIR$/674_LongestContinuousIncreasingSubsequence.js" />
         <option value="$PROJECT_DIR$/482_LicenseKeyFormatting.js" />
+        <option value="$PROJECT_DIR$/205_IsomorphicStrings.js" />
       </list>
     </option>
   </component>
@@ -94,10 +106,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="725" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="934" />
+    <option name="y" value="117" />
+    <option name="width" value="1418" />
+    <option name="height" value="1154" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -117,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,6 +141,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -150,26 +163,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.482_LicenseKeyFormatting.js">
+  <component name="RunManager" selected="Node.js.205_IsomorphicStrings.js">
+    <configuration name="205_IsomorphicStrings.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="205_IsomorphicStrings.js" working-dir="$PROJECT_DIR$" />
     <configuration name="242_ValidAnagram.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="242_ValidAnagram.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="443_StringCompression.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#443_StringCompression.js" working-dir="$PROJECT_DIR$" />
     <configuration name="482_LicenseKeyFormatting.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="482_LicenseKeyFormatting.js" working-dir="$PROJECT_DIR$" />
     <configuration name="500_KeyboardRow.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="500_KeyboardRow.js" working-dir="$PROJECT_DIR$" />
     <configuration name="674_LongestContinuousIncreasingSubsequence.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="674_LongestContinuousIncreasingSubsequence.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.443_StringCompression.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.500_KeyboardRow.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.674_LongestContinuousIncreasingSubsequence.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.482_LicenseKeyFormatting.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.500_KeyboardRow.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.674_LongestContinuousIncreasingSubsequence.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.482_LicenseKeyFormatting.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.205_IsomorphicStrings.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.482_LicenseKeyFormatting.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.674_LongestContinuousIncreasingSubsequence.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.500_KeyboardRow.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.443_StringCompression.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.205_IsomorphicStrings.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.482_LicenseKeyFormatting.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.674_LongestContinuousIncreasingSubsequence.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.500_KeyboardRow.js" />
       </list>
     </recent_temporary>
   </component>
@@ -188,26 +201,27 @@
       <updated>1514307371840</updated>
       <workItem from="1514307373526" duration="28468000" />
       <workItem from="1514430984281" duration="231000" />
+      <workItem from="1514494122892" duration="1351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28699000" />
+    <option name="totallyTimeSpent" value="30050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="725" extended-state="1" />
+    <frame x="934" y="117" width="1418" height="1154" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24765626" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2235543" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22181146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27718222" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -228,6 +242,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/674_LongestContinuousIncreasingSubsequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/500_KeyboardRow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/242_ValidAnagram.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/482_LicenseKeyFormatting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/500_KeyboardRow.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -377,8 +431,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/482_LicenseKeyFormatting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        <state relative-caret-position="562">
+          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/205_IsomorphicStrings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
