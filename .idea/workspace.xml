@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/#055_JumpGame.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/434_NumbersOfSegmentsInAString.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,7 +32,7 @@
       <file leaf-file-name="017_LetterCombinationsOfPhoneNumber.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/017_LetterCombinationsOfPhoneNumber.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="675">
               <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -41,7 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="053_MaximumSubarray.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="434_NumbersOfSegmentsInAString.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/434_NumbersOfSegmentsInAString.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="053_MaximumSubarray.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/053_MaximumSubarray.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -92,6 +104,7 @@
         <option value="$PROJECT_DIR$/017_LetterCombinationsOfPhoneNumber.js" />
         <option value="$PROJECT_DIR$/053_MaximumSubarray.js" />
         <option value="$PROJECT_DIR$/055_JumpGame.js" />
+        <option value="$PROJECT_DIR$/434_NumbersOfSegmentsInAString.js" />
       </list>
     </option>
   </component>
@@ -157,26 +170,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.055_JumpGame.js">
+  <component name="RunManager" selected="Node.js.434_NumbersOfSegmentsInAString.js">
     <configuration name="017_LetterCombinationsOfPhoneNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="017_LetterCombinationsOfPhoneNumber.js" working-dir="$PROJECT_DIR$" />
     <configuration name="028_Implement_StrStr.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="028_Implement_StrStr.js" working-dir="$PROJECT_DIR$" />
     <configuration name="053_MaximumSubarray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="053_MaximumSubarray.js" working-dir="$PROJECT_DIR$" />
     <configuration name="055_JumpGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#055_JumpGame.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="383_RansomNote.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="383_RansomNote.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="434_NumbersOfSegmentsInAString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="434_NumbersOfSegmentsInAString.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.383_RansomNote.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.028_Implement_StrStr.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.017_LetterCombinationsOfPhoneNumber.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.053_MaximumSubarray.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.055_JumpGame.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.028_Implement_StrStr.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.017_LetterCombinationsOfPhoneNumber.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.053_MaximumSubarray.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.055_JumpGame.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.434_NumbersOfSegmentsInAString.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.055_JumpGame.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.053_MaximumSubarray.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.017_LetterCombinationsOfPhoneNumber.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.028_Implement_StrStr.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.383_RansomNote.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.434_NumbersOfSegmentsInAString.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.055_JumpGame.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.053_MaximumSubarray.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.017_LetterCombinationsOfPhoneNumber.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.028_Implement_StrStr.js" />
       </list>
     </recent_temporary>
   </component>
@@ -197,12 +210,12 @@
       <workItem from="1514430984281" duration="231000" />
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
-      <workItem from="1514558885085" duration="2016000" />
+      <workItem from="1514558885085" duration="4139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41451000" />
+    <option name="totallyTimeSpent" value="43574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="0" />
@@ -453,16 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/017_LetterCombinationsOfPhoneNumber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/#055_JumpGame.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -477,6 +480,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017_LetterCombinationsOfPhoneNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/434_NumbersOfSegmentsInAString.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
