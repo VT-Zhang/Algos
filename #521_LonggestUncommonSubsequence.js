@@ -24,14 +24,50 @@
 // Only letters from a ~ z will appear in input strings.
 
 var findLUSlength = function(a, b) {
-    var length = 0;
-    if(a.length == 0 || b.length == 0){
-        return 0;
+    var max = 0;
+    if(a.length >= b.length){
+        var str1 = "";
+        for(var i = 0; i < a.length; i++) {
+            str1 += a[i];
+            var str2 = "";
+            for(var j = 0; j < str1.length; j++) {
+                str2 += b[j];
+                console.log(str1);
+                console.log(str2);
+                console.log("*****");
+                if(str2.length == str1.length && str2 != str1) {
+                    if(str2.length > max) {
+                        max = str2.length;
+                    }
+                }
+            }
+        }
     }
-    if(a.lentgh > b.length){
-        console.log(a.indexOf(b));
-        return a.indexOf(b);
+    else {
+        var str1 = "";
+        for(var k = 0; k < b.length; k++) {
+            str1 += b[k];
+            var str2 = "";
+            for(var l = 0; l < str1.length; l++) {
+                str2 += a[l];
+                console.log(str1);
+                console.log(str2);
+                console.log("*****");
+                if(str2.length == str1.length && str2 != str1) {
+                    if(str2.length > max) {
+                        max = str2.length;
+                    }
+                }
+            }
+        }
     }
+    if(max == 0){
+        return -1;
+    }
+    return max;
 };
 
-findLUSlength('abcd', 'bcd');
+// console.log(findLUSlength('abcd', 'abcd'));
+// console.log(findLUSlength('abc', 'cdc'));
+// console.log(findLUSlength('a', 'b'));
+console.log(findLUSlength("aefawfawfawfaw","aefawfeawfwafwaef"));
