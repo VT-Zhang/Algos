@@ -9,25 +9,14 @@
  * @return {number}
  */
 var maxSubArray = function(nums) {
-    var res = [];
-    for(var i=0; i<nums.length; i++){
-        var sum = nums[i];
-        if(i === 0){
-            res.push(nums[i]);            
-        }
-        if(i === nums.length - 1){
-            res.push(nums[i]);
-        }
-        for(var j=i+1; j<nums.length; j++){
+    var max = Number.NEGATIVE_INFINITY;
+    for(var i = 0; i < nums.length; i++) {
+        var sum = 0;
+        for(var j = i; j < nums.length; j++) {
             sum += nums[j];
-            res.push(sum);
-        }
-    }
-    console.log(res);
-    var max = res[0];
-    for(var k=1; k<res.length; k++){
-        if(max<res[k]){
-            max = res[k];
+            if(max < sum) {
+                max = sum;
+            }
         }
     }
     return max;
