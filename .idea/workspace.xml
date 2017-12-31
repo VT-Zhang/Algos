@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/453_MinimumMovesToEqualArrayElements.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="748_LargestNumberAtLeastTwiceOfOthers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="748_LargestNumberAtLeastTwiceOfOthers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="45" selection-end-column="13" />
+            <state relative-caret-position="320">
+              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="453_MinimumMovesToEqualArrayElements.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/453_MinimumMovesToEqualArrayElements.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="30" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -65,6 +77,7 @@
         <option value="$PROJECT_DIR$/204_CountPrimes.js" />
         <option value="$PROJECT_DIR$/219_ContainsDuplicateII.js" />
         <option value="$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js" />
+        <option value="$PROJECT_DIR$/453_MinimumMovesToEqualArrayElements.js" />
       </list>
     </option>
   </component>
@@ -130,26 +143,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.748_LargestNumberAtLeastTwiceOfOthers.js">
+  <component name="RunManager" selected="Node.js.453_MinimumMovesToEqualArrayElements.js">
     <configuration name="204_CountPrimes.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="204_CountPrimes.js" working-dir="$PROJECT_DIR$" />
     <configuration name="219_ContainsDuplicateII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#219_ContainsDuplicateII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="350_IntersectionOfTwoArraysII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="350_IntersectionOfTwoArraysII.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="575_DistributeCandies.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="575_DistributeCandies.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="453_MinimumMovesToEqualArrayElements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="453_MinimumMovesToEqualArrayElements.js" working-dir="$PROJECT_DIR$" />
     <configuration name="748_LargestNumberAtLeastTwiceOfOthers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="748_LargestNumberAtLeastTwiceOfOthers.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.575_DistributeCandies.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.350_IntersectionOfTwoArraysII.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.204_CountPrimes.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.219_ContainsDuplicateII.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.748_LargestNumberAtLeastTwiceOfOthers.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.350_IntersectionOfTwoArraysII.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.204_CountPrimes.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.219_ContainsDuplicateII.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.748_LargestNumberAtLeastTwiceOfOthers.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.453_MinimumMovesToEqualArrayElements.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.748_LargestNumberAtLeastTwiceOfOthers.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.219_ContainsDuplicateII.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.204_CountPrimes.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.350_IntersectionOfTwoArraysII.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.575_DistributeCandies.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.453_MinimumMovesToEqualArrayElements.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.748_LargestNumberAtLeastTwiceOfOthers.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.219_ContainsDuplicateII.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.204_CountPrimes.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.350_IntersectionOfTwoArraysII.js" />
       </list>
     </recent_temporary>
   </component>
@@ -170,12 +183,12 @@
       <workItem from="1514430984281" duration="231000" />
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
-      <workItem from="1514558885085" duration="18632000" />
+      <workItem from="1514558885085" duration="19402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58067000" />
+    <option name="totallyTimeSpent" value="58837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="6" />
@@ -558,8 +571,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="320">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/453_MinimumMovesToEqualArrayElements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="30" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
