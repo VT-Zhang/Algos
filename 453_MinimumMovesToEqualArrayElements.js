@@ -32,3 +32,4 @@ var minMoves = function(nums) {
 };
 
 console.log(minMoves([1,2,3]));
+
