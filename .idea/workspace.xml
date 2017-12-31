@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/219_ContainsDuplicateII.js" afterPath="$PROJECT_DIR$/#219_ContainsDuplicateII.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,7 +16,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="748_LargestNumberAtLeastTwiceOfOthers.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="45" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +64,7 @@
         <option value="$PROJECT_DIR$/350_IntersectionOfTwoArraysII.js" />
         <option value="$PROJECT_DIR$/204_CountPrimes.js" />
         <option value="$PROJECT_DIR$/219_ContainsDuplicateII.js" />
+        <option value="$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js" />
       </list>
     </option>
   </component>
@@ -115,26 +130,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.219_ContainsDuplicateII.js">
+  <component name="RunManager" selected="Node.js.748_LargestNumberAtLeastTwiceOfOthers.js">
     <configuration name="204_CountPrimes.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="204_CountPrimes.js" working-dir="$PROJECT_DIR$" />
     <configuration name="219_ContainsDuplicateII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#219_ContainsDuplicateII.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="349_IntersectionOfTwoArrays.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="349_IntersectionOfTwoArrays.js" working-dir="$PROJECT_DIR$" />
     <configuration name="350_IntersectionOfTwoArraysII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="350_IntersectionOfTwoArraysII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="575_DistributeCandies.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="575_DistributeCandies.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="748_LargestNumberAtLeastTwiceOfOthers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="748_LargestNumberAtLeastTwiceOfOthers.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.349_IntersectionOfTwoArrays.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.575_DistributeCandies.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.350_IntersectionOfTwoArraysII.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.204_CountPrimes.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.219_ContainsDuplicateII.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.575_DistributeCandies.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.350_IntersectionOfTwoArraysII.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.204_CountPrimes.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.219_ContainsDuplicateII.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.748_LargestNumberAtLeastTwiceOfOthers.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.219_ContainsDuplicateII.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.204_CountPrimes.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.350_IntersectionOfTwoArraysII.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.575_DistributeCandies.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.349_IntersectionOfTwoArrays.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.748_LargestNumberAtLeastTwiceOfOthers.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.219_ContainsDuplicateII.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.204_CountPrimes.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.350_IntersectionOfTwoArraysII.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.575_DistributeCandies.js" />
       </list>
     </recent_temporary>
   </component>
@@ -155,15 +170,16 @@
       <workItem from="1514430984281" duration="231000" />
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
-      <workItem from="1514558885085" duration="17191000" />
+      <workItem from="1514558885085" duration="18632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56626000" />
+    <option name="totallyTimeSpent" value="58067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -534,6 +550,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="45" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
