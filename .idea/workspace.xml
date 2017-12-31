@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/692_TopKFrequentWords.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/319_BulbSwitcher.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -53,11 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="692_TopKFrequentWords.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="692_TopKFrequentWords.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/692_TopKFrequentWords.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="856">
               <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="319_BulbSwitcher.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/319_BulbSwitcher.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -117,6 +129,7 @@
         <option value="$PROJECT_DIR$/453_MinimumMovesToEqualArrayElements.js" />
         <option value="$PROJECT_DIR$/122_BestTimeToBuyAndSellStock.js" />
         <option value="$PROJECT_DIR$/692_TopKFrequentWords.js" />
+        <option value="$PROJECT_DIR$/319_BulbSwitcher.js" />
       </list>
     </option>
   </component>
@@ -126,10 +139,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="303" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="725" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -182,26 +195,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.692_TopKFrequentWords.js">
+  <component name="RunManager" selected="Node.js.319_BulbSwitcher.js">
     <configuration name="121_BestTimeToBuyAndSellStock.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="121_BestTimeToBuyAndSellStock.js" working-dir="$PROJECT_DIR$" />
     <configuration name="122_BestTimeToBuyAndSellStock.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/122_BestTimeToBuyAndSellStockII.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="319_BulbSwitcher.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="319_BulbSwitcher.js" working-dir="$PROJECT_DIR$" />
     <configuration name="453_MinimumMovesToEqualArrayElements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="453_MinimumMovesToEqualArrayElements.js" working-dir="$PROJECT_DIR$" />
     <configuration name="692_TopKFrequentWords.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="692_TopKFrequentWords.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="748_LargestNumberAtLeastTwiceOfOthers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="748_LargestNumberAtLeastTwiceOfOthers.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.748_LargestNumberAtLeastTwiceOfOthers.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.453_MinimumMovesToEqualArrayElements.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.121_BestTimeToBuyAndSellStock.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.122_BestTimeToBuyAndSellStock.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.692_TopKFrequentWords.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.453_MinimumMovesToEqualArrayElements.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.121_BestTimeToBuyAndSellStock.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.122_BestTimeToBuyAndSellStock.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.692_TopKFrequentWords.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.319_BulbSwitcher.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.692_TopKFrequentWords.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.122_BestTimeToBuyAndSellStock.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.121_BestTimeToBuyAndSellStock.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.453_MinimumMovesToEqualArrayElements.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.748_LargestNumberAtLeastTwiceOfOthers.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.319_BulbSwitcher.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.692_TopKFrequentWords.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.122_BestTimeToBuyAndSellStock.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.121_BestTimeToBuyAndSellStock.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.453_MinimumMovesToEqualArrayElements.js" />
       </list>
     </recent_temporary>
   </component>
@@ -222,15 +235,15 @@
       <workItem from="1514430984281" duration="231000" />
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
-      <workItem from="1514558885085" duration="25306000" />
+      <workItem from="1514558885085" duration="26848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64741000" />
+    <option name="totallyTimeSpent" value="66283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="720" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -662,6 +675,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="856">
           <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/319_BulbSwitcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
