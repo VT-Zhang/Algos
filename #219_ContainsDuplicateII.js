@@ -7,6 +7,9 @@
  * @return {boolean}
  */
 var containsNearbyDuplicate = function(nums, k) {
+    if(nums.length == 0) {
+        return false;
+    }
     var dict = {};
     var res = [];
     for(var i = 0; i < nums.length; i++) {
@@ -17,7 +20,7 @@ var containsNearbyDuplicate = function(nums, k) {
             dict[nums[i]]++;
         }
     }
-    console.log(dict);
+    // console.log(dict);
     for(var key in dict) {
         if(dict[key] > 1) {
             for(var j = 0; j < nums.length; j++) {
@@ -27,9 +30,20 @@ var containsNearbyDuplicate = function(nums, k) {
             }
         }
     }
-    console.log(res);
-    return k >= Math.abs(res[0] - res[1]);
+    if(res.length == 0) {
+        return false;
+    }
+    // console.log(res);
+    for(var l = 0; l < res.length - 1; l++) {
+        if(res[l] - res[l+1] > k) {
+            return false;
+        }
+    }
+    return true;
 };
 console.log(containsNearbyDuplicate([1,3,4,2,4,5], 2));
 console.log(containsNearbyDuplicate([1,0,1,1], 1));
 console.log(containsNearbyDuplicate([0,1,2,3,4,0,0,7,8,9,10,11,12,0],1));
+console.log(containsNearbyDuplicate([],0));
+console.log(containsNearbyDuplicate([1],1));
+console.log(containsNearbyDuplicate([1,2,1],0));
