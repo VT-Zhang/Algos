@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/503_NextGreaterElementII.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/237_DeleteNodeInALinkedList.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="503_NextGreaterElementII.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="503_NextGreaterElementII.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/503_NextGreaterElementII.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="459">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="237_DeleteNodeInALinkedList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/237_DeleteNodeInALinkedList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -80,6 +92,7 @@
         <option value="$PROJECT_DIR$/#020_ValidParentheses.js" />
         <option value="$PROJECT_DIR$/650_2KeysKeyboard.js" />
         <option value="$PROJECT_DIR$/503_NextGreaterElementII.js" />
+        <option value="$PROJECT_DIR$/237_DeleteNodeInALinkedList.js" />
       </list>
     </option>
   </component>
@@ -185,12 +198,12 @@
       <workItem from="1514430984281" duration="231000" />
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
-      <workItem from="1514558885085" duration="36202000" />
+      <workItem from="1514558885085" duration="36693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75637000" />
+    <option name="totallyTimeSpent" value="76128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="0" />
@@ -226,16 +239,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/500_KeyboardRow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/242_ValidAnagram.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -648,8 +651,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/503_NextGreaterElementII.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="459">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/237_DeleteNodeInALinkedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
