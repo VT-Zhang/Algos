@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/650_2KeysKeyboard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/503_NextGreaterElementII.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,69 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="#640_SolveTheEquation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/#640_SolveTheEquation.js">
+      <file leaf-file-name="503_NextGreaterElementII.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/503_NextGreaterElementII.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="080_RemoveDulicatesFromSortedArrayII.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/080_RemoveDulicatesFromSortedArrayII.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="540_SingleElementInASortedArray.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/540_SingleElementInASortedArray.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="#491_IncreasingSebsequences.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/#491_IncreasingSebsequences.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="020_ValidParentheses.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/020_ValidParentheses.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="34" selection-end-column="29" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="650_2KeysKeyboard.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/650_2KeysKeyboard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="31" selection-end-column="15" />
+            <state relative-caret-position="353">
+              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -137,6 +79,7 @@
         <option value="$PROJECT_DIR$/491_IncreasingSebsequences.js" />
         <option value="$PROJECT_DIR$/#020_ValidParentheses.js" />
         <option value="$PROJECT_DIR$/650_2KeysKeyboard.js" />
+        <option value="$PROJECT_DIR$/503_NextGreaterElementII.js" />
       </list>
     </option>
   </component>
@@ -202,26 +145,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.650_2KeysKeyboard.js">
+  <component name="RunManager" selected="Node.js.503_NextGreaterElementII.js">
     <configuration name="491_IncreasingSebsequences.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#491_IncreasingSebsequences.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="503_NextGreaterElementII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="503_NextGreaterElementII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="540_SingleElementInASortedArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="540_SingleElementInASortedArray.js" working-dir="$PROJECT_DIR$" />
     <configuration name="650_2KeysKeyboard.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="650_2KeysKeyboard.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="80_RemoveDulicatesFromSortedArrayII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/080_RemoveDulicatesFromSortedArrayII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#020_ValidParentheses.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/020_ValidParentheses.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.80_RemoveDulicatesFromSortedArrayII.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.540_SingleElementInASortedArray.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.491_IncreasingSebsequences.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.#020_ValidParentheses.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.650_2KeysKeyboard.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.540_SingleElementInASortedArray.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.491_IncreasingSebsequences.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.#020_ValidParentheses.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.650_2KeysKeyboard.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.503_NextGreaterElementII.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.650_2KeysKeyboard.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.#020_ValidParentheses.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.491_IncreasingSebsequences.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.540_SingleElementInASortedArray.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.80_RemoveDulicatesFromSortedArrayII.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.503_NextGreaterElementII.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.650_2KeysKeyboard.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.#020_ValidParentheses.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.491_IncreasingSebsequences.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.540_SingleElementInASortedArray.js" />
       </list>
     </recent_temporary>
   </component>
@@ -242,12 +185,12 @@
       <workItem from="1514430984281" duration="231000" />
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
-      <workItem from="1514558885085" duration="35038000" />
+      <workItem from="1514558885085" duration="36202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74473000" />
+    <option name="totallyTimeSpent" value="75637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="0" />
@@ -257,7 +200,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22685185" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.044753086" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -283,13 +226,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/482_LicenseKeyFormatting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/500_KeyboardRow.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -644,14 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#640_SolveTheEquation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/026_RemoveDuplicatesFromSortedArray.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -660,20 +588,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/080_RemoveDulicatesFromSortedArrayII.js">
+    <entry file="file://$PROJECT_DIR$/020_ValidParentheses.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="57">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/540_SingleElementInASortedArray.js">
+    <entry file="file://$PROJECT_DIR$/650_2KeysKeyboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="511">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -690,20 +618,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/020_ValidParentheses.js">
+    <entry file="file://$PROJECT_DIR$/540_SingleElementInASortedArray.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="522">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/650_2KeysKeyboard.js">
+    <entry file="file://$PROJECT_DIR$/080_RemoveDulicatesFromSortedArrayII.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="31" selection-end-column="15" />
+        <state relative-caret-position="233">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#640_SolveTheEquation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/503_NextGreaterElementII.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
