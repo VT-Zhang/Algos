@@ -35,4 +35,4 @@ var rob = function(nums) {
     }
 };
 
-rob([1,5,3,1,5,6,1,2,3,2]);
+console.log(rob([1,5,3,1,5,6,1,2,3,2]));

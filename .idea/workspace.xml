@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/206_ReverseLinkedList.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/#740_DeleteAndEarn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/137_SingleNumberII.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/198_HouseRobber.js" afterPath="$PROJECT_DIR$/198_HouseRobber.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +43,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="206_ReverseLinkedList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="206_ReverseLinkedList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/206_ReverseLinkedList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="450">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="198_HouseRobber.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/198_HouseRobber.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="#740_DeleteAndEarn.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/#740_DeleteAndEarn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="137_SingleNumberII.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/137_SingleNumberII.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="14" column="9" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -106,6 +144,9 @@
         <option value="$PROJECT_DIR$/503_NextGreaterElementII.js" />
         <option value="$PROJECT_DIR$/237_DeleteNodeInALinkedList.js" />
         <option value="$PROJECT_DIR$/206_ReverseLinkedList.js" />
+        <option value="$PROJECT_DIR$/198_HouseRobber.js" />
+        <option value="$PROJECT_DIR$/740_DeleteAndEarn.js" />
+        <option value="$PROJECT_DIR$/137_SingleNumberII.js" />
       </list>
     </option>
   </component>
@@ -171,26 +212,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.503_NextGreaterElementII.js">
-    <configuration name="491_IncreasingSebsequences.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#491_IncreasingSebsequences.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.137_SingleNumberII.js">
+    <configuration name="137_SingleNumberII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="137_SingleNumberII.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="198_HouseRobber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="198_HouseRobber.js" working-dir="$PROJECT_DIR$" />
     <configuration name="503_NextGreaterElementII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="503_NextGreaterElementII.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="540_SingleElementInASortedArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="540_SingleElementInASortedArray.js" working-dir="$PROJECT_DIR$" />
     <configuration name="650_2KeysKeyboard.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="650_2KeysKeyboard.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="#020_ValidParentheses.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/020_ValidParentheses.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="740_DeleteAndEarn.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#740_DeleteAndEarn.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.540_SingleElementInASortedArray.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.491_IncreasingSebsequences.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.#020_ValidParentheses.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.650_2KeysKeyboard.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.503_NextGreaterElementII.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.650_2KeysKeyboard.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.503_NextGreaterElementII.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.198_HouseRobber.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.740_DeleteAndEarn.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.137_SingleNumberII.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.503_NextGreaterElementII.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.650_2KeysKeyboard.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.#020_ValidParentheses.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.491_IncreasingSebsequences.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.540_SingleElementInASortedArray.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.137_SingleNumberII.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.198_HouseRobber.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.740_DeleteAndEarn.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.503_NextGreaterElementII.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.650_2KeysKeyboard.js" />
       </list>
     </recent_temporary>
   </component>
@@ -211,12 +252,12 @@
       <workItem from="1514430984281" duration="231000" />
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
-      <workItem from="1514558885085" duration="37814000" />
+      <workItem from="1514558885085" duration="40444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77249000" />
+    <option name="totallyTimeSpent" value="79879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="0" />
@@ -226,7 +267,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.044753086" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27314815" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -252,27 +293,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/482_LicenseKeyFormatting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/674_LongestContinuousIncreasingSubsequence.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/009_PalindromeNumber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/345_ReverseVowelsOfAString.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -677,8 +697,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/206_ReverseLinkedList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="450">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/198_HouseRobber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#740_DeleteAndEarn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/137_SingleNumberII.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
