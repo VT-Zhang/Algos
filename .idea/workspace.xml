@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/648_ReplaceWords.js" />
-      <change beforePath="$PROJECT_DIR$/#740_DeleteAndEarn.js" afterPath="$PROJECT_DIR$/#740_DeleteAndEarn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/739_DailyTemperature.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,9 +20,21 @@
       <file leaf-file-name="014_CommonPrefix.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/014_CommonPrefix.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="414">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="739_DailyTemperature.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/739_DailyTemperature.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,8 +42,8 @@
       <file leaf-file-name="414_ThridMaxiumNumber.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/414_ThridMaxiumNumber.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="566">
+              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -40,23 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="#740_DeleteAndEarn.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/#740_DeleteAndEarn.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="648_ReplaceWords.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="648_ReplaceWords.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/648_ReplaceWords.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="990">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -72,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/443_StringCompression.js" />
         <option value="$PROJECT_DIR$/500_KeyboardRow.js" />
         <option value="$PROJECT_DIR$/242_ValidAnagram.js" />
         <option value="$PROJECT_DIR$/674_LongestContinuousIncreasingSubsequence.js" />
@@ -123,6 +121,7 @@
         <option value="$PROJECT_DIR$/#414_ThridMaxiumNumber.js" />
         <option value="$PROJECT_DIR$/#740_DeleteAndEarn.js" />
         <option value="$PROJECT_DIR$/648_ReplaceWords.js" />
+        <option value="$PROJECT_DIR$/739_DailyTemperature.js" />
       </list>
     </option>
   </component>
@@ -189,26 +188,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.648_ReplaceWords.js">
+  <component name="RunManager" selected="Node.js.739_DailyTemperature.js">
     <configuration name="648_ReplaceWords.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="648_ReplaceWords.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="#003_LongestSubstringWithoutRepeatingCharacters.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/003_LongestSubstringWithoutRepeatingCharacters.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="739_DailyTemperature.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="739_DailyTemperature.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#014_CommonPrefix.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/014_CommonPrefix.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#414_ThridMaxiumNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/414_ThridMaxiumNumber.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#740_DeleteAndEarn.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="#740_DeleteAndEarn.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.#003_LongestSubstringWithoutRepeatingCharacters.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.#014_CommonPrefix.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.#414_ThridMaxiumNumber.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.#740_DeleteAndEarn.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.#014_CommonPrefix.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.#414_ThridMaxiumNumber.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.#740_DeleteAndEarn.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.#740_DeleteAndEarn.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.#414_ThridMaxiumNumber.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.#014_CommonPrefix.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.#003_LongestSubstringWithoutRepeatingCharacters.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.#740_DeleteAndEarn.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.#414_ThridMaxiumNumber.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.#014_CommonPrefix.js" />
       </list>
     </recent_temporary>
   </component>
@@ -230,12 +229,12 @@
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
       <workItem from="1514558885085" duration="48711000" />
-      <workItem from="1514910718176" duration="5832000" />
+      <workItem from="1514910718176" duration="7987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93999000" />
+    <option name="totallyTimeSpent" value="96154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="628" y="150" width="1840" height="1211" extended-state="0" />
@@ -271,13 +270,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/017_LetterCombinationsOfPhoneNumber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/434_NumbersOfSegmentsInAString.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -564,7 +556,7 @@
         <state relative-caret-position="326">
           <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -574,16 +566,8 @@
         <state relative-caret-position="160">
           <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/014_CommonPrefix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +576,7 @@
         <state relative-caret-position="585">
           <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -612,17 +596,7 @@
         <state relative-caret-position="375">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/414_ThridMaxiumNumber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -632,15 +606,43 @@
         <state relative-caret-position="346">
           <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/648_ReplaceWords.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="990">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/414_ThridMaxiumNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/014_CommonPrefix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/739_DailyTemperature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
