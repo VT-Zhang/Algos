@@ -48,7 +48,6 @@ var deleteAndEarn = function(nums) {
         }
     }
     console.log(even);
-    console.log(odd);
     if(odd > even) {
         return odd;
     }
