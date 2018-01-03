@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/561_ArrayPartitionI.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/292_NimGame.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="561_ArrayPartitionI.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="561_ArrayPartitionI.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/561_ArrayPartitionI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="342">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="292_NimGame.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/292_NimGame.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -37,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/482_LicenseKeyFormatting.js" />
         <option value="$PROJECT_DIR$/205_IsomorphicStrings.js" />
         <option value="$PROJECT_DIR$/724_FindPivotIndex.js" />
         <option value="$PROJECT_DIR$/383_RansomNote.js" />
@@ -88,6 +99,7 @@
         <option value="$PROJECT_DIR$/463_IslandPerimeter.js" />
         <option value="$PROJECT_DIR$/682_BaseballGame.js" />
         <option value="$PROJECT_DIR$/561_ArrayPartitionI.js" />
+        <option value="$PROJECT_DIR$/292_NimGame.js" />
       </list>
     </option>
   </component>
@@ -140,7 +152,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jianzhang/Dropbox/Coding/Algos/#443_StringCompression.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jianzhang/Dropbox/Coding/Algos/561_ArrayPartitionI.js" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -154,26 +166,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.561_ArrayPartitionI.js">
+  <component name="RunManager" selected="Node.js.292_NimGame.js">
+    <configuration name="292_NimGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="292_NimGame.js" working-dir="$PROJECT_DIR$" />
     <configuration name="463_IslandPerimeter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="463_IslandPerimeter.js" working-dir="$PROJECT_DIR$" />
     <configuration name="561_ArrayPartitionI.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="561_ArrayPartitionI.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="648_ReplaceWords.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="648_ReplaceWords.js" working-dir="$PROJECT_DIR$" />
     <configuration name="682_BaseballGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="682_BaseballGame.js" working-dir="$PROJECT_DIR$" />
     <configuration name="739_DailyTemperature.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="739_DailyTemperature.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.561_ArrayPartitionI.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.561_ArrayPartitionI.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.292_NimGame.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.561_ArrayPartitionI.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.292_NimGame.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.561_ArrayPartitionI.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
       </list>
     </recent_temporary>
   </component>
@@ -195,12 +207,12 @@
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
       <workItem from="1514558885085" duration="48711000" />
-      <workItem from="1514910718176" duration="9939000" />
+      <workItem from="1514910718176" duration="10788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101897000" />
+    <option name="totallyTimeSpent" value="102746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="628" y="150" width="1840" height="1211" extended-state="0" />
@@ -210,7 +222,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45390692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -246,13 +258,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/053_MaximumSubarray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/#204_CountPrimes.js" />
     <entry file="file://$PROJECT_DIR$/204_CountPrimes.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -602,8 +607,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/561_ArrayPartitionI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="342">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/292_NimGame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
