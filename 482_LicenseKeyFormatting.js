@@ -66,9 +66,9 @@ var licenseKeyFormatting = function(S, K) {
     return res;
 };
 
-// console.log(licenseKeyFormatting("5F3Z-2e-9-w", 4));
-// console.log(licenseKeyFormatting("2-5g-3-J", 2));
-// console.log(licenseKeyFormatting("r", 1));
-// console.log(licenseKeyFormatting("a-a-a-a-", 1));
-// console.log(licenseKeyFormatting("0123456789", 1));
+console.log(licenseKeyFormatting("5F3Z-2e-9-w", 4));
+console.log(licenseKeyFormatting("2-5g-3-J", 2));
+console.log(licenseKeyFormatting("r", 1));
+console.log(licenseKeyFormatting("a-a-a-a-", 1));
+console.log(licenseKeyFormatting("0123456789", 1));
 console.log(licenseKeyFormatting("---", 3));
