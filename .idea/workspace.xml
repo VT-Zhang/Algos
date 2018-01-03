@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/682_BaseballGame.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/561_ArrayPartitionI.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,23 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="463_IslandPerimeter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/463_IslandPerimeter.js">
+      <file leaf-file-name="561_ArrayPartitionI.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/561_ArrayPartitionI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="682_BaseballGame.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/682_BaseballGame.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="27" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -49,7 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/674_LongestContinuousIncreasingSubsequence.js" />
         <option value="$PROJECT_DIR$/482_LicenseKeyFormatting.js" />
         <option value="$PROJECT_DIR$/205_IsomorphicStrings.js" />
         <option value="$PROJECT_DIR$/724_FindPivotIndex.js" />
@@ -100,6 +87,7 @@
         <option value="$PROJECT_DIR$/739_DailyTemperature.js" />
         <option value="$PROJECT_DIR$/463_IslandPerimeter.js" />
         <option value="$PROJECT_DIR$/682_BaseballGame.js" />
+        <option value="$PROJECT_DIR$/561_ArrayPartitionI.js" />
       </list>
     </option>
   </component>
@@ -133,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,7 +134,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,26 +154,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.682_BaseballGame.js">
+  <component name="RunManager" selected="Node.js.561_ArrayPartitionI.js">
     <configuration name="463_IslandPerimeter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="463_IslandPerimeter.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="561_ArrayPartitionI.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="561_ArrayPartitionI.js" working-dir="$PROJECT_DIR$" />
     <configuration name="648_ReplaceWords.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="648_ReplaceWords.js" working-dir="$PROJECT_DIR$" />
     <configuration name="682_BaseballGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="682_BaseballGame.js" working-dir="$PROJECT_DIR$" />
     <configuration name="739_DailyTemperature.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="739_DailyTemperature.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="#740_DeleteAndEarn.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="#740_DeleteAndEarn.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.#740_DeleteAndEarn.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.561_ArrayPartitionI.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.#740_DeleteAndEarn.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.561_ArrayPartitionI.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
       </list>
     </recent_temporary>
   </component>
@@ -207,22 +195,23 @@
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
       <workItem from="1514558885085" duration="48711000" />
-      <workItem from="1514910718176" duration="8578000" />
+      <workItem from="1514910718176" duration="9939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100274000" />
+    <option name="totallyTimeSpent" value="101897000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="720" extended-state="0" />
+    <frame x="628" y="150" width="1840" height="1211" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21328124" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19293478" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45390692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -257,13 +246,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/#521_LonggestUncommonSubsequence.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/053_MaximumSubarray.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -486,9 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -562,10 +541,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/378_KthSmallestElementInASortedMatrix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/682_BaseballGame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/463_IslandPerimeter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/648_ReplaceWords.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
+        <state relative-caret-position="550">
           <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -573,6 +576,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
           <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/739_DailyTemperature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,40 +596,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/739_DailyTemperature.js">
+    <entry file="file://$PROJECT_DIR$/561_ArrayPartitionI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/378_KthSmallestElementInASortedMatrix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/463_IslandPerimeter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/682_BaseballGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="27" selection-end-column="15" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
