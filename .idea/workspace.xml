@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/260_SingleNumberIII.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/745_FindSmallestLetterGreaterThanTarget.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -53,11 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="260_SingleNumberIII.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="260_SingleNumberIII.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/260_SingleNumberIII.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
               <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="745_FindSmallestLetterGreaterThanTarget.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/745_FindSmallestLetterGreaterThanTarget.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -73,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/724_FindPivotIndex.js" />
         <option value="$PROJECT_DIR$/383_RansomNote.js" />
         <option value="$PROJECT_DIR$/028_Implement_StrStr.js" />
         <option value="$PROJECT_DIR$/017_LetterCombinationsOfPhoneNumber.js" />
@@ -124,6 +135,7 @@
         <option value="$PROJECT_DIR$/561_ArrayPartitionI.js" />
         <option value="$PROJECT_DIR$/292_NimGame.js" />
         <option value="$PROJECT_DIR$/260_SingleNumberIII.js" />
+        <option value="$PROJECT_DIR$/745_FindSmallestLetterGreaterThanTarget.js" />
       </list>
     </option>
   </component>
@@ -190,26 +202,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.260_SingleNumberIII.js">
+  <component name="RunManager" selected="Node.js.745_FindSmallestLetterGreaterThanTarget.js">
     <configuration name="260_SingleNumberIII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="260_SingleNumberIII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="292_NimGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="292_NimGame.js" working-dir="$PROJECT_DIR$" />
     <configuration name="561_ArrayPartitionI.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="561_ArrayPartitionI.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="682_BaseballGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="682_BaseballGame.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="745_FindSmallestLetterGreaterThanTarget.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="745_FindSmallestLetterGreaterThanTarget.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#521_LonggestUncommonSubsequence.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="#521_LonggestUncommonSubsequence.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.561_ArrayPartitionI.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.292_NimGame.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.#521_LonggestUncommonSubsequence.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.260_SingleNumberIII.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.561_ArrayPartitionI.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.292_NimGame.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.#521_LonggestUncommonSubsequence.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.260_SingleNumberIII.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.745_FindSmallestLetterGreaterThanTarget.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.260_SingleNumberIII.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.#521_LonggestUncommonSubsequence.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.292_NimGame.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.561_ArrayPartitionI.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.745_FindSmallestLetterGreaterThanTarget.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.260_SingleNumberIII.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.#521_LonggestUncommonSubsequence.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.292_NimGame.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.561_ArrayPartitionI.js" />
       </list>
     </recent_temporary>
   </component>
@@ -231,12 +243,12 @@
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
       <workItem from="1514558885085" duration="48711000" />
-      <workItem from="1514910718176" duration="11447000" />
+      <workItem from="1514910718176" duration="12152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103405000" />
+    <option name="totallyTimeSpent" value="104110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="654" y="238" width="1840" height="1211" extended-state="0" />
@@ -282,13 +294,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/350_IntersectionOfTwoArraysII.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="48" column="2" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/575_DistributeCandies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
@@ -621,20 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/561_ArrayPartitionI.js">
+    <entry file="file://$PROJECT_DIR$/260_SingleNumberIII.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/292_NimGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="440">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -651,10 +646,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/260_SingleNumberIII.js">
+    <entry file="file://$PROJECT_DIR$/292_NimGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/561_ArrayPartitionI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/745_FindSmallestLetterGreaterThanTarget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
