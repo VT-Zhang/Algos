@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/012_IntegerToRoman.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/112_PathSum.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="012_IntegerToRoman.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="012_IntegerToRoman.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/012_IntegerToRoman.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state relative-caret-position="209">
+              <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="112_PathSum.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/112_PathSum.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -49,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/205_IsomorphicStrings.js" />
         <option value="$PROJECT_DIR$/724_FindPivotIndex.js" />
         <option value="$PROJECT_DIR$/383_RansomNote.js" />
         <option value="$PROJECT_DIR$/028_Implement_StrStr.js" />
@@ -100,6 +111,7 @@
         <option value="$PROJECT_DIR$/682_BaseballGame.js" />
         <option value="$PROJECT_DIR$/013_RomanToInteger.js" />
         <option value="$PROJECT_DIR$/012_IntegerToRoman.js" />
+        <option value="$PROJECT_DIR$/112_PathSum.js" />
       </list>
     </option>
   </component>
@@ -166,26 +178,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.012_IntegerToRoman.js">
+  <component name="RunManager" selected="Node.js.492_ConstructTheRectangle.js">
     <configuration name="012_IntegerToRoman.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="012_IntegerToRoman.js" working-dir="$PROJECT_DIR$" />
     <configuration name="013_RomanToInteger.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="013_RomanToInteger.js" working-dir="$PROJECT_DIR$" />
     <configuration name="463_IslandPerimeter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="463_IslandPerimeter.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="492_ConstructTheRectangle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="492_ConstructTheRectangle.js" working-dir="$PROJECT_DIR$" />
     <configuration name="682_BaseballGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="682_BaseballGame.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="739_DailyTemperature.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="739_DailyTemperature.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.013_RomanToInteger.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.012_IntegerToRoman.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.013_RomanToInteger.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.012_IntegerToRoman.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.492_ConstructTheRectangle.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.012_IntegerToRoman.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.013_RomanToInteger.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.492_ConstructTheRectangle.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.012_IntegerToRoman.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.013_RomanToInteger.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +226,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102802000" />
+    <option name="totallyTimeSpent" value="104920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="591" y="201" width="1904" height="1211" extended-state="0" />
@@ -260,20 +272,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/125_ValidPalindrome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/453_MinimumMovesToEqualArrayElements.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -629,10 +627,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/492_ConstructTheRectangle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/012_IntegerToRoman.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state relative-caret-position="209">
+          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/112_PathSum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
