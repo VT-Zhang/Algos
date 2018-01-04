@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/#665_NonDecreasingArray.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/013_RomanToInteger.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/482_LicenseKeyFormatting.js" afterPath="$PROJECT_DIR$/482_LicenseKeyFormatting.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,69 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="561_ArrayPartitionI.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/561_ArrayPartitionI.js">
+      <file leaf-file-name="013_RomanToInteger.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/013_RomanToInteger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="292_NimGame.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/292_NimGame.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="260_SingleNumberIII.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/260_SingleNumberIII.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="745_FindSmallestLetterGreaterThanTarget.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/745_FindSmallestLetterGreaterThanTarget.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="343_IntegerBreak.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/343_IntegerBreak.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="#665_NonDecreasingArray.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/#665_NonDecreasingArray.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+            <state relative-caret-position="728">
+              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -96,6 +37,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/482_LicenseKeyFormatting.js" />
+        <option value="$PROJECT_DIR$/205_IsomorphicStrings.js" />
+        <option value="$PROJECT_DIR$/724_FindPivotIndex.js" />
+        <option value="$PROJECT_DIR$/383_RansomNote.js" />
+        <option value="$PROJECT_DIR$/028_Implement_StrStr.js" />
+        <option value="$PROJECT_DIR$/017_LetterCombinationsOfPhoneNumber.js" />
         <option value="$PROJECT_DIR$/053_MaximumSubarray.js" />
         <option value="$PROJECT_DIR$/055_JumpGame.js" />
         <option value="$PROJECT_DIR$/434_NumbersOfSegmentsInAString.js" />
@@ -140,13 +87,7 @@
         <option value="$PROJECT_DIR$/739_DailyTemperature.js" />
         <option value="$PROJECT_DIR$/463_IslandPerimeter.js" />
         <option value="$PROJECT_DIR$/682_BaseballGame.js" />
-        <option value="$PROJECT_DIR$/561_ArrayPartitionI.js" />
-        <option value="$PROJECT_DIR$/292_NimGame.js" />
-        <option value="$PROJECT_DIR$/260_SingleNumberIII.js" />
-        <option value="$PROJECT_DIR$/745_FindSmallestLetterGreaterThanTarget.js" />
-        <option value="$PROJECT_DIR$/343_IntegerBreak.js" />
-        <option value="$PROJECT_DIR$/482_LicenseKeyFormatting.js" />
-        <option value="$PROJECT_DIR$/665_NonDecreasingArray.js" />
+        <option value="$PROJECT_DIR$/013_RomanToInteger.js" />
       </list>
     </option>
   </component>
@@ -156,7 +97,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="591" />
     <option name="y" value="201" />
     <option name="width" value="1904" />
@@ -199,7 +140,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jianzhang/Dropbox/Coding/Algos/561_ArrayPartitionI.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jianzhang/Dropbox/Coding/Algos/#443_StringCompression.js" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,26 +154,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.665_NonDecreasingArray.js">
-    <configuration name="260_SingleNumberIII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="260_SingleNumberIII.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="343_IntegerBreak.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="343_IntegerBreak.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="482_LicenseKeyFormatting.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="482_LicenseKeyFormatting.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="665_NonDecreasingArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#665_NonDecreasingArray.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="745_FindSmallestLetterGreaterThanTarget.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="745_FindSmallestLetterGreaterThanTarget.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.013_RomanToInteger.js">
+    <configuration name="013_RomanToInteger.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="013_RomanToInteger.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="463_IslandPerimeter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="463_IslandPerimeter.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="648_ReplaceWords.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="648_ReplaceWords.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="682_BaseballGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="682_BaseballGame.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="739_DailyTemperature.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="739_DailyTemperature.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.260_SingleNumberIII.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.745_FindSmallestLetterGreaterThanTarget.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.343_IntegerBreak.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.482_LicenseKeyFormatting.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.665_NonDecreasingArray.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.013_RomanToInteger.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.665_NonDecreasingArray.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.482_LicenseKeyFormatting.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.343_IntegerBreak.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.745_FindSmallestLetterGreaterThanTarget.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.260_SingleNumberIII.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.013_RomanToInteger.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.682_BaseballGame.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.463_IslandPerimeter.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.739_DailyTemperature.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.648_ReplaceWords.js" />
       </list>
     </recent_temporary>
   </component>
@@ -254,15 +195,17 @@
       <workItem from="1514494122892" duration="4305000" />
       <workItem from="1514505188243" duration="6431000" />
       <workItem from="1514558885085" duration="48711000" />
-      <workItem from="1514910718176" duration="17737000" />
+      <workItem from="1514910718176" duration="8578000" />
+      <workItem from="1515038030947" duration="24000" />
+      <workItem from="1515038102989" duration="174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109695000" />
+    <option name="totallyTimeSpent" value="101856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="591" y="201" width="1904" height="1211" extended-state="1" />
+    <frame x="591" y="201" width="1904" height="1211" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18644957" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -281,11 +224,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45390692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19293478" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39765626" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -508,6 +451,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/482_LicenseKeyFormatting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/674_LongestContinuousIncreasingSubsequence.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -557,6 +507,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/648_ReplaceWords.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/414_ThridMaxiumNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/014_CommonPrefix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/739_DailyTemperature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/378_KthSmallestElementInASortedMatrix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -566,62 +544,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/682_BaseballGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/463_IslandPerimeter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="308">
+          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/648_ReplaceWords.js">
+    <entry file="file://$PROJECT_DIR$/#665_NonDecreasingArray.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="554">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/414_ThridMaxiumNumber.js">
+    <entry file="file://$PROJECT_DIR$/343_IntegerBreak.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="299">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/739_DailyTemperature.js">
+    <entry file="file://$PROJECT_DIR$/745_FindSmallestLetterGreaterThanTarget.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="314">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/014_CommonPrefix.js">
+    <entry file="file://$PROJECT_DIR$/260_SingleNumberIII.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#521_LonggestUncommonSubsequence.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="55" column="64" lean-forward="true" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+        <state relative-caret-position="440">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -644,48 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/260_SingleNumberIII.js">
+    <entry file="file://$PROJECT_DIR$/013_RomanToInteger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/745_FindSmallestLetterGreaterThanTarget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/482_LicenseKeyFormatting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/343_IntegerBreak.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#665_NonDecreasingArray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        <state relative-caret-position="728">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
