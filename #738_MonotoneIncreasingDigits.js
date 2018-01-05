@@ -41,3 +41,4 @@ console.log(monotoneIncreasingDigits(9));
 console.log(monotoneIncreasingDigits(12));
 console.log(monotoneIncreasingDigits(21));
 console.log(monotoneIncreasingDigits(11));
+
