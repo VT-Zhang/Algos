@@ -13,16 +13,12 @@
 // Returns: False
 
 var isPerfectSquare = function(num) {
-    var x = num;
-    while(x * x > num){
-        x = (x + num/x) / 2;
+    for(var i = 1; i <= num / i; i++) {
+        if(i * i == num) {
+            return true;
+        }
     }
-    if(x * x === num){
-        return true;
-    }
-    else{
-        return false;
-    }
+    return false;
 };
 
 console.log(isPerfectSquare(16));
@@ -30,3 +26,4 @@ console.log(isPerfectSquare(9));
 console.log(isPerfectSquare(4));
 console.log(isPerfectSquare(49));
 console.log(isPerfectSquare(48));
+console.log(isPerfectSquare(100));

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/#394_DecodeString.js" afterPath="$PROJECT_DIR$/#394_DecodeString.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/069_SqrtX.js" afterPath="$PROJECT_DIR$/069_SqrtX.js" />
+      <change beforePath="$PROJECT_DIR$/367_PerfectSquare.js" afterPath="$PROJECT_DIR$/367_PerfectSquare.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,11 +82,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="069_SqrtX.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="069_SqrtX.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/069_SqrtX.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="583_DeleteOperationForTwoStrings.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/583_DeleteOperationForTwoStrings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="367_PerfectSquare.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/367_PerfectSquare.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -104,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/350_IntersectionOfTwoArraysII.js" />
         <option value="$PROJECT_DIR$/204_CountPrimes.js" />
         <option value="$PROJECT_DIR$/219_ContainsDuplicateII.js" />
         <option value="$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js" />
@@ -155,6 +176,7 @@
         <option value="$PROJECT_DIR$/394_DecodeString.js" />
         <option value="$PROJECT_DIR$/#394_DecodeString.js" />
         <option value="$PROJECT_DIR$/069_SqrtX.js" />
+        <option value="$PROJECT_DIR$/367_PerfectSquare.js" />
       </list>
     </option>
   </component>
@@ -221,26 +243,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.069_SqrtX.js">
+  <component name="RunManager" selected="Node.js.367_PerfectSquare.js">
     <configuration name="069_SqrtX.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="069_SqrtX.js" working-dir="$PROJECT_DIR$" />
     <configuration name="242_ValidAnagram.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="242_ValidAnagram.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="367_PerfectSquare.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="367_PerfectSquare.js" working-dir="$PROJECT_DIR$" />
     <configuration name="394_DecodeString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#394_DecodeString.js" working-dir="$PROJECT_DIR$" />
     <configuration name="448_FindDisappearedNumbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="448_FindDisappearedNumbers.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="451_SortCharactersByFrequency.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="451_SortCharactersByFrequency.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.451_SortCharactersByFrequency.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.448_FindDisappearedNumbers.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.394_DecodeString.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.069_SqrtX.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.448_FindDisappearedNumbers.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.394_DecodeString.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.069_SqrtX.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.367_PerfectSquare.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.069_SqrtX.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.394_DecodeString.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.448_FindDisappearedNumbers.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.451_SortCharactersByFrequency.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.367_PerfectSquare.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.069_SqrtX.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.394_DecodeString.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.448_FindDisappearedNumbers.js" />
       </list>
     </recent_temporary>
   </component>
@@ -265,12 +287,12 @@
       <workItem from="1514910718176" duration="8578000" />
       <workItem from="1515038030947" duration="24000" />
       <workItem from="1515038102989" duration="174000" />
-      <workItem from="1515107452562" duration="18729000" />
+      <workItem from="1515107452562" duration="19937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124834000" />
+    <option name="totallyTimeSpent" value="126042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="501" width="1920" height="1000" extended-state="0" />
@@ -281,7 +303,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45390692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20905173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20905173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -306,20 +328,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/#640_SolveTheEquation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/237_DeleteNodeInALinkedList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/137_SingleNumberII.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -696,6 +704,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/583_DeleteOperationForTwoStrings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/367_PerfectSquare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
