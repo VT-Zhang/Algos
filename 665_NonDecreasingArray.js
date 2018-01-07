@@ -17,26 +17,28 @@
  * @return {boolean}
  */
 var checkPossibility = function(nums) {
-    if(nums.length == 1) {
-        return true;
-    }
-    if(nums.length == 2) {
-        return true;
-    }
-    var counter = 0;
-    for(var i = 0; i < nums.length - 1; i++) {
-        if(nums[i] > nums[i+1]) {
-            counter++;
+    var count = 1;
+    for(var i = 1; i < nums.length; i++) {
+        if(nums[i] < nums[i-1]) {
+            if(count == 0) {
+                return false;
+            }
+            if(i == 1 || nums[i] > nums[i-2]) {
+                nums[i-1] = nums[i];
+            }
+            else {
+                nums[i] = nums[i-1];
+            }
+            count--;
         }
     }
-    console.log(counter);
-    return counter == 1;
+    return true;
 };
 
-// console.log(checkPossibility([4,2,3]));
-// console.log(checkPossibility([4,2,1]));
-// console.log(checkPossibility([4,1,1]));
-// console.log(checkPossibility([1,3,2,1]));
-// console.log(checkPossibility([]));
-// console.log(checkPossibility([1,2]));
+console.log(checkPossibility([4,2,3]));
+console.log(checkPossibility([4,2,1]));
+console.log(checkPossibility([4,1,1]));
+console.log(checkPossibility([1,3,2,1]));
+console.log(checkPossibility([]));
+console.log(checkPossibility([1,2]));
 console.log(checkPossibility([3,4,2,3]));
