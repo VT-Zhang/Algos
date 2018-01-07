@@ -3,16 +3,10 @@
 // Compute and return the square root of x.
 
 var mySqrt = function(x) {
-    if(x<0){
-        console.log(false);
-        return false;
-    }
-    var result = Math.sqrt(x);
-    console.log(result);
-    return result;
+    return Math.floor(Math.sqrt(x));
 };
 
-mySqrt(-1);
-mySqrt(9);
-mySqrt(81);
-mySqrt(3);
+console.log(mySqrt(8));
+console.log(mySqrt(9));
+console.log(mySqrt(81));
+console.log(mySqrt(3));

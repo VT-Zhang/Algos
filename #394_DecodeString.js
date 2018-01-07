@@ -41,7 +41,6 @@ var decodeString = function(s) {
     }
     console.log(arr);
     console.log(arr2);
-
 };
 
 console.log(decodeString("3[a]2[bc]"));

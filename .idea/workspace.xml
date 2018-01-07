@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/#394_DecodeString.js" />
+      <change beforePath="$PROJECT_DIR$/#394_DecodeString.js" afterPath="$PROJECT_DIR$/#394_DecodeString.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/069_SqrtX.js" afterPath="$PROJECT_DIR$/069_SqrtX.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +18,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="495_TeemoAttacking.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="495_TeemoAttacking.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/495_TeemoAttacking.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="190">
               <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding />
             </state>
@@ -54,8 +55,40 @@
       <file leaf-file-name="#394_DecodeString.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/#394_DecodeString.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="176">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="242_ValidAnagram.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/242_ValidAnagram.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="#521_LonggestUncommonSubsequence.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/#521_LonggestUncommonSubsequence.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-426">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="069_SqrtX.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/069_SqrtX.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -71,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/349_IntersectionOfTwoArrays.js" />
-        <option value="$PROJECT_DIR$/575_DistributeCandies.js" />
         <option value="$PROJECT_DIR$/350_IntersectionOfTwoArraysII.js" />
         <option value="$PROJECT_DIR$/204_CountPrimes.js" />
         <option value="$PROJECT_DIR$/219_ContainsDuplicateII.js" />
@@ -122,6 +153,8 @@
         <option value="$PROJECT_DIR$/451_SortCharactersByFrequency.js" />
         <option value="$PROJECT_DIR$/448_FindDisappearedNumbers.js" />
         <option value="$PROJECT_DIR$/394_DecodeString.js" />
+        <option value="$PROJECT_DIR$/#394_DecodeString.js" />
+        <option value="$PROJECT_DIR$/069_SqrtX.js" />
       </list>
     </option>
   </component>
@@ -131,11 +164,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1286" />
-    <option name="y" value="-721" />
-    <option name="width" value="1921" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="y" value="501" />
+    <option name="width" value="1920" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -188,26 +221,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.394_DecodeString.js">
+  <component name="RunManager" selected="Node.js.069_SqrtX.js">
+    <configuration name="069_SqrtX.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="069_SqrtX.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="242_ValidAnagram.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="242_ValidAnagram.js" working-dir="$PROJECT_DIR$" />
     <configuration name="394_DecodeString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#394_DecodeString.js" working-dir="$PROJECT_DIR$" />
     <configuration name="448_FindDisappearedNumbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="448_FindDisappearedNumbers.js" working-dir="$PROJECT_DIR$" />
     <configuration name="451_SortCharactersByFrequency.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="451_SortCharactersByFrequency.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="495_TeemoAttacking.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="495_TeemoAttacking.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="539_MinmumTimeDifference.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="539_MinmumTimeDifference.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.539_MinmumTimeDifference.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.495_TeemoAttacking.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.451_SortCharactersByFrequency.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.448_FindDisappearedNumbers.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.394_DecodeString.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.451_SortCharactersByFrequency.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.448_FindDisappearedNumbers.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.394_DecodeString.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.069_SqrtX.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.394_DecodeString.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.448_FindDisappearedNumbers.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.451_SortCharactersByFrequency.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.495_TeemoAttacking.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.539_MinmumTimeDifference.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.069_SqrtX.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.394_DecodeString.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.448_FindDisappearedNumbers.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.451_SortCharactersByFrequency.js" />
       </list>
     </recent_temporary>
   </component>
@@ -232,15 +265,15 @@
       <workItem from="1514910718176" duration="8578000" />
       <workItem from="1515038030947" duration="24000" />
       <workItem from="1515038102989" duration="174000" />
-      <workItem from="1515107452562" duration="17273000" />
+      <workItem from="1515107452562" duration="18729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123378000" />
+    <option name="totallyTimeSpent" value="124834000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-729" width="1920" height="1057" extended-state="6" />
+    <frame x="1920" y="501" width="1920" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18385416" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -248,7 +281,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45390692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19695431" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20905173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -273,20 +306,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/540_SingleElementInASortedArray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/080_RemoveDulicatesFromSortedArrayII.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/#640_SolveTheEquation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42">
@@ -403,13 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/242_ValidAnagram.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -626,16 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#394_DecodeString.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/448_FindDisappearedNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -658,9 +660,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/495_TeemoAttacking.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="190">
           <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#394_DecodeString.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/242_ValidAnagram.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#521_LonggestUncommonSubsequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/069_SqrtX.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
