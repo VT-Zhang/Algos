@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/#665_NonDecreasingArray.js" afterPath="$PROJECT_DIR$/665_NonDecreasingArray.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/007_ReverseInteger.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,18 +29,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="583_DeleteOperationForTwoStrings.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/583_DeleteOperationForTwoStrings.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="367_PerfectSquare.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/367_PerfectSquare.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,11 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="665_NonDecreasingArray.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="665_NonDecreasingArray.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/665_NonDecreasingArray.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
               <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="007_ReverseInteger.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/007_ReverseInteger.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -73,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js" />
         <option value="$PROJECT_DIR$/121_BestTimeToBuyAndSellStock.js" />
         <option value="$PROJECT_DIR$/453_MinimumMovesToEqualArrayElements.js" />
         <option value="$PROJECT_DIR$/122_BestTimeToBuyAndSellStock.js" />
@@ -124,6 +123,7 @@
         <option value="$PROJECT_DIR$/367_PerfectSquare.js" />
         <option value="$PROJECT_DIR$/#665_NonDecreasingArray.js" />
         <option value="$PROJECT_DIR$/665_NonDecreasingArray.js" />
+        <option value="$PROJECT_DIR$/007_ReverseInteger.js" />
       </list>
     </option>
   </component>
@@ -190,26 +190,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.#665_NonDecreasingArray.js">
+  <component name="RunManager" selected="Node.js.007_ReverseInteger.js">
+    <configuration name="007_ReverseInteger.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="007_ReverseInteger.js" working-dir="$PROJECT_DIR$" />
     <configuration name="069_SqrtX.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="069_SqrtX.js" working-dir="$PROJECT_DIR$" />
     <configuration name="242_ValidAnagram.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="242_ValidAnagram.js" working-dir="$PROJECT_DIR$" />
     <configuration name="367_PerfectSquare.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="367_PerfectSquare.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="394_DecodeString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#394_DecodeString.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#665_NonDecreasingArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/665_NonDecreasingArray.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.394_DecodeString.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.069_SqrtX.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.367_PerfectSquare.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.#665_NonDecreasingArray.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.069_SqrtX.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.367_PerfectSquare.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.#665_NonDecreasingArray.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.007_ReverseInteger.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.#665_NonDecreasingArray.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.367_PerfectSquare.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.069_SqrtX.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.394_DecodeString.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.007_ReverseInteger.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.#665_NonDecreasingArray.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.367_PerfectSquare.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.069_SqrtX.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.242_ValidAnagram.js" />
       </list>
     </recent_temporary>
   </component>
@@ -234,12 +234,12 @@
       <workItem from="1514910718176" duration="8578000" />
       <workItem from="1515038030947" duration="24000" />
       <workItem from="1515038102989" duration="174000" />
-      <workItem from="1515107452562" duration="20970000" />
+      <workItem from="1515107452562" duration="21943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127075000" />
+    <option name="totallyTimeSpent" value="128048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="501" width="1920" height="1000" extended-state="0" />
@@ -275,13 +275,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/137_SingleNumberII.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/198_HouseRobber.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -556,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#748_ShortestCompletingWord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/#738_MonotoneIncreasingDigits.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -582,16 +565,6 @@
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/583_DeleteOperationForTwoStrings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,6 +633,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/583_DeleteOperationForTwoStrings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/069_SqrtX.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -670,10 +653,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/#748_ShortestCompletingWord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/665_NonDecreasingArray.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/007_ReverseInteger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
