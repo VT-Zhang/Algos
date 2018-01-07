@@ -15,46 +15,26 @@
 // [5,6]
 
 var findDisappearedNumbers = function(nums) {
-    //sort the array first
-    var counter = 0;
-    while(counter < nums.length){
-        for(let i=0; i<nums.length; i++){
-            var temp;
-            if(nums[i] > nums[i+1]){
-                temp = nums[i];
-                nums[i] = nums[i+1];
-                nums[i+1] = temp;
-            }
-        }
-        counter++;
-        i=0;
+    var set = new Set();
+    var res = [];
+    var arr = [];
+    nums.sort(function (a, b) {
+        return a - b;
+    });
+    for(var i = 0; i < nums.length; i++) {
+        set.add(nums[i]);
+        arr.push(i+1);
     }
-    console.log(nums);
-
-    //remove the duplicated elements
-    for(let i=0; i<nums.length; i++){
-        if(nums[i] == nums[i+1]){
-            nums.splice(i,1);
+    console.log(set);
+    console.log(arr);
+    for(var j = 0; j < arr.length; j++) {
+        if(!set.has(arr[j])) {
+            res.push(arr[j]);
         }
     }
-    console.log(nums);
-    //find the missing numbers
-    var result = [];
-    for(let i=0; i<nums.length; i++){
-        if(nums[i] !== nums[i+1]-1){
-            var temp1 = nums[i]+1;
-            var diff = nums[i+1]-nums[i];
-            while(diff>1){
-                result.push(temp1);
-                temp1++;
-                diff--;
-            }
-        }
-    }
-    console.log(nums);
-    console.log(result);
-    return result;
+    return res;
 };
 
-findDisappearedNumbers([4,3,2,7,8,2,3,1]);
-findDisappearedNumbers([1,1]);
+console.log(findDisappearedNumbers([4,3,2,7,8,2,3,1]));
+console.log(findDisappearedNumbers([1,1]));
+console.log(findDisappearedNumbers([1]));
