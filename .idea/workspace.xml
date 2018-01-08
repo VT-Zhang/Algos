@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/458_PoorPigs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/718_MaximumLengthOfRepeatedSubarray.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="458_PoorPigs.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="458_PoorPigs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/458_PoorPigs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="296">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="718_MaximumLengthOfRepeatedSubarray.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/718_MaximumLengthOfRepeatedSubarray.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -37,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/319_BulbSwitcher.js" />
         <option value="$PROJECT_DIR$/039_CombinationSum.js" />
         <option value="$PROJECT_DIR$/215_KthLargestElementInAnArray.js" />
         <option value="$PROJECT_DIR$/640_SolveTheEquation.js" />
@@ -88,6 +99,7 @@
         <option value="$PROJECT_DIR$/ReverseStringInPlace.js" />
         <option value="$PROJECT_DIR$/594_LongestHarmoniousSubsequence.js" />
         <option value="$PROJECT_DIR$/458_PoorPigs.js" />
+        <option value="$PROJECT_DIR$/718_MaximumLengthOfRepeatedSubarray.js" />
       </list>
     </option>
   </component>
@@ -154,26 +166,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.458_PoorPigs.js">
-    <configuration name="007_ReverseInteger.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="007_ReverseInteger.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.718_MaximumLengthOfRepeatedSubarray.js">
     <configuration name="458_PoorPigs.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="458_PoorPigs.js" working-dir="$PROJECT_DIR$" />
     <configuration name="594_LongestHarmoniousSubsequence.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="594_LongestHarmoniousSubsequence.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="718_MaximumLengthOfRepeatedSubarray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="718_MaximumLengthOfRepeatedSubarray.js" working-dir="$PROJECT_DIR$" />
     <configuration name="ReverseStringInPlace.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/ReverseArrayInPlace.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#078_Subsets.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/078_Subsets.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.007_ReverseInteger.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.#078_Subsets.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.ReverseStringInPlace.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.594_LongestHarmoniousSubsequence.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.458_PoorPigs.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.#078_Subsets.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.ReverseStringInPlace.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.594_LongestHarmoniousSubsequence.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.458_PoorPigs.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.718_MaximumLengthOfRepeatedSubarray.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.458_PoorPigs.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.594_LongestHarmoniousSubsequence.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.ReverseStringInPlace.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.#078_Subsets.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.007_ReverseInteger.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.718_MaximumLengthOfRepeatedSubarray.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.458_PoorPigs.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.594_LongestHarmoniousSubsequence.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.ReverseStringInPlace.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.#078_Subsets.js" />
       </list>
     </recent_temporary>
   </component>
@@ -198,12 +210,12 @@
       <workItem from="1514910718176" duration="8578000" />
       <workItem from="1515038030947" duration="24000" />
       <workItem from="1515038102989" duration="174000" />
-      <workItem from="1515107452562" duration="29632000" />
+      <workItem from="1515107452562" duration="32283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135737000" />
+    <option name="totallyTimeSpent" value="138388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-729" width="1920" height="1000" extended-state="0" />
@@ -214,7 +226,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45390692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20905173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3588362" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -239,13 +251,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/503_NextGreaterElementII.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BubbleSort.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -526,7 +531,7 @@
         <state relative-caret-position="298">
           <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -536,7 +541,7 @@
         <state relative-caret-position="198">
           <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -554,7 +559,7 @@
         <state relative-caret-position="-18">
           <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,7 +577,7 @@
         <state relative-caret-position="-170">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -582,7 +587,7 @@
         <state relative-caret-position="521">
           <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -608,7 +613,7 @@
         <state relative-caret-position="405">
           <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -618,7 +623,7 @@
         <state relative-caret-position="585">
           <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -628,7 +633,7 @@
         <state relative-caret-position="435">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -638,15 +643,25 @@
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/458_PoorPigs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="296">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/718_MaximumLengthOfRepeatedSubarray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
