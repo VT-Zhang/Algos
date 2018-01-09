@@ -17,32 +17,61 @@
  * @return {number}
  */
 var findLength = function(A, B) {
-    var setA = new Set();
-    var setB = new Set();
+    var mapA = {};
+    var mapB = {};
     for(var i = 0; i < A.length; i++) {
-        var temp = "";
+        var arr = [];
         for(var j = i; j < A.length; j++) {
-            temp += A[j].toString();
-            setA.add(temp);
+            arr.push(A[j]);
+            if(mapA[arr]) {
+                mapA[arr]++;
+            }
+            else{
+                mapA[arr] = 1;
+            }
         }
     }
-    console.log(setA);
+    console.log(mapA);
     for(var m = 0; m < B.length; m++) {
-        var str = "";
+        var array = [];
         for(var n = m; n < B.length; n++) {
-            str += B[n].toString();
-            setB.add(str);
+            array.push(B[n]);
+            if(mapB[array]) {
+                mapB[array]++;
+            }
+            else{
+                mapB[array] = 1;
+            }
         }
     }
-    console.log(setB);
-    var max = 0;
-    for(var value of setA) {
-        if(setB.has(value)) {
-            max = Math.max(value.length, max);
+    console.log(mapB);
+    var res = [];
+    for(var key in mapA) {
+        if(key in mapB){
+            res.push(key);
         }
+    }
+    console.log(res);
+    var max = 0;
+    for(var x = 0; x < res.length; x++) {
+        length = 1;
+        var flag = false;
+        for(var y = 0; y < res[x].length; y++) {
+            if(flag && res[x][y] != ","){
+                length++;
+            }
+            if(res[x][y] == ",") {
+                flag = true;
+            }
+            else {
+                flag = false;
+            }
+        }
+        console.log(length);
+        max = Math.max(max, length);
     }
     return max;
 };
 
-// console.log(findLength([1,2,3,2,1], [3,2,1,4,7]));
+console.log(findLength([1,2,3,2,1], [3,2,1,4,7]));
 console.log(findLength([5,14,53,80,48], [50,47,3,80,83]));
