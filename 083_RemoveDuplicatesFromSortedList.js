@@ -16,5 +16,19 @@
  * @return {ListNode}
  */
 var deleteDuplicates = function(head) {
-
+    var runner = head;
+    while(runner && runner.next) {
+        if(runner.val == runner.next.val) {
+            runner.next = runner.next.next;
+        }
+        else {
+            runner = runner.next;
+        }
+    }
+    return head;
 };
+
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}

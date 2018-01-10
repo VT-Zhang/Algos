@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/#055_JumpGame.js" afterPath="$PROJECT_DIR$/055_JumpGame.js" />
+      <change beforePath="$PROJECT_DIR$/#083_RemoveDuplicatesFromSortedList.js" afterPath="$PROJECT_DIR$/083_RemoveDuplicatesFromSortedList.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,14 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="055_JumpGame.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="055_JumpGame.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/055_JumpGame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="500">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="083_RemoveDuplicatesFromSortedList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/083_RemoveDuplicatesFromSortedList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/540_SingleElementInASortedArray.js" />
         <option value="$PROJECT_DIR$/491_IncreasingSebsequences.js" />
         <option value="$PROJECT_DIR$/#020_ValidParentheses.js" />
         <option value="$PROJECT_DIR$/650_2KeysKeyboard.js" />
@@ -87,6 +96,7 @@
         <option value="$PROJECT_DIR$/646_MaximumLengthOfPairedChain.js" />
         <option value="$PROJECT_DIR$/#219_ContainsDuplicateII.js" />
         <option value="$PROJECT_DIR$/#055_JumpGame.js" />
+        <option value="$PROJECT_DIR$/#083_RemoveDuplicatesFromSortedList.js" />
       </list>
     </option>
   </component>
@@ -199,12 +209,12 @@
       <workItem from="1515038102989" duration="174000" />
       <workItem from="1515107452562" duration="34976000" />
       <workItem from="1515594078086" duration="12000" />
-      <workItem from="1515595339248" duration="1605000" />
+      <workItem from="1515595339248" duration="2637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153801000" />
+    <option name="totallyTimeSpent" value="154833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="557" y="48" width="1904" height="1294" extended-state="0" />
@@ -279,13 +289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#083_RemoveDuplicatesFromSortedList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -601,11 +604,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/055_JumpGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="500">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/083_RemoveDuplicatesFromSortedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
