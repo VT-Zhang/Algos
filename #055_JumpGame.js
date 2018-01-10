@@ -14,17 +14,11 @@
  * @return {boolean}
  */
 var canJump = function(nums) {
-    if(nums[0] == 1 && nums.length == 1) {
-        return true;
+    var lastPosition = nums[0];
+    for(var i = 1; i < nums.length && lastPosition >= i; i++) {
+        lastPosition = Math.max(lastPosition, i + nums[i]);
     }
-    for(var i = 0; i < nums.length; i++) {
-        i += nums[i];
-        console.log(i);
-        if(i == nums.length - 1) {
-            return true;
-        }
-    }
-    return false;
+    return lastPosition >= nums.length - 1;
 };
 console.log(canJump([2,3,1,1,4]));
 console.log(canJump([3,2,1,0,4]));
