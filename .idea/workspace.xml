@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/#083_RemoveDuplicatesFromSortedList.js" afterPath="$PROJECT_DIR$/083_RemoveDuplicatesFromSortedList.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/021_MergeTwoSortedList.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/556_NextGreaterElementIII.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,12 +30,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="083_RemoveDuplicatesFromSortedList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="083_RemoveDuplicatesFromSortedList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/083_RemoveDuplicatesFromSortedList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="442">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="556_NextGreaterElementIII.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/556_NextGreaterElementIII.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="021_MergeTwoSortedList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/021_MergeTwoSortedList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/491_IncreasingSebsequences.js" />
-        <option value="$PROJECT_DIR$/#020_ValidParentheses.js" />
         <option value="$PROJECT_DIR$/650_2KeysKeyboard.js" />
         <option value="$PROJECT_DIR$/503_NextGreaterElementII.js" />
         <option value="$PROJECT_DIR$/237_DeleteNodeInALinkedList.js" />
@@ -97,6 +121,8 @@
         <option value="$PROJECT_DIR$/#219_ContainsDuplicateII.js" />
         <option value="$PROJECT_DIR$/#055_JumpGame.js" />
         <option value="$PROJECT_DIR$/#083_RemoveDuplicatesFromSortedList.js" />
+        <option value="$PROJECT_DIR$/556_NextGreaterElementIII.js" />
+        <option value="$PROJECT_DIR$/021_MergeTwoSortedList.js" />
       </list>
     </option>
   </component>
@@ -107,8 +133,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="557" />
-    <option name="y" value="48" />
+    <option name="x" value="766" />
+    <option name="y" value="74" />
     <option name="width" value="1904" />
     <option name="height" value="1294" />
   </component>
@@ -163,26 +189,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.#055_JumpGame.js">
-    <configuration name="532_KdiffParisInAnArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="532_KdiffParisInAnArray.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.556_NextGreaterElementIII.js">
+    <configuration name="556_NextGreaterElementIII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="556_NextGreaterElementIII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="646_MaximumLengthOfPairedChain.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#646_MaximumLengthOfPairedChain.js" working-dir="$PROJECT_DIR$" />
     <configuration name="718_MaximumLengthOfRepeatedSubarray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#718_MaximumLengthOfRepeatedSubarray.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#055_JumpGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/055_JumpGame.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#219_ContainsDuplicateII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="#219_ContainsDuplicateII.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.718_MaximumLengthOfRepeatedSubarray.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.532_KdiffParisInAnArray.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.646_MaximumLengthOfPairedChain.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.#219_ContainsDuplicateII.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.#055_JumpGame.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.646_MaximumLengthOfPairedChain.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.#219_ContainsDuplicateII.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.#055_JumpGame.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.#055_JumpGame.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.#219_ContainsDuplicateII.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.646_MaximumLengthOfPairedChain.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.718_MaximumLengthOfRepeatedSubarray.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.532_KdiffParisInAnArray.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.#055_JumpGame.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.#219_ContainsDuplicateII.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.646_MaximumLengthOfPairedChain.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.718_MaximumLengthOfRepeatedSubarray.js" />
       </list>
     </recent_temporary>
   </component>
@@ -209,15 +235,15 @@
       <workItem from="1515038102989" duration="174000" />
       <workItem from="1515107452562" duration="34976000" />
       <workItem from="1515594078086" duration="12000" />
-      <workItem from="1515595339248" duration="2637000" />
+      <workItem from="1515595339248" duration="6684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154833000" />
+    <option name="totallyTimeSpent" value="158880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="557" y="48" width="1904" height="1294" extended-state="0" />
+    <frame x="766" y="74" width="1904" height="1294" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18382353" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -250,27 +276,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/003_LongestSubstringWithoutRepeatingCharacters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/724_FindPivotIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/205_IsomorphicStrings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/482_LicenseKeyFormatting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -577,7 +582,7 @@
         <state relative-caret-position="270">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -587,7 +592,7 @@
         <state relative-caret-position="538">
           <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -597,7 +602,7 @@
         <state relative-caret-position="450">
           <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -612,11 +617,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/503_NextGreaterElementII.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/556_NextGreaterElementIII.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/083_RemoveDuplicatesFromSortedList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/021_MergeTwoSortedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
