@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/328_OddEvenLinkedList.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/234_PalindromeLinkedList.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -51,30 +51,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="021_MergeTwoSortedList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/021_MergeTwoSortedList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="203_RemoveLinkedListElemets.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/203_RemoveLinkedListElemets.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="141_LinkedListCycle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/141_LinkedListCycle.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,21 +63,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="234_PalindromeLinkedList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/234_PalindromeLinkedList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="27" selection-end-column="16" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="448_FindDisappearedNumbers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/448_FindDisappearedNumbers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="328_OddEvenLinkedList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="328_OddEvenLinkedList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/328_OddEvenLinkedList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="476">
+              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -117,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/206_ReverseLinkedList.js" />
         <option value="$PROJECT_DIR$/198_HouseRobber.js" />
         <option value="$PROJECT_DIR$/740_DeleteAndEarn.js" />
         <option value="$PROJECT_DIR$/137_SingleNumberII.js" />
@@ -168,6 +155,7 @@
         <option value="$PROJECT_DIR$/203_RemoveLinkedListElemets.js" />
         <option value="$PROJECT_DIR$/141_LinkedListCycle.js" />
         <option value="$PROJECT_DIR$/328_OddEvenLinkedList.js" />
+        <option value="$PROJECT_DIR$/234_PalindromeLinkedList.js" />
       </list>
     </option>
   </component>
@@ -178,8 +166,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1297" />
-    <option name="y" value="87" />
+    <option name="x" value="1217" />
+    <option name="y" value="93" />
     <option name="width" value="1193" />
     <option name="height" value="1294" />
   </component>
@@ -280,15 +268,15 @@
       <workItem from="1515038102989" duration="174000" />
       <workItem from="1515107452562" duration="34976000" />
       <workItem from="1515594078086" duration="12000" />
-      <workItem from="1515595339248" duration="11502000" />
+      <workItem from="1515595339248" duration="12585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163698000" />
+    <option name="totallyTimeSpent" value="164781000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1297" y="87" width="1193" height="1294" extended-state="0" />
+    <frame x="1217" y="93" width="1193" height="1294" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29337803" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -321,13 +309,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/#039_CombinationSum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/#740_DeleteAndEarn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -644,20 +625,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/021_MergeTwoSortedList.js">
+    <entry file="file://$PROJECT_DIR$/556_NextGreaterElementIII.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="456">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/556_NextGreaterElementIII.js">
+    <entry file="file://$PROJECT_DIR$/448_FindDisappearedNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="390">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/328_OddEvenLinkedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/203_RemoveLinkedListElemets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/021_MergeTwoSortedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -672,16 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/203_RemoveLinkedListElemets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/141_LinkedListCycle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
@@ -692,18 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/448_FindDisappearedNumbers.js">
+    <entry file="file://$PROJECT_DIR$/234_PalindromeLinkedList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/328_OddEvenLinkedList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="289">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
