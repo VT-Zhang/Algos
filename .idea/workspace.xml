@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/234_PalindromeLinkedList.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/162_FindPeakElement.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="556_NextGreaterElementIII.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/556_NextGreaterElementIII.js">
+      <file leaf-file-name="#219_ContainsDuplicateII.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/#219_ContainsDuplicateII.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -29,67 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="055_JumpGame.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/055_JumpGame.js">
+      <file leaf-file-name="#748_ShortestCompletingWord.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/#748_ShortestCompletingWord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="083_RemoveDuplicatesFromSortedList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/083_RemoveDuplicatesFromSortedList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="660">
+              <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="141_LinkedListCycle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/141_LinkedListCycle.js">
+      <file leaf-file-name="162_FindPeakElement.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/162_FindPeakElement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="234_PalindromeLinkedList.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/234_PalindromeLinkedList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="27" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="448_FindDisappearedNumbers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/448_FindDisappearedNumbers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="328_OddEvenLinkedList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/328_OddEvenLinkedList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="475">
+              <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -105,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/198_HouseRobber.js" />
         <option value="$PROJECT_DIR$/740_DeleteAndEarn.js" />
         <option value="$PROJECT_DIR$/137_SingleNumberII.js" />
         <option value="$PROJECT_DIR$/461_HammingDistance.js" />
@@ -156,6 +109,7 @@
         <option value="$PROJECT_DIR$/141_LinkedListCycle.js" />
         <option value="$PROJECT_DIR$/328_OddEvenLinkedList.js" />
         <option value="$PROJECT_DIR$/234_PalindromeLinkedList.js" />
+        <option value="$PROJECT_DIR$/162_FindPeakElement.js" />
       </list>
     </option>
   </component>
@@ -165,11 +119,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1217" />
-    <option name="y" value="93" />
-    <option name="width" value="1193" />
-    <option name="height" value="1294" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -189,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,7 +156,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,6 +163,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jianzhang/Dropbox/Coding/Algos/#443_StringCompression.js" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -222,26 +177,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.556_NextGreaterElementIII.js">
+  <component name="RunManager" selected="Node.js.162_FindPeakElement.js">
+    <configuration name="162_FindPeakElement.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="162_FindPeakElement.js" working-dir="$PROJECT_DIR$" />
     <configuration name="556_NextGreaterElementIII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="556_NextGreaterElementIII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="646_MaximumLengthOfPairedChain.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#646_MaximumLengthOfPairedChain.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="718_MaximumLengthOfRepeatedSubarray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#718_MaximumLengthOfRepeatedSubarray.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#055_JumpGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/055_JumpGame.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#219_ContainsDuplicateII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="#219_ContainsDuplicateII.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.718_MaximumLengthOfRepeatedSubarray.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.646_MaximumLengthOfPairedChain.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.#219_ContainsDuplicateII.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.#055_JumpGame.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.646_MaximumLengthOfPairedChain.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.#219_ContainsDuplicateII.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.#055_JumpGame.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.162_FindPeakElement.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.#055_JumpGame.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.#219_ContainsDuplicateII.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.646_MaximumLengthOfPairedChain.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.718_MaximumLengthOfRepeatedSubarray.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.162_FindPeakElement.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.#055_JumpGame.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.#219_ContainsDuplicateII.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.646_MaximumLengthOfPairedChain.js" />
       </list>
     </recent_temporary>
   </component>
@@ -268,23 +223,24 @@
       <workItem from="1515038102989" duration="174000" />
       <workItem from="1515107452562" duration="34976000" />
       <workItem from="1515594078086" duration="12000" />
-      <workItem from="1515595339248" duration="12585000" />
+      <workItem from="1515595339248" duration="13619000" />
+      <workItem from="1515828236928" duration="860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164781000" />
+    <option name="totallyTimeSpent" value="166675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1217" y="93" width="1193" height="1294" extended-state="0" />
+    <frame x="1920" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29337803" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45390692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3584288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35837564" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -309,13 +265,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/#740_DeleteAndEarn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/648_ReplaceWords.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -563,15 +512,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/#219_ContainsDuplicateII.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="120">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#748_ShortestCompletingWord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -579,9 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,9 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
           <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,9 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,9 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,9 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,9 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,9 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,9 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,17 +587,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/083_RemoveDuplicatesFromSortedList.js">
+    <entry file="file://$PROJECT_DIR$/234_PalindromeLinkedList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="561">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -685,16 +601,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/234_PalindromeLinkedList.js">
+    <entry file="file://$PROJECT_DIR$/083_RemoveDuplicatesFromSortedList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="442">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#748_ShortestCompletingWord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/162_FindPeakElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
