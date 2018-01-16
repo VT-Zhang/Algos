@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/002_AddTwoNumbers.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/038_CountAndSay.js" />
+      <change beforePath="$PROJECT_DIR$/#038_CountAndSay.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="002_AddTwoNumbers.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/002_AddTwoNumbers.js">
+      <file leaf-file-name="038_CountAndSay.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/038_CountAndSay.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+            <state relative-caret-position="651">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -49,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/357_CountNumbersWithUniqueDigits.js" />
         <option value="$PROJECT_DIR$/378_KthSmallestElementInASortedMatrix.js" />
         <option value="$PROJECT_DIR$/#003_LongestSubstringWithoutRepeatingCharacters.js" />
         <option value="$PROJECT_DIR$/#014_CommonPrefix.js" />
@@ -100,6 +99,7 @@
         <option value="$PROJECT_DIR$/168_ExcelSheetColumnTitle.js" />
         <option value="$PROJECT_DIR$/019_RemoveNthNodeFromEndOfList.js" />
         <option value="$PROJECT_DIR$/002_AddTwoNumbers.js" />
+        <option value="$PROJECT_DIR$/#038_CountAndSay.js" />
       </list>
     </option>
   </component>
@@ -110,8 +110,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="567" />
-    <option name="y" value="93" />
+    <option name="x" value="985" />
+    <option name="y" value="68" />
     <option name="width" value="1843" />
     <option name="height" value="1294" />
   </component>
@@ -167,26 +167,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.168_ExcelSheetColumnTitle.js">
+  <component name="RunManager" selected="Node.js.#038_CountAndSay.js">
     <configuration name="049_GroupAnagram.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="049_GroupAnagram.js" working-dir="$PROJECT_DIR$" />
     <configuration name="162_FindPeakElement.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="162_FindPeakElement.js" working-dir="$PROJECT_DIR$" />
     <configuration name="168_ExcelSheetColumnTitle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="168_ExcelSheetColumnTitle.js" working-dir="$PROJECT_DIR$" />
     <configuration name="556_NextGreaterElementIII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="556_NextGreaterElementIII.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="#055_JumpGame.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/055_JumpGame.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="#038_CountAndSay.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/038_CountAndSay.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.#055_JumpGame.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.162_FindPeakElement.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.049_GroupAnagram.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.168_ExcelSheetColumnTitle.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.162_FindPeakElement.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.049_GroupAnagram.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.168_ExcelSheetColumnTitle.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.#038_CountAndSay.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.168_ExcelSheetColumnTitle.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.049_GroupAnagram.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.162_FindPeakElement.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.#055_JumpGame.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.#038_CountAndSay.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.168_ExcelSheetColumnTitle.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.049_GroupAnagram.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.162_FindPeakElement.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
       </list>
     </recent_temporary>
   </component>
@@ -219,10 +219,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175363000" />
+    <option name="totallyTimeSpent" value="178257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="567" y="93" width="1843" height="1294" extended-state="0" />
+    <frame x="985" y="68" width="1843" height="1294" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18990776" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -265,13 +265,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/682_BaseballGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/463_IslandPerimeter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -610,7 +603,7 @@
         <state relative-caret-position="500">
           <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -625,6 +618,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/002_AddTwoNumbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/019_RemoveNthNodeFromEndOfList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="747">
@@ -635,10 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002_AddTwoNumbers.js">
+    <entry file="file://$PROJECT_DIR$/038_CountAndSay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        <state relative-caret-position="651">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
