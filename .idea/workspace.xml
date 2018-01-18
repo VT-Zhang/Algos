@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/#763_PartitionLabels.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/670_MaximumSwap.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="#763_PartitionLabels.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="#763_PartitionLabels.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/#763_PartitionLabels.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
               <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="670_MaximumSwap.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/670_MaximumSwap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="807">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -71,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/#155_MinStack.js" />
         <option value="$PROJECT_DIR$/357_CountNumbersWithUniqueDigits.js" />
         <option value="$PROJECT_DIR$/378_KthSmallestElementInASortedMatrix.js" />
         <option value="$PROJECT_DIR$/#003_LongestSubstringWithoutRepeatingCharacters.js" />
@@ -122,6 +133,7 @@
         <option value="$PROJECT_DIR$/024_SwapNodesInPairs.js" />
         <option value="$PROJECT_DIR$/168_ExcelSheetColumnTitle.js" />
         <option value="$PROJECT_DIR$/763_PartitionLabels.js" />
+        <option value="$PROJECT_DIR$/670_MaximumSwap.js" />
       </list>
     </option>
   </component>
@@ -189,26 +201,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.763_PartitionLabels.js">
+  <component name="RunManager" selected="Node.js.670_MaximumSwap.js">
     <configuration name="049_GroupAnagram.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="049_GroupAnagram.js" working-dir="$PROJECT_DIR$" />
     <configuration name="162_FindPeakElement.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="162_FindPeakElement.js" working-dir="$PROJECT_DIR$" />
     <configuration name="168_ExcelSheetColumnTitle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="168_ExcelSheetColumnTitle.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="556_NextGreaterElementIII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="556_NextGreaterElementIII.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="670_MaximumSwap.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="670_MaximumSwap.js" working-dir="$PROJECT_DIR$" />
     <configuration name="763_PartitionLabels.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#763_PartitionLabels.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.162_FindPeakElement.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.049_GroupAnagram.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.168_ExcelSheetColumnTitle.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.763_PartitionLabels.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.162_FindPeakElement.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.049_GroupAnagram.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.168_ExcelSheetColumnTitle.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.763_PartitionLabels.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.670_MaximumSwap.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.763_PartitionLabels.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.168_ExcelSheetColumnTitle.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.049_GroupAnagram.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.162_FindPeakElement.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.556_NextGreaterElementIII.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.670_MaximumSwap.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.763_PartitionLabels.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.168_ExcelSheetColumnTitle.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.049_GroupAnagram.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.162_FindPeakElement.js" />
       </list>
     </recent_temporary>
   </component>
@@ -242,12 +254,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173136000" />
+    <option name="totallyTimeSpent" value="175100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="985" y="68" width="1843" height="1294" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18990776" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18990776" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -287,13 +300,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/682_BaseballGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/463_IslandPerimeter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -644,6 +650,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/670_MaximumSwap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
