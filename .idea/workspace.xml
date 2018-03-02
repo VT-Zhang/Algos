@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/260_SingleNumberIII.js" afterPath="$PROJECT_DIR$/260_SingleNumberIII.js" />
-      <change beforePath="$PROJECT_DIR$/485_MaxConsecutiveOnes.js" afterPath="$PROJECT_DIR$/485_MaxConsecutiveOnes.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/003_LongestSubstringWithoutRepeatingCharacters.js" afterPath="$PROJECT_DIR$/003_LongestSubstringWithoutRepeatingCharacters.js" />
+      <change beforePath="$PROJECT_DIR$/007_ReverseInteger.js" afterPath="$PROJECT_DIR$/007_ReverseInteger.js" />
+      <change beforePath="$PROJECT_DIR$/009_PalindromeNumber.js" afterPath="$PROJECT_DIR$/009_PalindromeNumber.js" />
+      <change beforePath="$PROJECT_DIR$/014_CommonPrefix.js" afterPath="$PROJECT_DIR$/014_CommonPrefix.js" />
+      <change beforePath="$PROJECT_DIR$/020_ValidParentheses.js" afterPath="$PROJECT_DIR$/020_ValidParentheses.js" />
+      <change beforePath="$PROJECT_DIR$/026_RemoveDuplicatesFromSortedArray.js" afterPath="$PROJECT_DIR$/026_RemoveDuplicatesFromSortedArray.js" />
+      <change beforePath="$PROJECT_DIR$/027_RemoveElement.js" afterPath="$PROJECT_DIR$/027_RemoveElement.js" />
+      <change beforePath="$PROJECT_DIR$/028_Implement_StrStr.js" afterPath="$PROJECT_DIR$/028_Implement_StrStr.js" />
+      <change beforePath="$PROJECT_DIR$/035_SearchInsertionPosition.js" afterPath="$PROJECT_DIR$/035_SearchInsertionPosition.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,103 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="670_MaximumSwap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/670_MaximumSwap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="442_FindAllDuplicates.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/442_FindAllDuplicates.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="557_ReverseWords.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/557_ReverseWords.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="344_ReverseString.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/344_ReverseString.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="540_SingleElementInASortedArray.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/540_SingleElementInASortedArray.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="136_SingleNumber.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/136_SingleNumber.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BubbleSort.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BubbleSort.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertionSort.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InsertionSort.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="260_SingleNumberIII.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="260_SingleNumberIII.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/260_SingleNumberIII.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -121,11 +37,105 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="485_MaxConsecutiveOnes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/485_MaxConsecutiveOnes.js">
+      <file leaf-file-name="007_ReverseInteger.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/007_ReverseInteger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="208">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="009_PalindromeNumber.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/009_PalindromeNumber.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="014_CommonPrefix.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/014_CommonPrefix.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="020_ValidParentheses.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/020_ValidParentheses.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="026_RemoveDuplicatesFromSortedArray.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/026_RemoveDuplicatesFromSortedArray.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="027_RemoveElement.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/027_RemoveElement.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="003_LongestSubstringWithoutRepeatingCharacters.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/003_LongestSubstringWithoutRepeatingCharacters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="028_Implement_StrStr.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/028_Implement_StrStr.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="035_SearchInsertionPosition.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/035_SearchInsertionPosition.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -141,14 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/012_IntegerToRoman.js" />
-        <option value="$PROJECT_DIR$/112_PathSum.js" />
-        <option value="$PROJECT_DIR$/738_MonotoneIncreasingDigits.js" />
-        <option value="$PROJECT_DIR$/515_FindLargestValueInEachTreeRow.js" />
-        <option value="$PROJECT_DIR$/748_ShortestCompletingWord.js" />
-        <option value="$PROJECT_DIR$/238_ProductOfArrayExceptSelf.js" />
-        <option value="$PROJECT_DIR$/539_MinmumTimeDifference.js" />
-        <option value="$PROJECT_DIR$/495_TeemoAttacking.js" />
         <option value="$PROJECT_DIR$/451_SortCharactersByFrequency.js" />
         <option value="$PROJECT_DIR$/448_FindDisappearedNumbers.js" />
         <option value="$PROJECT_DIR$/394_DecodeString.js" />
@@ -157,7 +159,6 @@
         <option value="$PROJECT_DIR$/367_PerfectSquare.js" />
         <option value="$PROJECT_DIR$/#665_NonDecreasingArray.js" />
         <option value="$PROJECT_DIR$/665_NonDecreasingArray.js" />
-        <option value="$PROJECT_DIR$/007_ReverseInteger.js" />
         <option value="$PROJECT_DIR$/#078_Subsets.js" />
         <option value="$PROJECT_DIR$/ReverseStringInPlace.js" />
         <option value="$PROJECT_DIR$/594_LongestHarmoniousSubsequence.js" />
@@ -192,6 +193,15 @@
         <option value="$PROJECT_DIR$/InsertionSort.js" />
         <option value="$PROJECT_DIR$/485_MaxConsecutiveOnes.js" />
         <option value="$PROJECT_DIR$/260_SingleNumberIII.js" />
+        <option value="$PROJECT_DIR$/007_ReverseInteger.js" />
+        <option value="$PROJECT_DIR$/009_PalindromeNumber.js" />
+        <option value="$PROJECT_DIR$/014_CommonPrefix.js" />
+        <option value="$PROJECT_DIR$/020_ValidParentheses.js" />
+        <option value="$PROJECT_DIR$/026_RemoveDuplicatesFromSortedArray.js" />
+        <option value="$PROJECT_DIR$/027_RemoveElement.js" />
+        <option value="$PROJECT_DIR$/003_LongestSubstringWithoutRepeatingCharacters.js" />
+        <option value="$PROJECT_DIR$/028_Implement_StrStr.js" />
+        <option value="$PROJECT_DIR$/035_SearchInsertionPosition.js" />
       </list>
     </option>
   </component>
@@ -202,8 +212,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1223" />
-    <option name="y" value="-1057" />
+    <option name="x" value="497" />
+    <option name="y" value="104" />
     <option name="width" value="1843" />
     <option name="height" value="1057" />
   </component>
@@ -236,8 +246,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,26 +269,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.260_SingleNumberIII.js">
-    <configuration name="136_SingleNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="136_SingleNumber.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="260_SingleNumberIII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="260_SingleNumberIII.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="485_MaxConsecutiveOnes.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="485_MaxConsecutiveOnes.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="BubbleSort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="BubbleSort.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="InsertionSort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="InsertionSort.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.003_LongestSubstringWithoutRepeatingCharacters.js">
+    <configuration name="003_LongestSubstringWithoutRepeatingCharacters.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="003_LongestSubstringWithoutRepeatingCharacters.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="014_CommonPrefix.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="014_CommonPrefix.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="020_ValidParentheses.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="020_ValidParentheses.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="026_RemoveDuplicatesFromSortedArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="026_RemoveDuplicatesFromSortedArray.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="027_RemoveElement.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="027_RemoveElement.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.136_SingleNumber.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.BubbleSort.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.InsertionSort.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.485_MaxConsecutiveOnes.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.260_SingleNumberIII.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.014_CommonPrefix.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.020_ValidParentheses.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.026_RemoveDuplicatesFromSortedArray.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.027_RemoveElement.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.003_LongestSubstringWithoutRepeatingCharacters.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.260_SingleNumberIII.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.485_MaxConsecutiveOnes.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.InsertionSort.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.BubbleSort.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.136_SingleNumber.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.003_LongestSubstringWithoutRepeatingCharacters.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.027_RemoveElement.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.026_RemoveDuplicatesFromSortedArray.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.020_ValidParentheses.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.014_CommonPrefix.js" />
       </list>
     </recent_temporary>
   </component>
@@ -312,27 +322,28 @@
       <workItem from="1516334108376" duration="52000" />
       <workItem from="1516480147560" duration="1045000" />
       <workItem from="1519966401107" duration="1986000" />
-      <workItem from="1519968428971" duration="924000" />
+      <workItem from="1519968428971" duration="1021000" />
+      <workItem from="1520002789724" duration="1673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179729000" />
+    <option name="totallyTimeSpent" value="181499000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1223" y="-1057" width="1843" height="1057" extended-state="0" />
+    <frame x="497" y="104" width="1843" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23494303" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45390692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22030456" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45390692" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -353,76 +364,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/583_DeleteOperationForTwoStrings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#521_LonggestUncommonSubsequence.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/594_LongestHarmoniousSubsequence.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReverseArrayInPlace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/078_Subsets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/007_ReverseInteger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/665_NonDecreasingArray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/367_PerfectSquare.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/069_SqrtX.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/760_FindAnagramMappings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/012_IntegerToRoman.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -497,13 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/021_MergeTwoSortedList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -619,70 +553,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/019_RemoveNthNodeFromEndOfList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/670_MaximumSwap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="459">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/442_FindAllDuplicates.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="221">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/557_ReverseWords.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/344_ReverseString.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="187">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/540_SingleElementInASortedArray.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/136_SingleNumber.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -691,8 +613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BubbleSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -701,21 +623,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/485_MaxConsecutiveOnes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="340">
+          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/503_NextGreaterElementII.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InsertionSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/260_SingleNumberIII.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/503_NextGreaterElementII.js">
+    <entry file="file://$PROJECT_DIR$/007_ReverseInteger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/014_CommonPrefix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/009_PalindromeNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020_ValidParentheses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/019_RemoveNthNodeFromEndOfList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/021_MergeTwoSortedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/026_RemoveDuplicatesFromSortedArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002_AddTwoNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -725,18 +737,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InsertionSort.js">
+    <entry file="file://$PROJECT_DIR$/027_RemoveElement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/260_SingleNumberIII.js">
+    <entry file="file://$PROJECT_DIR$/003_LongestSubstringWithoutRepeatingCharacters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/028_Implement_StrStr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/035_SearchInsertionPosition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

@@ -16,15 +16,15 @@
  * @param {string} needle
  * @return {number}
  */
-var strStr = function(haystack, needle) {
-    if(needle == "" || haystack == needle) {
+function strStr (haystack, needle) {
+    if (needle === '' || haystack === needle) {
         return 0;
     }
-    for(var i = 0; i <= haystack.length - needle.length; i++) {
+    for (var i = 0; i <= haystack.length - needle.length; i++) {
         var counter = 0;
         var flag = false;
-        for(var j = i; j < needle.length + i; j++) {
-            if(haystack[j] == needle[counter]) {
+        for (var j = i; j < needle.length + i; j++) {
+            if (haystack[j] === needle[counter]) {
                 flag = true;
             }
             else {
@@ -36,16 +36,16 @@ var strStr = function(haystack, needle) {
             // console.log("*****");
             counter++;
         }
-        if(flag) {
+        if (flag) {
             return i;
         }
     }
     return -1;
-};
+}
 
-console.log(strStr("hello", "ll"));
-console.log(strStr("aaaaa", "bba"));
-console.log(strStr("a", ""));
-console.log(strStr("", ""));
-console.log(strStr("a", "a"));
-console.log(strStr("mississippi", "pi"));
+console.log(strStr('hello', 'll'))
+console.log(strStr('aaaaa', 'bba'))
+console.log(strStr('a', ''))
+console.log(strStr('', ''))
+console.log(strStr('a', 'a'))
+console.log(strStr('mississippi', 'pi'))

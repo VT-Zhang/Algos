@@ -13,21 +13,18 @@
 // Your function should return length = 2, with the first two elements of nums
 // being 2.
 
-var removeElement = function(nums, val) {
-    for(let i=0; i<nums.length; i++){
-        if(nums[i]===val){
-            nums.splice(i,1);
+function removeElement (nums, val) {
+    var length = nums.length;
+    for (var i = 0; i < length; i++) {
+        if (nums[i] === val) {
+            nums.splice(i, 1);
+            i--;
+            length--;
         }
         console.log(nums);
     }
-    for(let i=0; i<nums.length; i++){
-        if(nums[i]===val){
-            nums.splice(i,1);
-        }
-        console.log(nums);
-    }
-    console.log(nums.length);
     return nums.length;
-};
-removeElement([3,2,2,3], 3);
-removeElement([3,3], 3);
+}
+
+console.log(removeElement([3, 2, 2, 3], 3));
+console.log(removeElement([3, 3], 3));

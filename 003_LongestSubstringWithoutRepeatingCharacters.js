@@ -14,19 +14,19 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLongestSubstring = function(s) {
-    if(s.length == 1) {
+function lengthOfLongestSubstring (s) {
+    if (s.length === 1) {
         return 1;
     }
     var max = 0;
-    for(var i = 0; i < s.length; i++) {
+    for (var i = 0; i < s.length; i++) {
         var set = new Set();
-        for(var j = i; j < s.length; j++) {
-            if(set.has(s[j])) {
+        for (var j = i; j < s.length; j++) {
+            if (set.has(s[j])) {
                 break;
             }
             set.add(s[j]);
-            if(max < set.size) {
+            if (max < set.size) {
                 max = set.size;
             }
             console.log(set);
@@ -34,13 +34,13 @@ var lengthOfLongestSubstring = function(s) {
         }
     }
     return max;
-};
+}
 
-console.log(lengthOfLongestSubstring("pwwkew"));
-console.log(lengthOfLongestSubstring("abcabcbb"));
-console.log(lengthOfLongestSubstring(""));
-console.log(lengthOfLongestSubstring("jbpnbwwd"));
-console.log(lengthOfLongestSubstring("au"));
-console.log(lengthOfLongestSubstring("bbbb"));
-console.log(lengthOfLongestSubstring("a"));
+console.log(lengthOfLongestSubstring('pwwkew'))
+console.log(lengthOfLongestSubstring('abcabcbb'))
+console.log(lengthOfLongestSubstring(''))
+console.log(lengthOfLongestSubstring('jbpnbwwd'))
+console.log(lengthOfLongestSubstring('au'))
+console.log(lengthOfLongestSubstring('bbbb'))
+console.log(lengthOfLongestSubstring('a'))
 
