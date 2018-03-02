@@ -24,8 +24,7 @@
 //     "14",
 //     "FizzBuzz"
 // ]
-
-var fizzBuzz = function(n) {
+function fizzBuzz (n) {
     var result = [];
     var num = 1;
     while (num <= n){
@@ -43,8 +42,7 @@ var fizzBuzz = function(n) {
         }
         num++;
     }
-    console.log(result);
+    return result;
+}
 
-};
-
-fizzBuzz(15);
+console.log(fizzBuzz(15));

@@ -12,25 +12,23 @@
 // Output:
 // [2,3]
 
-var findDuplicates = function(nums) {
-    var ns = [];
+function findDuplicates (nums) {
+    var res = [];
     var dict = {};
-    for(let i=0;i<nums.length;i++){
+    for(var i = 0; i < nums.length; i++){
         if(!dict[nums[i]]){
             dict[nums[i]] = 1;
-        }
-        else{
+        } else{
             dict[nums[i]] += 1;
         }
     }
     console.log(dict);
-    for(var key in dict){
-        if(dict[key]===2){
-            ns.push(parseInt(key));
+    for(var key in dict) {
+        if (dict[key] === 2) {
+            res.push(parseInt(key));
         }
     }
-    console.log(ns);
-    return ns;
-};
+    return res;
+}
 
-findDuplicates([4,3,2,7,8,2,3,1]);
+console.log(findDuplicates([4,3,2,7,8,2,3,1]));
