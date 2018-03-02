@@ -13,22 +13,21 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNonDuplicate = function(nums) {
+function singleNonDuplicate (nums) {
     var dict = {};
-    for(var i = 0; i < nums.length; i++) {
-        if(dict[nums[i]]) {
+    for (var i = 0; i < nums.length; i++) {
+        if (dict[nums[i]]) {
             dict[nums[i]]++;
-        }
-        else{
+        } else {
             dict[nums[i]] = 1;
         }
     }
-    for(var key in dict) {
-        if(dict[key] == 1) {
+    for (var key in dict) {
+        if (dict[key] === 1) {
             return parseInt(key);
         }
     }
-};
+}
 
 console.log(singleNonDuplicate([1,1,2,3,3,4,4,8,8]));
 console.log(singleNonDuplicate([3,3,7,7,10,11,11]));
