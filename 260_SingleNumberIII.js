@@ -14,19 +14,18 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-var singleNumber = function(nums) {
+var singleNumber = function (nums) {
     var res = [];
     var map = {};
-    for(var i = 0; i < nums.length; i++) {
-        if(map[nums[i]]) {
+    for (var i = 0; i < nums.length; i++) {
+        if (map[nums[i]]) {
             map[nums[i]]++;
-        }
-        else {
+        } else {
             map[nums[i]] = 1;
         }
     }
-    for(var key in map) {
-        if(map[key] == 1) {
+    for (var key in map) {
+        if (map[key] === 1) {
             res.push(parseInt(key));
         }
     }

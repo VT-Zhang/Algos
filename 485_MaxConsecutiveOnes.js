@@ -10,15 +10,15 @@
 // The input array will only contain 0 and 1.
 // The length of input array is a positive integer and will not exceed 10,000
 
-var findMaxConsecutiveOnes = function(nums) {
+function findMaxConsecutiveOnes (nums) {
     var counter = 0;
     var arr = [];
-    for(var i=0; i<nums.length; i++){
-        if(nums[i]===1){
+    for (var i = 0; i < nums.length; i++) {
+        if (nums[i] === 1) {
             counter++;
         }
         console.log(counter);
-        if(nums[i]===0){
+        if (nums[i] === 0) {
             arr.push(counter);
             counter = 0;
         }
@@ -26,13 +26,12 @@ var findMaxConsecutiveOnes = function(nums) {
     arr.push(counter);
     console.log(arr);
     var max = arr[0];
-    for(var j=0; j<arr.length; j++){
-        if(max<arr[j]){
-            max=arr[j];
+    for (var j = 0; j < arr.length; j++) {
+        if (max < arr[j]) {
+            max = arr[j];
         }
     }
-    console.log(max);
     return max;
-};
+}
 
-findMaxConsecutiveOnes([1,1,0,1,1,1]);
+console.log(findMaxConsecutiveOnes([1, 1, 0, 1, 1, 1]));
