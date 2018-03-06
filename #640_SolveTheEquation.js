@@ -26,23 +26,26 @@
  * @param {string} equation
  * @return {string}
  */
-var solveEquation = function(equation) {
+var solveEquation = function (equation) {
     var num = 0;
     var flag = true;
-    for(var i = 0; i < equation.length; i++) {
-        if(equation[i] == "=") {
+    var res = "x=";
+    for (var i = 0; i < equation.length; i++) {
+        if (equation[i] === '=') {
             flag = false;
         }
-        if(equation[i] == "x") {
-            if(flag) {
-                num++;
-            }
-            else {
+        if (equation[i] === 'x' && !isNaN(parseInt(equation[i-1]))) {
+            if (flag) {
+                num = num + parseInt(equation[i-1]);
+            } else {
                 num--;
             }
         }
     }
-    console.log(num);
-};
+    if(num === 0) {
+        return "No solution";
+    }
+    return res;
+}
 
-console.log(solveEquation("x+5-3+x=6+x-2"));
+console.log(solveEquation('x+5-3+x=6+x-2'))
