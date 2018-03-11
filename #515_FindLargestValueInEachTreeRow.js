@@ -48,5 +48,3 @@ function TreeNode(val) {
     this.val = val;
     this.left = this.right = null;
 }
-
-console.log(largestValues([1,3,2,5,3,null,9]));
