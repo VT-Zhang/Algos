@@ -31,34 +31,22 @@
  * @return {number[][]}
  */
 function largeGroupPositions(S) {
-    var map = {};
+    var i = 0;
+    var j = 0;
+    var length = S.length;
     var res = [];
-    for (var i = 0; i < S.length - 2; i++) {
-        if (!map[S[i]] && S[i] === S[i+1] && S[i+1] === S[i+2]) {
-            map[S[i]] = 1;
-        } else {
-            map[S[i]]++;
+    while (i < length) {
+        while (j < length && S[j] === S[i]) {
+            j++;
         }
-    }
-    console.log(map);
-    for (var key in map) {
-        if (map[key] >= 3 && !isNaN(map[key])) {
-            var flag = false;
-            for (var j = 0; j < S.length - 1 ; j++) {
-                if (S[j] === key && !flag && S[j] === S[j+1] && S[j+1] === S[j+2]) {
-                    res.push([j]);
-                    flag = true;
-                }
-                if (S[j] !== key && flag) {
-                    res[res.length-1].push(j-1);
-                    flag = false;
-                }
-            }
+        if (j - i >= 3) {
+            res.push([i, j-1]);
         }
+        i = j;
     }
     return res;
 }
 
 console.log(largeGroupPositions("abbxxxxzzy"));
-console.log(largeGroupPositions("abc"));
+console.log(largeGroupPositions("aaa"));
 console.log(largeGroupPositions("abcdddeeeeaabbbcd"));
