@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="" />
+    <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/JZhang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/486_PredictTheWinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -26,10 +30,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="830_PositionsOfLargeGroups.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="486_PredictTheWinner.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/486_PredictTheWinner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="830_PositionsOfLargeGroups.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/830_PositionsOfLargeGroups.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
+            <state relative-caret-position="1029">
               <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -46,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/#083_RemoveDuplicatesFromSortedList.js" />
         <option value="$PROJECT_DIR$/556_NextGreaterElementIII.js" />
         <option value="$PROJECT_DIR$/021_MergeTwoSortedList.js" />
         <option value="$PROJECT_DIR$/203_RemoveLinkedListElemets.js" />
@@ -97,6 +112,7 @@
         <option value="$PROJECT_DIR$/821_ShortestDistanceToACharacter.js" />
         <option value="$PROJECT_DIR$/824_GoatLatin.js" />
         <option value="$PROJECT_DIR$/830_PositionsOfLargeGroups.js" />
+        <option value="$PROJECT_DIR$/486_PredictTheWinner.js" />
       </list>
     </option>
   </component>
@@ -156,26 +172,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.830_PositionsOfLargeGroups.js">
+  <component name="RunManager" selected="Node.js.486_PredictTheWinner.js">
+    <configuration name="486_PredictTheWinner.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="486_PredictTheWinner.js" working-dir="$PROJECT_DIR$" />
     <configuration name="605_CanPlaceFlower.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="605_CanPlaceFlower.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="788_RotatedDigits.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/#788_RotatedDigits.js" working-dir="$PROJECT_DIR$" />
     <configuration name="830_PositionsOfLargeGroups.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="830_PositionsOfLargeGroups.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#219_ContainsDuplicateII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="#219_ContainsDuplicateII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#640_SolveTheEquation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="#640_SolveTheEquation.js" working-dir="$PROJECT_DIR$" />
     <list>
-      <item itemvalue="Node.js.788_RotatedDigits.js" />
       <item itemvalue="Node.js.#640_SolveTheEquation.js" />
       <item itemvalue="Node.js.605_CanPlaceFlower.js" />
       <item itemvalue="Node.js.#219_ContainsDuplicateII.js" />
       <item itemvalue="Node.js.830_PositionsOfLargeGroups.js" />
+      <item itemvalue="Node.js.486_PredictTheWinner.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.486_PredictTheWinner.js" />
         <item itemvalue="Node.js.830_PositionsOfLargeGroups.js" />
         <item itemvalue="Node.js.#219_ContainsDuplicateII.js" />
         <item itemvalue="Node.js.605_CanPlaceFlower.js" />
         <item itemvalue="Node.js.#640_SolveTheEquation.js" />
-        <item itemvalue="Node.js.788_RotatedDigits.js" />
       </list>
     </recent_temporary>
   </component>
@@ -211,12 +227,12 @@
       <workItem from="1520282525039" duration="5848000" />
       <workItem from="1520347821993" duration="9578000" />
       <workItem from="1525659300874" duration="443000" />
-      <workItem from="1525701459170" duration="5301000" />
+      <workItem from="1525701459170" duration="7685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207465000" />
+    <option name="totallyTimeSpent" value="209849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1925" y="-11" width="1070" height="1427" extended-state="0" />
@@ -248,16 +264,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/791_CustomSortString.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/796_RotateString.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -621,6 +627,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/830_PositionsOfLargeGroups.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/784_LetterCasePermutation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -631,10 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/830_PositionsOfLargeGroups.js">
+    <entry file="file://$PROJECT_DIR$/486_PredictTheWinner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+        <state relative-caret-position="624">
+          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
