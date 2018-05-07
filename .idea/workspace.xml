@@ -31,8 +31,8 @@
       <file leaf-file-name="830_PositionsOfLargeGroups.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/830_PositionsOfLargeGroups.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="777">
+              <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -213,12 +213,12 @@
       <workItem from="1520282525039" duration="5848000" />
       <workItem from="1520347821993" duration="9578000" />
       <workItem from="1525659300874" duration="443000" />
-      <workItem from="1525701459170" duration="4307000" />
+      <workItem from="1525701459170" duration="4675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206471000" />
+    <option name="totallyTimeSpent" value="206839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1925" y="-11" width="1070" height="1427" extended-state="0" />
@@ -635,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/830_PositionsOfLargeGroups.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="777">
+          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

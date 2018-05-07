@@ -47,6 +47,8 @@ function largeGroupPositions(S) {
     return res;
 }
 
+// Using the double pointer, runner and walker solution.
+
 console.log(largeGroupPositions("abbxxxxzzy"));
 console.log(largeGroupPositions("aaa"));
 console.log(largeGroupPositions("abcdddeeeeaabbbcd"));
