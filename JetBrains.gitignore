@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @VT-Zhang
-Sign out
-2,531
-66,557 30,353 github/gitignore
- Code  Pull requests 182  Projects 0  Insights
-gitignore/Global/JetBrains.gitignore
-f76d82c  on Apr 5
-@twhitbeck twhitbeck Add shelf to JetBrains.gitignore
-@thunsaker @samskiter @LazarusX @arcresu @akelsch @victorhaggqvist @DKroot @twhitbeck @tsteinholz @ssinss @rocketraman @RobertoNovelo @Cantido @petermorlion @Omarasifshaikh @nfcopier @koppor @jturmel @Nihlus @yatskevich @ikemo3 @GingerGeek @Fuhrmann @ergl @drothmaler @Nainterceptor
-
-52 lines (39 sloc)  1014 Bytes
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
