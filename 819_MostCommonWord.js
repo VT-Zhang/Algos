@@ -3,17 +3,17 @@
 // Words in the list of banned words are given in lowercase, and free of punctuation.  Words in the paragraph are not case sensitive.  The answer is in lowercase.
 
 // Example:
-// Input: 
+// Input:
 // paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
 // banned = ["hit"]
 // Output: "ball"
-// Explanation: 
+// Explanation:
 // "hit" occurs 3 times, but it is a banned word.
-// "ball" occurs twice (and no other word does), so it is the most frequent non-banned word in the paragraph. 
+// "ball" occurs twice (and no other word does), so it is the most frequent non-banned word in the paragraph.
 // Note that words in the paragraph are not case sensitive,
-// that punctuation is ignored (even if adjacent to words, such as "ball,"), 
+// that punctuation is ignored (even if adjacent to words, such as "ball,"),
 // and that "hit" isn't the answer even though it occurs more because it is banned.
- 
+
 
 // Note:
 
@@ -48,7 +48,7 @@ var mostCommonWord = function(paragraph, banned) {
         }
     }
     console.log(arr);
-    for (let j = 0; j < arr.length; j++) {
+    for (var j = 0; j < arr.length; j++) {
         if (!banned.includes(arr[j])) {
             if (!map[arr[j]]) {
                 map[arr[j]] = 1;
@@ -59,7 +59,7 @@ var mostCommonWord = function(paragraph, banned) {
     }
     console.log(map);
     var res = arr[0];
-    for (let key in map) {
+    for (var key in map) {
         if (map[key] > max) {
             max = map[key];
             res = key;

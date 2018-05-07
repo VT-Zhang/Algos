@@ -51,6 +51,6 @@ function customSortString(S, T) {
         }
     }
     return res;
-};
+}
 
 console.log(customSortString("cba", "abcd"));

@@ -51,10 +51,10 @@ function maxIncreaseKeepingSkyline(grid) {
         }
     }
     return res;
-};
+}
 
 function findRowMax(array) {
-    rowMax = -1;
+    var rowMax = -1;
     for (var i = 0; i < array.length; i++) {
         if (array[i] > rowMax) {
             rowMax = array[i];
@@ -64,7 +64,7 @@ function findRowMax(array) {
 }
 
 function findColMax(array, row) {
-    colMax = -1;
+    var colMax = -1;
     for (var i = 0; i < array.length; i++) {
         if (array[i][row] > colMax) {
             colMax = array[i][row];

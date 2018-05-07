@@ -55,6 +55,6 @@ function uniqueMorseRepresentations(words) {
     }
     console.log(res);
     return res.size;
-};
+}
 
 console.log(uniqueMorseRepresentations(["gin", "zen", "gig", "msg"]));

@@ -23,7 +23,7 @@ function letterCasePermutation(S) {
     var result = [];
     backtracking(S, 0, "", result);
     return result;
-};
+}
 
 function backtracking(S, i, solution, result) {
     if (i === S.length) {

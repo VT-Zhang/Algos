@@ -36,6 +36,6 @@ function shortestToChar(S, C) {
         res.push(minDistance);
     }
     return res;
-};
+}
 
 console.log(shortestToChar("loveleetcode", "e"));

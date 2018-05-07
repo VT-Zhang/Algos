@@ -73,7 +73,7 @@ function toGoatLatin(S) {
     }
     console.log(arr);
     return res.substring(0, res.length-1);
-};
+}
 
 console.log(toGoatLatin("The quick brown fox jumped over the lazy dog"));
 console.log(toGoatLatin("I speak Goat Latin"));

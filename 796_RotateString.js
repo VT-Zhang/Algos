@@ -34,7 +34,7 @@ function rotateString(A, B) {
         }
     }
     return false;
-};
+}
 
 console.log(rotateString('abcde', 'cdeab'));
 console.log(rotateString('abcde', 'abced'));
