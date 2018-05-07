@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/392_IsSubsequence.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#784_LetterCasePermutation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JZhang.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JZhang.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/423_ReconstructOriginalDigitsFromEnglish.js" beforeDir="false" afterPath="$PROJECT_DIR$/423_ReconstructOriginalDigitsFromEnglish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JetBrains.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/JetBrains.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/541_ReserseStringII.js" beforeDir="false" afterPath="$PROJECT_DIR$/541_ReserseStringII.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +23,8 @@
       <file leaf-file-name="784_LetterCasePermutation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/784_LetterCasePermutation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="340">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -30,35 +32,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="830_PositionsOfLargeGroups.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/830_PositionsOfLargeGroups.js">
+      <file leaf-file-name="392_IsSubsequence.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/392_IsSubsequence.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+            <state relative-caret-position="630">
+              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="423_ReconstructOriginalDigitsFromEnglish.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/423_ReconstructOriginalDigitsFromEnglish.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JetBrains.gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JetBrains.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -71,8 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/203_RemoveLinkedListElemets.js" />
-        <option value="$PROJECT_DIR$/141_LinkedListCycle.js" />
         <option value="$PROJECT_DIR$/328_OddEvenLinkedList.js" />
         <option value="$PROJECT_DIR$/234_PalindromeLinkedList.js" />
         <option value="$PROJECT_DIR$/162_FindPeakElement.js" />
@@ -122,6 +101,8 @@
         <option value="$PROJECT_DIR$/486_PredictTheWinner.js" />
         <option value="$PROJECT_DIR$/JetBrains.gitignore" />
         <option value="$PROJECT_DIR$/423_ReconstructOriginalDigitsFromEnglish.js" />
+        <option value="$PROJECT_DIR$/541_ReserseStringII.js" />
+        <option value="$PROJECT_DIR$/392_IsSubsequence.js" />
       </list>
     </option>
   </component>
@@ -132,8 +113,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="y" value="-37" />
+    <option name="x" value="1922" />
+    <option name="y" value="-90" />
     <option name="width" value="1103" />
     <option name="height" value="1427" />
   </component>
@@ -181,26 +162,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.423_ReconstructOriginalDigitsFromEnglish.js">
+  <component name="RunManager" selected="Node.js.392_IsSubsequence.js">
+    <configuration name="392_IsSubsequence.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="392_IsSubsequence.js" working-dir="$PROJECT_DIR$" />
     <configuration name="423_ReconstructOriginalDigitsFromEnglish.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="423_ReconstructOriginalDigitsFromEnglish.js" working-dir="$PROJECT_DIR$" />
     <configuration name="486_PredictTheWinner.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="486_PredictTheWinner.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="605_CanPlaceFlower.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="605_CanPlaceFlower.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="830_PositionsOfLargeGroups.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="830_PositionsOfLargeGroups.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="#219_ContainsDuplicateII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="#219_ContainsDuplicateII.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="541_ReserseStringII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="541_ReserseStringII.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="#788_RotatedDigits.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="#788_RotatedDigits.js" working-dir="$PROJECT_DIR$" />
     <list>
-      <item itemvalue="Node.js.605_CanPlaceFlower.js" />
-      <item itemvalue="Node.js.#219_ContainsDuplicateII.js" />
-      <item itemvalue="Node.js.830_PositionsOfLargeGroups.js" />
       <item itemvalue="Node.js.486_PredictTheWinner.js" />
       <item itemvalue="Node.js.423_ReconstructOriginalDigitsFromEnglish.js" />
+      <item itemvalue="Node.js.#788_RotatedDigits.js" />
+      <item itemvalue="Node.js.541_ReserseStringII.js" />
+      <item itemvalue="Node.js.392_IsSubsequence.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.392_IsSubsequence.js" />
+        <item itemvalue="Node.js.541_ReserseStringII.js" />
+        <item itemvalue="Node.js.#788_RotatedDigits.js" />
         <item itemvalue="Node.js.423_ReconstructOriginalDigitsFromEnglish.js" />
         <item itemvalue="Node.js.486_PredictTheWinner.js" />
-        <item itemvalue="Node.js.830_PositionsOfLargeGroups.js" />
-        <item itemvalue="Node.js.#219_ContainsDuplicateII.js" />
-        <item itemvalue="Node.js.605_CanPlaceFlower.js" />
       </list>
     </recent_temporary>
   </component>
@@ -236,23 +217,23 @@
       <workItem from="1520282525039" duration="5848000" />
       <workItem from="1520347821993" duration="9578000" />
       <workItem from="1525659300874" duration="443000" />
-      <workItem from="1525701459170" duration="9724000" />
+      <workItem from="1525701459170" duration="10769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211888000" />
+    <option name="totallyTimeSpent" value="212933000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-37" width="1103" height="1427" extended-state="0" />
+    <frame x="1922" y="-90" width="1103" height="1427" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20423183" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27414903" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.45390692" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.30106708" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.30106708" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -273,33 +254,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/807_MaxIncreaseToKeepCitySkyline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/819_MostCommonWord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/821_ShortestDistanceToACharacter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/824_GoatLatin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -500,20 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#784_LetterCasePermutation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#788_RotatedDigits.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/#455_AssignCookies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -626,10 +566,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/784_LetterCasePermutation.js">
+    <entry file="file://$PROJECT_DIR$/JetBrains.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="212">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#784_LetterCasePermutation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#763_PartitionLabels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/541_ReserseStringII.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#788_RotatedDigits.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/423_ReconstructOriginalDigitsFromEnglish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -646,17 +629,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JetBrains.gitignore">
+    <entry file="file://$PROJECT_DIR$/784_LetterCasePermutation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="340">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/423_ReconstructOriginalDigitsFromEnglish.js">
+    <entry file="file://$PROJECT_DIR$/392_IsSubsequence.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="630">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
