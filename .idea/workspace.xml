@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/300_LongestIncreasingSubsequence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/745_FindSmallestLetterGreaterThanTarget.js" beforeDir="false" afterPath="$PROJECT_DIR$/744_FindSmallestLetterGreaterThanTarget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240_SearchA2DMatrixII.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,20 +31,17 @@
       <file leaf-file-name="230_KthSmallestElementInABST.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/230_KthSmallestElementInABST.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="744_FindSmallestLetterGreaterThanTarget.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/744_FindSmallestLetterGreaterThanTarget.js">
+      <file leaf-file-name="240_SearchA2DMatrixII.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/240_SearchA2DMatrixII.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="176">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -54,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="300_LongestIncreasingSubsequence.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="300_LongestIncreasingSubsequence.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/300_LongestIncreasingSubsequence.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="588">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -74,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/024_SwapNodesInPairs.js" />
         <option value="$PROJECT_DIR$/168_ExcelSheetColumnTitle.js" />
         <option value="$PROJECT_DIR$/763_PartitionLabels.js" />
         <option value="$PROJECT_DIR$/670_MaximumSwap.js" />
@@ -125,6 +119,7 @@
         <option value="$PROJECT_DIR$/617_MergeTwoBinaryTree.js" />
         <option value="$PROJECT_DIR$/230_KthSmallestElementInABST.js" />
         <option value="$PROJECT_DIR$/300_LongestIncreasingSubsequence.js" />
+        <option value="$PROJECT_DIR$/240_SearchA2DMatrixII.js" />
       </list>
     </option>
   </component>
@@ -184,26 +179,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.300_LongestIncreasingSubsequence.js">
+  <component name="RunManager" selected="Node.js.240_SearchA2DMatrixII.js">
     <configuration name="039_CombinationSum.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/039_CombinationSum.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="219_ContainsDuplicateII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/219_ContainsDuplicateII.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="240_SearchA2DMatrixII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="240_SearchA2DMatrixII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="300_LongestIncreasingSubsequence.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="300_LongestIncreasingSubsequence.js" working-dir="$PROJECT_DIR$" />
     <configuration name="744_FindSmallestLetterGreaterThanTarget.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/744_FindSmallestLetterGreaterThanTarget.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#491_IncreasingSebsequences.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="#491_IncreasingSebsequences.js" working-dir="$PROJECT_DIR$" />
     <list>
-      <item itemvalue="Node.js.#219_ContainsDuplicateII.js" />
       <item itemvalue="Node.js.#039_CombinationSum.js" />
       <item itemvalue="Node.js.#491_IncreasingSebsequences.js" />
       <item itemvalue="Node.js.744_FindSmallestLetterGreaterThanTarget.js" />
       <item itemvalue="Node.js.300_LongestIncreasingSubsequence.js" />
+      <item itemvalue="Node.js.240_SearchA2DMatrixII.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.240_SearchA2DMatrixII.js" />
         <item itemvalue="Node.js.300_LongestIncreasingSubsequence.js" />
         <item itemvalue="Node.js.744_FindSmallestLetterGreaterThanTarget.js" />
         <item itemvalue="Node.js.#491_IncreasingSebsequences.js" />
         <item itemvalue="Node.js.#039_CombinationSum.js" />
-        <item itemvalue="Node.js.#219_ContainsDuplicateII.js" />
       </list>
     </recent_temporary>
   </component>
@@ -239,12 +234,12 @@
       <workItem from="1520282525039" duration="5848000" />
       <workItem from="1520347821993" duration="9578000" />
       <workItem from="1525659300874" duration="443000" />
-      <workItem from="1525701459170" duration="18616000" />
+      <workItem from="1525701459170" duration="21456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220780000" />
+    <option name="totallyTimeSpent" value="223620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-90" width="1094" height="1427" extended-state="0" />
@@ -295,13 +290,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/007_ReverseInteger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/014_CommonPrefix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -684,10 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/230_KthSmallestElementInABST.js">
+    <entry file="file://$PROJECT_DIR$/300_LongestIncreasingSubsequence.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="588">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -696,7 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/744_FindSmallestLetterGreaterThanTarget.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
+        <state relative-caret-position="597">
           <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -704,10 +692,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/300_LongestIncreasingSubsequence.js">
+    <entry file="file://$PROJECT_DIR$/230_KthSmallestElementInABST.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="189">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/240_SearchA2DMatrixII.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
