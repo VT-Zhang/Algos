@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/617_MergeTwoBinaryTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/230_KthSmallestElementInABST.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="617_MergeTwoBinaryTree.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="617_MergeTwoBinaryTree.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/617_MergeTwoBinaryTree.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="698">
               <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="230_KthSmallestElementInABST.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/230_KthSmallestElementInABST.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -37,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/162_FindPeakElement.js" />
         <option value="$PROJECT_DIR$/049_GroupAnagram.js" />
         <option value="$PROJECT_DIR$/024_SwapNodesInPairs.js" />
         <option value="$PROJECT_DIR$/168_ExcelSheetColumnTitle.js" />
@@ -88,6 +99,7 @@
         <option value="$PROJECT_DIR$/#219_ContainsDuplicateII.js" />
         <option value="$PROJECT_DIR$/#039_CombinationSum.js" />
         <option value="$PROJECT_DIR$/617_MergeTwoBinaryTree.js" />
+        <option value="$PROJECT_DIR$/230_KthSmallestElementInABST.js" />
       </list>
     </option>
   </component>
@@ -202,12 +214,12 @@
       <workItem from="1520282525039" duration="5848000" />
       <workItem from="1520347821993" duration="9578000" />
       <workItem from="1525659300874" duration="443000" />
-      <workItem from="1525701459170" duration="15658000" />
+      <workItem from="1525701459170" duration="16549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217822000" />
+    <option name="totallyTimeSpent" value="218713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-90" width="1094" height="1427" extended-state="0" />
@@ -258,13 +270,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/485_MaxConsecutiveOnes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insertionSort.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -662,6 +667,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
           <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/230_KthSmallestElementInABST.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
