@@ -50,13 +50,12 @@ var matrixReshape = function(nums, r, c) {
             res[i][j] = 0;
         }
     }
-    console.log(res);
     for (var k = 0; k < r * c; k++) {
-        res[k/c][k%c] = nums[k/m][k%m];
+        res[Math.floor(k/c)][k % c] = nums[Math.floor(k/m)][k % m];
     }
     return res;
 };
 
-// console.log(matrixReshape([[1,2], [3,4]], 1, 4));
-// console.log(matrixReshape([[1,2], [3,4]], 2, 4));
+console.log(matrixReshape([[1,2], [3,4]], 1, 4));
+console.log(matrixReshape([[1,2], [3,4]], 2, 4));
 console.log(matrixReshape([[1,2], [3,4], [5, 6]], 3, 2));
