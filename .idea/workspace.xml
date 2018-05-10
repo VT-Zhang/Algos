@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/104_MaximumDepthOfBinaryTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#566.ReshapeTheMatrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#455_AssignCookies.js" beforeDir="false" afterPath="$PROJECT_DIR$/#455_AssignCookies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,39 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="617_MergeTwoBinaryTree.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/617_MergeTwoBinaryTree.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="230_KthSmallestElementInABST.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/230_KthSmallestElementInABST.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="240_SearchA2DMatrixII.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/240_SearchA2DMatrixII.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="065_ValidNumber.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/065_ValidNumber.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="104_MaximumDepthOfBinaryTree.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="104_MaximumDepthOfBinaryTree.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/104_MaximumDepthOfBinaryTree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+            <state relative-caret-position="546">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -74,11 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="300_LongestIncreasingSubsequence.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/300_LongestIncreasingSubsequence.js">
+      <file leaf-file-name="#566.ReshapeTheMatrix.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/#566.ReshapeTheMatrix.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="646">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="#455_AssignCookies.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/#455_AssignCookies.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -94,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/371_SumOfTwoIntegers.js" />
-        <option value="$PROJECT_DIR$/412_FizzBuzz.js" />
         <option value="$PROJECT_DIR$/442_FindAllDuplicates.js" />
         <option value="$PROJECT_DIR$/557_ReverseWords.js" />
         <option value="$PROJECT_DIR$/344_ReverseString.js" />
@@ -145,6 +123,8 @@
         <option value="$PROJECT_DIR$/065_ValidNumber.js" />
         <option value="$PROJECT_DIR$/647_AverageOfLevelsInBinaryTree.js" />
         <option value="$PROJECT_DIR$/104_MaximumDepthOfBinaryTree.js" />
+        <option value="$PROJECT_DIR$/566.ReshapeTheMatrix.js" />
+        <option value="$PROJECT_DIR$/#455_AssignCookies.js" />
       </list>
     </option>
   </component>
@@ -204,26 +184,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.065_ValidNumber.js">
+  <component name="RunManager" selected="Node.js.#455_AssignCookies.js">
     <configuration name="065_ValidNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="065_ValidNumber.js" working-dir="$PROJECT_DIR$" />
     <configuration name="240_SearchA2DMatrixII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="240_SearchA2DMatrixII.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="300_LongestIncreasingSubsequence.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="300_LongestIncreasingSubsequence.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="744_FindSmallestLetterGreaterThanTarget.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/744_FindSmallestLetterGreaterThanTarget.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="455_AssignCookies.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/455_AssignCookies.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#491_IncreasingSebsequences.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="#491_IncreasingSebsequences.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="#566.ReshapeTheMatrix.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/#566.ReshapeTheMatrix.js" working-dir="$PROJECT_DIR$" />
     <list>
-      <item itemvalue="Node.js.#491_IncreasingSebsequences.js" />
-      <item itemvalue="Node.js.744_FindSmallestLetterGreaterThanTarget.js" />
-      <item itemvalue="Node.js.300_LongestIncreasingSubsequence.js" />
       <item itemvalue="Node.js.240_SearchA2DMatrixII.js" />
       <item itemvalue="Node.js.065_ValidNumber.js" />
+      <item itemvalue="Node.js.#566.ReshapeTheMatrix.js" />
+      <item itemvalue="Node.js.#491_IncreasingSebsequences.js" />
+      <item itemvalue="Node.js.#455_AssignCookies.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.#455_AssignCookies.js" />
+        <item itemvalue="Node.js.#491_IncreasingSebsequences.js" />
+        <item itemvalue="Node.js.#566.ReshapeTheMatrix.js" />
         <item itemvalue="Node.js.065_ValidNumber.js" />
         <item itemvalue="Node.js.240_SearchA2DMatrixII.js" />
-        <item itemvalue="Node.js.300_LongestIncreasingSubsequence.js" />
-        <item itemvalue="Node.js.744_FindSmallestLetterGreaterThanTarget.js" />
-        <item itemvalue="Node.js.#491_IncreasingSebsequences.js" />
       </list>
     </recent_temporary>
   </component>
@@ -260,18 +240,18 @@
       <workItem from="1520347821993" duration="9578000" />
       <workItem from="1525659300874" duration="443000" />
       <workItem from="1525701459170" duration="22316000" />
-      <workItem from="1525961952489" duration="2579000" />
+      <workItem from="1525961952489" duration="6787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227059000" />
+    <option name="totallyTimeSpent" value="231267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="106" width="1096" height="1306" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27592593" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.27592593" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -316,20 +296,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/019_RemoveNthNodeFromEndOfList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="43" selection-start-line="43" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/021_MergeTwoSortedList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="43" selection-start-line="43" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/026_RemoveDuplicatesFromSortedArray.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -422,20 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#455_AssignCookies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#515_FindLargestValueInEachTreeRow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/605_CanPlaceFlower.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -510,9 +462,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/#784_LetterCasePermutation.js" />
-    <entry file="file://$PROJECT_DIR$/#763_PartitionLabels.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/541_ReserseStringII.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -555,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#491_IncreasingSebsequences.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/458_PoorPigs.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -594,10 +536,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/617_MergeTwoBinaryTree.js">
+    <entry file="file://$PROJECT_DIR$/744_FindSmallestLetterGreaterThanTarget.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="597">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/647_AverageOfLevelsInBinaryTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#763_PartitionLabels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#521_LonggestUncommonSubsequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -606,7 +570,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/300_LongestIncreasingSubsequence.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="476">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -614,17 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/744_FindSmallestLetterGreaterThanTarget.js">
+    <entry file="file://$PROJECT_DIR$/#515_FindLargestValueInEachTreeRow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/230_KthSmallestElementInABST.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="663">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -638,10 +595,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/647_AverageOfLevelsInBinaryTree.js">
+    <entry file="file://$PROJECT_DIR$/230_KthSmallestElementInABST.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/617_MergeTwoBinaryTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -657,8 +624,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/104_MaximumDepthOfBinaryTree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state relative-caret-position="546">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#491_IncreasingSebsequences.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#566.ReshapeTheMatrix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#455_AssignCookies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

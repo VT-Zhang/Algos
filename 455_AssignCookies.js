@@ -29,21 +29,20 @@
 // You need to output 2.
 
 var findContentChildren = function(g, s) {
-    var counter = 0;
-    for(var i=0; i<g.length; i++){
-        for(var j=0; j<s.length; j++){
-            if(g[i]===s[j]){
-                g.splice(i,1);
-                i--;
-                s.splice(j,1);
-                counter++
-                j===s.length;
-            }
+    var children = g.sort(function(a, b) {
+        return a - b;
+    });
+    var cookies = s.sort(function(a, b) {
+        return a - b;
+    });
+    var child = 0;
+    for (var cookie = 0; child < children.length && cookie < cookies.length; cookie++) {
+        if (cookies[cookie] >= children[child]) {
+            child++;
         }
     }
-    console.log(counter);
-    return counter;
+    return child;
 };
 
-findContentChildren([1,2], [1,2,3]);
-findContentChildren([1,2,3], [1,1]);
+console.log(findContentChildren([1,2], [1,2,3]));
+console.log(findContentChildren([1,2,3], [1,1]));
