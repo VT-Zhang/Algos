@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/#394_DecodeString.js" beforeDir="false" afterPath="$PROJECT_DIR$/#394_DecodeString.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#566.ReshapeTheMatrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/566.ReshapeTheMatrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/482_LicenseKeyFormatting.js" beforeDir="false" afterPath="$PROJECT_DIR$/482_LicenseKeyFormatting.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +40,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="566.ReshapeTheMatrix.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="566.ReshapeTheMatrix.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/566.ReshapeTheMatrix.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
+            <state relative-caret-position="852">
               <caret line="58" selection-start-line="58" selection-end-line="59" selection-end-column="49" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="482_LicenseKeyFormatting.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/482_LicenseKeyFormatting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -73,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/344_ReverseString.js" />
         <option value="$PROJECT_DIR$/540_SingleElementInASortedArray.js" />
         <option value="$PROJECT_DIR$/136_SingleNumber.js" />
         <option value="$PROJECT_DIR$/BubbleSort.js" />
@@ -124,6 +134,7 @@
         <option value="$PROJECT_DIR$/#394_DecodeString.js" />
         <option value="$PROJECT_DIR$/#566.ReshapeTheMatrix.js" />
         <option value="$PROJECT_DIR$/566.ReshapeTheMatrix.js" />
+        <option value="$PROJECT_DIR$/482_LicenseKeyFormatting.js" />
       </list>
     </option>
   </component>
@@ -183,26 +194,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="065_ValidNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="065_ValidNumber.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.482_LicenseKeyFormatting.js">
     <configuration name="455_AssignCookies.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/455_AssignCookies.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="482_LicenseKeyFormatting.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="482_LicenseKeyFormatting.js" working-dir="$PROJECT_DIR$" />
     <configuration name="566.ReshapeTheMatrix.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/566.ReshapeTheMatrix.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#394_DecodeString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="#394_DecodeString.js" working-dir="$PROJECT_DIR$" />
     <configuration name="#491_IncreasingSebsequences.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="#491_IncreasingSebsequences.js" working-dir="$PROJECT_DIR$" />
     <list>
-      <item itemvalue="Node.js.065_ValidNumber.js" />
       <item itemvalue="Node.js.#566.ReshapeTheMatrix.js" />
       <item itemvalue="Node.js.#491_IncreasingSebsequences.js" />
       <item itemvalue="Node.js.#455_AssignCookies.js" />
       <item itemvalue="Node.js.#394_DecodeString.js" />
+      <item itemvalue="Node.js.482_LicenseKeyFormatting.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.482_LicenseKeyFormatting.js" />
         <item itemvalue="Node.js.#566.ReshapeTheMatrix.js" />
         <item itemvalue="Node.js.#394_DecodeString.js" />
         <item itemvalue="Node.js.#455_AssignCookies.js" />
         <item itemvalue="Node.js.#491_IncreasingSebsequences.js" />
-        <item itemvalue="Node.js.065_ValidNumber.js" />
       </list>
     </recent_temporary>
   </component>
@@ -239,12 +250,12 @@
       <workItem from="1520347821993" duration="9578000" />
       <workItem from="1525659300874" duration="443000" />
       <workItem from="1525701459170" duration="22316000" />
-      <workItem from="1525961952489" duration="9878000" />
+      <workItem from="1525961952489" duration="10420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234358000" />
+    <option name="totallyTimeSpent" value="234900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="106" width="1096" height="1306" extended-state="0" />
@@ -295,13 +306,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/003_LongestSubstringWithoutRepeatingCharacters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/049_GroupAnagram.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -658,8 +662,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/566.ReshapeTheMatrix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
+        <state relative-caret-position="852">
           <caret line="58" selection-start-line="58" selection-end-line="59" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/482_LicenseKeyFormatting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
