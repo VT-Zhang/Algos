@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b361ca2-371d-444d-9cd5-0c9eb5eb5549" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/#748_ShortestCompletingWord.js" beforeDir="false" afterPath="$PROJECT_DIR$/#748_ShortestCompletingWord.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/566.ReshapeTheMatrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/566_ReshapeTheMatrix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/748_LargestNumberAtLeastTwiceOfOthers.js" beforeDir="false" afterPath="$PROJECT_DIR$/747_LargestNumberAtLeastTwiceOfOthers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#216_CombinationSumIII.js" beforeDir="false" afterPath="$PROJECT_DIR$/#216_CombinationSumIII.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,11 +61,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="#748_ShortestCompletingWord.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/#748_ShortestCompletingWord.js">
+      <file leaf-file-name="748_ShortestCompletingWord.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/748_ShortestCompletingWord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="78" column="87" lean-forward="true" selection-start-line="78" selection-start-column="87" selection-end-line="79" selection-end-column="82" />
+            <state relative-caret-position="777">
+              <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="#216_CombinationSumIII.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/#216_CombinationSumIII.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -84,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BubbleSort.js" />
         <option value="$PROJECT_DIR$/InsertionSort.js" />
         <option value="$PROJECT_DIR$/485_MaxConsecutiveOnes.js" />
         <option value="$PROJECT_DIR$/260_SingleNumberIII.js" />
@@ -135,6 +143,7 @@
         <option value="$PROJECT_DIR$/482_LicenseKeyFormatting.js" />
         <option value="$PROJECT_DIR$/513_FindBottomLeftTreeValue.js" />
         <option value="$PROJECT_DIR$/#748_ShortestCompletingWord.js" />
+        <option value="$PROJECT_DIR$/#216_CombinationSumIII.js" />
       </list>
     </option>
   </component>
@@ -146,9 +155,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1926" />
-    <option name="y" value="59" />
+    <option name="y" value="418" />
     <option name="width" value="1096" />
-    <option name="height" value="1403" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -194,26 +203,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.#748_ShortestCompletingWord.js">
+  <component name="RunManager" selected="Node.js.#216_CombinationSumIII.js">
     <configuration name="198_HouseRobber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="198_HouseRobber.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="216_CombinationSumIII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/216_CombinationSumIII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="482_LicenseKeyFormatting.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="482_LicenseKeyFormatting.js" working-dir="$PROJECT_DIR$" />
     <configuration name="599_MinimumIndexSumofTwoLists.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="599_MinimumIndexSumofTwoLists.js" working-dir="$PROJECT_DIR$" />
     <configuration name="748_ShortestCompletingWord.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/748_ShortestCompletingWord.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="#394_DecodeString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="#394_DecodeString.js" working-dir="$PROJECT_DIR$" />
     <list>
-      <item itemvalue="Node.js.#394_DecodeString.js" />
       <item itemvalue="Node.js.482_LicenseKeyFormatting.js" />
       <item itemvalue="Node.js.599_MinimumIndexSumofTwoLists.js" />
       <item itemvalue="Node.js.198_HouseRobber.js" />
       <item itemvalue="Node.js.#748_ShortestCompletingWord.js" />
+      <item itemvalue="Node.js.#216_CombinationSumIII.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.#216_CombinationSumIII.js" />
         <item itemvalue="Node.js.#748_ShortestCompletingWord.js" />
         <item itemvalue="Node.js.198_HouseRobber.js" />
         <item itemvalue="Node.js.599_MinimumIndexSumofTwoLists.js" />
         <item itemvalue="Node.js.482_LicenseKeyFormatting.js" />
-        <item itemvalue="Node.js.#394_DecodeString.js" />
       </list>
     </recent_temporary>
   </component>
@@ -251,23 +260,23 @@
       <workItem from="1525659300874" duration="443000" />
       <workItem from="1525701459170" duration="22316000" />
       <workItem from="1525961952489" duration="11804000" />
-      <workItem from="1526047859549" duration="4033000" />
+      <workItem from="1526047859549" duration="5790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240317000" />
+    <option name="totallyTimeSpent" value="242074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1905" y="63" width="1096" height="1403" extended-state="0" />
+    <frame x="1926" y="418" width="1096" height="1044" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.012037037" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20092593" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.45390692" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.47204968" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.19806243" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -307,13 +316,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/038_CountAndSay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/035_SearchInsertionPosition.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -657,10 +659,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/#748_ShortestCompletingWord.js">
+    <entry file="file://$PROJECT_DIR$/748_ShortestCompletingWord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="78" column="87" lean-forward="true" selection-start-line="78" selection-start-column="87" selection-end-line="79" selection-end-column="82" />
+        <state relative-caret-position="777">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#216_CombinationSumIII.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
