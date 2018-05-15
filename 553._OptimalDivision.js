@@ -47,6 +47,6 @@ var optimalDivision = function(nums) {
 
 console.log(optimalDivision([1000,100,10,2]));
 
-// if nums.length == 1 => first-element itself.
+// if nums.length == 1 => first-element itself..
 // if nums.length == 2 => first-element / second-element.
 // if nums.length > 2 => first-element / ( the other elements, separated by '/' ) , no matter what.
