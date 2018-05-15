@@ -228,22 +228,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.553._OptimalDivision.js">
+  <component name="RunManager" selected="Node.js.553.OptimalDivision.js">
     <configuration name="198_HouseRobber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="198_HouseRobber.js" working-dir="$PROJECT_DIR$" />
     <configuration name="216_CombinationSumIII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/216_CombinationSumIII.js" working-dir="$PROJECT_DIR$" />
     <configuration name="406_QueueReconstructionByHeight.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="406_QueueReconstructionByHeight.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="553._OptimalDivision.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="553._OptimalDivision.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="553.OptimalDivision.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/553.OptimalDivision.js" working-dir="$PROJECT_DIR$" />
     <configuration name="748_ShortestCompletingWord.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/748_ShortestCompletingWord.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="Node.js.216_CombinationSumIII.js" />
       <item itemvalue="Node.js.748_ShortestCompletingWord.js" />
       <item itemvalue="Node.js.198_HouseRobber.js" />
       <item itemvalue="Node.js.406_QueueReconstructionByHeight.js" />
-      <item itemvalue="Node.js.553._OptimalDivision.js" />
+      <item itemvalue="Node.js.553.OptimalDivision.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.553._OptimalDivision.js" />
+        <item itemvalue="Node.js.553.OptimalDivision.js" />
         <item itemvalue="Node.js.406_QueueReconstructionByHeight.js" />
         <item itemvalue="Node.js.198_HouseRobber.js" />
       </list>
