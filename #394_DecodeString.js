@@ -17,30 +17,38 @@
  * @return {string}
  */
 var decodeString = function(s) {
-    var map = {};
-    var arr = [];
-    var arr2 = [];
-    var flag = false;
-    for(var i = 0; i < s.length; i++) {
-        var str = "";
-        if(!isNaN(s[i])) {
-            arr.push(parseInt(s[i]));
-        }
-        if(s[i] == "[") {
-            flag = true;
-        }
-        if(s[i] == "]") {
-            flag == false;
-        }
-        if(flag) {
-            str += s[i];
-        }
-        if(!flag && str != "") {
-            arr2.push(str);
+    // var map = {};
+    // var arr = [];
+    // var arr2 = [];
+    // var flag = false;
+    // for(var i = 0; i < s.length; i++) {
+    //     var str = "";
+    //     if(!isNaN(s[i])) {
+    //         arr.push(parseInt(s[i]));
+    //     }
+    //     if(s[i] == "[") {
+    //         flag = true;
+    //     }
+    //     if(s[i] == "]") {
+    //         flag == false;
+    //     }
+    //     if(flag) {
+    //         str += s[i];
+    //     }
+    //     if(!flag && str != "") {
+    //         arr2.push(str);
+    //     }
+    // }
+    // console.log(arr);
+    // console.log(arr2);
+
+    var res = "";
+    var bracket = 0;
+    for (var i = 0; i < s.length; i++) {
+        if (s[i] === "[") {
+            bracket--;
         }
     }
-    console.log(arr);
-    console.log(arr2);
 };
 
 console.log(decodeString("3[a]2[bc]"));

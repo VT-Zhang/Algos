@@ -10,17 +10,17 @@
 // The string consists of lower English letters only.
 // Length of the given string and k will in the range [1, 10000]
 
-var reverseStr = function(s, k) {
+var reverseStr = function (s, k) {
     var ns = "";
-    for(var i = 0; i < s.length; i += k){
-        for(var j = i + k - 1; j >= i; j--){
-            if(s[j] != undefined){
+    for (var i = 0; i < s.length; i += k) {
+        for (var j = i + k - 1; j >= i; j--) {
+            if (s[j] != undefined) {
                 ns += s[j];
             }
         }
         i += k;
-        for(var l = i; l < i + k; l++){
-            if(s[l] != undefined){
+        for (var l = i; l < i + k; l++) {
+            if (s[l] != undefined) {
                 ns += s[l];
             }
         }

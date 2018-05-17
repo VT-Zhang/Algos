@@ -17,22 +17,28 @@
  * @param {number} target
  * @return {number[][]}
  */
-var combinationSum = function(candidates, target) {
+function combinationSum(candidates, target) {
+    var temp = [];
     var res = [];
-    for(var i = 0; i < candidates.length; i++) {
-        if(candidates[i] == target) {
-            res.push([target]);
-        }
-        var arr = [];
-        var sum = 0;
-        while(sum <= target) {
-            sum += candidates[i];
-        }
-        if(sum == target) {
+    candidates.sort(function (a, b) {
+        return a - b;
+    });
+    search(0, target);
+    return res;
 
+    function search(start, target) {
+        if (target < 0 || start === candidates.length) {
+            return;
         }
+        if (target === 0) {
+            return res.push(temp.slice());
+        }
+        temp.push(candidates[start]);
+        search(start, target - candidates[start]);
+        temp.pop();
+        search(start + 1, target);
     }
-    console.log(res);
-};
+}
 
-console.log(combinationSum([2,3,6,7], 6));
+console.log(combinationSum([2,3,6,7], 7));
+console.log(combinationSum([2,3,5], 8));

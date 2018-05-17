@@ -28,42 +28,14 @@
  * @return {string}
  */
 var licenseKeyFormatting = function(S, K) {
-    if(S.length == K && S[0] != "-") {
-        return S.toUpperCase();
-    }
-    var temp = [];
+    var raw = S.replace(/-/g, ''). toUpperCase();
+    var length = raw.length;
     var arr = [];
-    var res = "";
-    for(var i = 0; i < S.length; i++) {
-        if(S[i] != "-") {
-            temp.push(S[i].toUpperCase());
-        }
+    while (length > 0) {
+        arr.push(raw.substring(length - K, length));
+        length -= K;
     }
-    var index = temp.length % K;
-    console.log(temp);
-    console.log(index);
-    var counter = -index;
-    for(var j = 0; j < temp.length; j++) {
-        if(j == index) {
-            arr.push("-");
-        }
-        if(counter == K) {
-            arr.push("-");
-            counter = 0;
-        }
-        counter++;
-        arr.push(temp[j]);
-    }
-    console.log(arr);
-    if(arr[0] == "-") {
-        arr[0] = "";
-    }
-    for(var k = 0; k < arr.length; k++) {
-        if(arr[k]){
-            res += arr[k];
-        }
-    }
-    return res;
+    return arr.reverse().join('-');
 };
 
 console.log(licenseKeyFormatting("5F3Z-2e-9-w", 4));
