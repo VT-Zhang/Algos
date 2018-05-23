@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/831_MaskingPersonalInformation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/JZhang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/811_SubdomainVisitCount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +45,7 @@
       <file leaf-file-name="553.OptimalDivision.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/553.OptimalDivision.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
+            <state relative-caret-position="476">
               <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -55,11 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="831_MaskingPersonalInformation.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="831_MaskingPersonalInformation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/831_MaskingPersonalInformation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="88" selection-end-column="40" />
+            <state relative-caret-position="788">
+              <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="811_SubdomainVisitCount.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/811_SubdomainVisitCount.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="66" column="60" lean-forward="true" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -85,6 +96,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/831_MaskingPersonalInformation.js" />
+        <option value="$PROJECT_DIR$/811_SubdomainVisitCount.js" />
       </list>
     </option>
   </component>
@@ -108,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +132,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,10 +152,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.811_SubdomainVisitCount.js">
+    <configuration name="811_SubdomainVisitCount.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="811_SubdomainVisitCount.js" working-dir="$PROJECT_DIR$" />
     <configuration name="831_MaskingPersonalInformation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="831_MaskingPersonalInformation.js" working-dir="$PROJECT_DIR$" />
+    <list>
+      <item itemvalue="Node.js.831_MaskingPersonalInformation.js" />
+      <item itemvalue="Node.js.811_SubdomainVisitCount.js" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.811_SubdomainVisitCount.js" />
         <item itemvalue="Node.js.831_MaskingPersonalInformation.js" />
       </list>
     </recent_temporary>
@@ -187,12 +205,13 @@
       <workItem from="1526406534333" duration="20000" />
       <workItem from="1526935915373" duration="1350000" />
       <workItem from="1526937712701" duration="70000" />
-      <workItem from="1527020455043" duration="3037000" />
+      <workItem from="1527020455043" duration="3683000" />
+      <workItem from="1527095807666" duration="1284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3257000" />
+    <option name="totallyTimeSpent" value="5187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1930" y="-20" width="1096" height="1322" extended-state="0" />
@@ -203,7 +222,7 @@
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.45390692" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.1996686" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4150787" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -220,19 +239,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27414903" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.45390692" />
       <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.30106708" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.45390692" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -243,13 +262,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/383_RansomNote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/summary.md" />
     <entry file="file://$PROJECT_DIR$/BubbleSort.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -572,7 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/553.OptimalDivision.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="476">
           <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -582,8 +594,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/831_MaskingPersonalInformation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="88" selection-end-column="40" />
+        <state relative-caret-position="788">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/811_SubdomainVisitCount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="66" column="60" lean-forward="true" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
