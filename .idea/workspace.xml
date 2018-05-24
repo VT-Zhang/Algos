@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/004_MedianOfTwoSortedArrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/041_FirstMissingPositive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JZhang.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JZhang.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -89,11 +90,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="004_MedianOfTwoSortedArrays.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="004_MedianOfTwoSortedArrays.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/004_MedianOfTwoSortedArrays.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+            <state relative-caret-position="525">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="041_FirstMissingPositive.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/041_FirstMissingPositive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="003_LongestSubstringWithoutRepeatingCharacters.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/003_LongestSubstringWithoutRepeatingCharacters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -112,6 +136,7 @@
         <option value="$PROJECT_DIR$/831_MaskingPersonalInformation.js" />
         <option value="$PROJECT_DIR$/811_SubdomainVisitCount.js" />
         <option value="$PROJECT_DIR$/004_MedianOfTwoSortedArrays.js" />
+        <option value="$PROJECT_DIR$/041_FirstMissingPositive.js" />
       </list>
     </option>
   </component>
@@ -167,17 +192,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.004_MedianOfTwoSortedArrays.js">
+  <component name="RunManager" selected="Node.js.041_FirstMissingPositive.js">
     <configuration name="004_MedianOfTwoSortedArrays.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="004_MedianOfTwoSortedArrays.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="041_FirstMissingPositive.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="041_FirstMissingPositive.js" working-dir="$PROJECT_DIR$" />
     <configuration name="811_SubdomainVisitCount.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="811_SubdomainVisitCount.js" working-dir="$PROJECT_DIR$" />
     <configuration name="831_MaskingPersonalInformation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="831_MaskingPersonalInformation.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="Node.js.831_MaskingPersonalInformation.js" />
       <item itemvalue="Node.js.811_SubdomainVisitCount.js" />
       <item itemvalue="Node.js.004_MedianOfTwoSortedArrays.js" />
+      <item itemvalue="Node.js.041_FirstMissingPositive.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.041_FirstMissingPositive.js" />
         <item itemvalue="Node.js.004_MedianOfTwoSortedArrays.js" />
         <item itemvalue="Node.js.811_SubdomainVisitCount.js" />
         <item itemvalue="Node.js.831_MaskingPersonalInformation.js" />
@@ -224,12 +252,12 @@
       <workItem from="1526935915373" duration="1350000" />
       <workItem from="1526937712701" duration="70000" />
       <workItem from="1527020455043" duration="3683000" />
-      <workItem from="1527095807666" duration="3054000" />
+      <workItem from="1527095807666" duration="8002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6957000" />
+    <option name="totallyTimeSpent" value="11905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1928" y="-202" width="1043" height="1477" extended-state="0" />
@@ -280,34 +308,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BubbleSort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/771_JewelsAndStones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/#640_SolveTheEquation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/605_CanPlaceFlower.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/111_MinimumDepthOfBinaryTree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -632,10 +632,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/002_AddTwoNumbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003_LongestSubstringWithoutRepeatingCharacters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001_TwoSum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/004_MedianOfTwoSortedArrays.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="525">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/041_FirstMissingPositive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
