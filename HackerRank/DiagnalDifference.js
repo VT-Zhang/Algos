@@ -62,4 +62,5 @@ let matrix = [
     [4,5,6],
     [10,8,-12]
 ];
-console.log([diagonalDifference(matrix)]);
+
+console.log(diagonalDifference(matrix));
