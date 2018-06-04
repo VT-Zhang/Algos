@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/temp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100_SameTree.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,7 +20,7 @@
       <file leaf-file-name="048_RotateImage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/048_RotateImage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="799">
               <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -29,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temp.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="temp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="100_SameTree.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/100_SameTree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="55" selection-end-column="70" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,6 +64,7 @@
         <option value="$PROJECT_DIR$/041_FirstMissingPositive.js" />
         <option value="$PROJECT_DIR$/048_RotateImage.js" />
         <option value="$PROJECT_DIR$/temp.js" />
+        <option value="$PROJECT_DIR$/100_SameTree.js" />
       </list>
     </option>
   </component>
@@ -61,9 +74,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="293" />
-    <option name="y" value="58" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1677" />
+    <option name="y" value="-87" />
     <option name="width" value="1336" />
     <option name="height" value="1081" />
   </component>
@@ -75,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,12 +100,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/TFS_Remap/Web Labels/NewSrc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -175,26 +188,28 @@
       <workItem from="1527712580858" duration="978000" />
       <workItem from="1527793197276" duration="2126000" />
       <workItem from="1527865980961" duration="16000" />
+      <workItem from="1527878420979" duration="611000" />
+      <workItem from="1528122126906" duration="256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15775000" />
+    <option name="totallyTimeSpent" value="16642000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="293" y="58" width="1336" height="1081" extended-state="0" />
+    <frame x="1912" y="-472" width="1096" height="1896" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.06439394" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27037036" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.45390692" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.33643892" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.45390692" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -230,13 +245,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/temp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/048_RotateImage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -562,7 +570,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/048_RotateImage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="799">
           <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -572,8 +580,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/temp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100_SameTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="55" selection-end-column="70" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
