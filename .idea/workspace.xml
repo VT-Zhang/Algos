@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/HackerRank/UtopianTree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/MigratoryBirds.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,13 +34,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UtopianTree.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UtopianTree.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackerRank/UtopianTree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MigratoryBirds.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HackerRank/MigratoryBirds.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -136,26 +140,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.UtopianTree.js">
+  <component name="RunManager" selected="Node.js.MigratoryBirds.js">
     <configuration name="AngryProfessor.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="AngryProfessor.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="DesignerPDFView.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="DesignerPDFView.js" working-dir="$PROJECT_DIR$/HackerRank" />
-    <configuration name="ElectronicsShop.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ElectronicsShop.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="HurdleRace.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="HurdleRace.js" working-dir="$PROJECT_DIR$/HackerRank" />
+    <configuration name="MigratoryBirds.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MigratoryBirds.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="UtopianTree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="UtopianTree.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <list>
-      <item itemvalue="Node.js.ElectronicsShop.js" />
       <item itemvalue="Node.js.HurdleRace.js" />
       <item itemvalue="Node.js.DesignerPDFView.js" />
       <item itemvalue="Node.js.AngryProfessor.js" />
       <item itemvalue="Node.js.UtopianTree.js" />
+      <item itemvalue="Node.js.MigratoryBirds.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.MigratoryBirds.js" />
         <item itemvalue="Node.js.UtopianTree.js" />
         <item itemvalue="Node.js.AngryProfessor.js" />
         <item itemvalue="Node.js.DesignerPDFView.js" />
         <item itemvalue="Node.js.HurdleRace.js" />
-        <item itemvalue="Node.js.ElectronicsShop.js" />
       </list>
     </recent_temporary>
   </component>
@@ -205,12 +209,12 @@
       <workItem from="1527865980961" duration="16000" />
       <workItem from="1527878420979" duration="611000" />
       <workItem from="1528122126906" duration="893000" />
-      <workItem from="1528133932082" duration="8127000" />
+      <workItem from="1528133932082" duration="8825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25406000" />
+    <option name="totallyTimeSpent" value="26104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="109" width="1336" height="1035" extended-state="0" />
@@ -261,13 +265,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/039_CombinationSum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/219_ContainsDuplicateII.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -644,10 +641,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/UtopianTree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/MigratoryBirds.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
