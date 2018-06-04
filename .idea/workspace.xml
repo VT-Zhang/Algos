@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="" />
+    <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/HackerRank/Staircase.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TimeConversion.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TimeConversion.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackerRank/TimeConversion.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -24,6 +26,23 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DivisibleSumPairs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HackerRank/DivisibleSumPairs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staircase.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HackerRank/Staircase.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="CountingValley.js" pinned="false" current-in-tab="false">
@@ -106,6 +125,7 @@
         <option value="$PROJECT_DIR$/HackerRank/BreakingTheRecords.js" />
         <option value="$PROJECT_DIR$/HackerRank/DiagnalDifference.js" />
         <option value="$PROJECT_DIR$/HackerRank/TimeConversion.js" />
+        <option value="$PROJECT_DIR$/HackerRank/DivisibleSumPairs.js" />
       </list>
     </option>
   </component>
@@ -167,26 +187,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.DivisibleSumPairs.js">
+  <component name="RunManager" selected="Node.js.Staircase.js">
     <configuration name="BreakingTheRecords.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="BreakingTheRecords.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="DiagnalDifference.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="DiagnalDifference.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="DivisibleSumPairs.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="DivisibleSumPairs.js" working-dir="$PROJECT_DIR$/HackerRank" />
-    <configuration name="Kangaroo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Kangaroo.js" working-dir="$PROJECT_DIR$/HackerRank" />
+    <configuration name="Staircase.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Staircase.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="TimeConversion.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="TimeConversion.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <list>
-      <item itemvalue="Node.js.Kangaroo.js" />
       <item itemvalue="Node.js.BreakingTheRecords.js" />
       <item itemvalue="Node.js.DiagnalDifference.js" />
       <item itemvalue="Node.js.TimeConversion.js" />
       <item itemvalue="Node.js.DivisibleSumPairs.js" />
+      <item itemvalue="Node.js.Staircase.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.Staircase.js" />
         <item itemvalue="Node.js.DivisibleSumPairs.js" />
         <item itemvalue="Node.js.TimeConversion.js" />
         <item itemvalue="Node.js.DiagnalDifference.js" />
         <item itemvalue="Node.js.BreakingTheRecords.js" />
-        <item itemvalue="Node.js.Kangaroo.js" />
       </list>
     </recent_temporary>
   </component>
@@ -236,12 +256,12 @@
       <workItem from="1527865980961" duration="16000" />
       <workItem from="1527878420979" duration="611000" />
       <workItem from="1528122126906" duration="893000" />
-      <workItem from="1528133932082" duration="2680000" />
+      <workItem from="1528133932082" duration="2942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19959000" />
+    <option name="totallyTimeSpent" value="20221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-472" width="1096" height="1896" extended-state="6" />
@@ -292,20 +312,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/821_ShortestDistanceToACharacter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/824_GoatLatin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/791_CustomSortString.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -653,6 +659,19 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/DivisibleSumPairs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/Staircase.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
