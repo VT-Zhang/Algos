@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/HackerRank/Staircase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/SockMerchant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,9 +41,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Staircase.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Staircase.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackerRank/Staircase.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SockMerchant.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HackerRank/SockMerchant.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="CountingValley.js" pinned="false" current-in-tab="false">
@@ -126,6 +146,8 @@
         <option value="$PROJECT_DIR$/HackerRank/DiagnalDifference.js" />
         <option value="$PROJECT_DIR$/HackerRank/TimeConversion.js" />
         <option value="$PROJECT_DIR$/HackerRank/DivisibleSumPairs.js" />
+        <option value="$PROJECT_DIR$/HackerRank/Staircase.js" />
+        <option value="$PROJECT_DIR$/HackerRank/SockMerchant.js" />
       </list>
     </option>
   </component>
@@ -187,26 +209,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Staircase.js">
-    <configuration name="BreakingTheRecords.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="BreakingTheRecords.js" working-dir="$PROJECT_DIR$/HackerRank" />
+  <component name="RunManager" selected="Node.js.SockMerchant.js">
     <configuration name="DiagnalDifference.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="DiagnalDifference.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="DivisibleSumPairs.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="DivisibleSumPairs.js" working-dir="$PROJECT_DIR$/HackerRank" />
+    <configuration name="SockMerchant.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="SockMerchant.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="Staircase.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Staircase.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="TimeConversion.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="TimeConversion.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <list>
-      <item itemvalue="Node.js.BreakingTheRecords.js" />
       <item itemvalue="Node.js.DiagnalDifference.js" />
       <item itemvalue="Node.js.TimeConversion.js" />
       <item itemvalue="Node.js.DivisibleSumPairs.js" />
       <item itemvalue="Node.js.Staircase.js" />
+      <item itemvalue="Node.js.SockMerchant.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.SockMerchant.js" />
         <item itemvalue="Node.js.Staircase.js" />
         <item itemvalue="Node.js.DivisibleSumPairs.js" />
         <item itemvalue="Node.js.TimeConversion.js" />
         <item itemvalue="Node.js.DiagnalDifference.js" />
-        <item itemvalue="Node.js.BreakingTheRecords.js" />
       </list>
     </recent_temporary>
   </component>
@@ -256,22 +278,22 @@
       <workItem from="1527865980961" duration="16000" />
       <workItem from="1527878420979" duration="611000" />
       <workItem from="1528122126906" duration="893000" />
-      <workItem from="1528133932082" duration="2942000" />
+      <workItem from="1528133932082" duration="3375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20221000" />
+    <option name="totallyTimeSpent" value="20654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-472" width="1096" height="1896" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27037036" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27037036" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3363279" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3363279" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.45390692" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -312,13 +334,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/791_CustomSortString.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/486_PredictTheWinner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -671,7 +686,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/Staircase.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/SockMerchant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
