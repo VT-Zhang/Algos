@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/HackerRank/Kangaroo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/BreakingTheRecords.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,11 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kangaroo.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Kangaroo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackerRank/Kangaroo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+            <state relative-caret-position="918">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BreakingTheRecords.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HackerRank/BreakingTheRecords.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="71" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -90,6 +103,7 @@
         <option value="$PROJECT_DIR$/100_SameTree.js" />
         <option value="$PROJECT_DIR$/HackerRank/CountingValley.js" />
         <option value="$PROJECT_DIR$/HackerRank/Kangaroo.js" />
+        <option value="$PROJECT_DIR$/HackerRank/BreakingTheRecords.js" />
       </list>
     </option>
   </component>
@@ -151,26 +165,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Kangaroo.js">
-    <configuration name="041_FirstMissingPositive.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="041_FirstMissingPositive.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.BreakingTheRecords.js">
     <configuration name="048_RotateImage.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="048_RotateImage.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="BreakingTheRecords.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="BreakingTheRecords.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="CountingValley.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="CountingValley.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="Kangaroo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Kangaroo.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="temp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="temp.js" working-dir="$PROJECT_DIR$" />
     <list>
-      <item itemvalue="Node.js.041_FirstMissingPositive.js" />
       <item itemvalue="Node.js.048_RotateImage.js" />
       <item itemvalue="Node.js.temp.js" />
       <item itemvalue="Node.js.CountingValley.js" />
       <item itemvalue="Node.js.Kangaroo.js" />
+      <item itemvalue="Node.js.BreakingTheRecords.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.BreakingTheRecords.js" />
         <item itemvalue="Node.js.Kangaroo.js" />
         <item itemvalue="Node.js.CountingValley.js" />
         <item itemvalue="Node.js.temp.js" />
         <item itemvalue="Node.js.048_RotateImage.js" />
-        <item itemvalue="Node.js.041_FirstMissingPositive.js" />
       </list>
     </recent_temporary>
   </component>
@@ -220,12 +234,12 @@
       <workItem from="1527865980961" duration="16000" />
       <workItem from="1527878420979" duration="611000" />
       <workItem from="1528122126906" duration="893000" />
-      <workItem from="1528133932082" duration="754000" />
+      <workItem from="1528133932082" duration="1583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18033000" />
+    <option name="totallyTimeSpent" value="18862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-472" width="1096" height="1896" extended-state="6" />
@@ -276,13 +290,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/804_UniqueMorseCodeWords.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/807_MaxIncreaseToKeepCitySkyline.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -621,8 +628,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/Kangaroo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="918">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/BreakingTheRecords.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="71" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
