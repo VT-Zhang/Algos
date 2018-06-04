@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/HackerRank/DiagnalDifference.js" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/DiagnalDifference.js" afterDir="false" />
-    </list>
+    <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="048_RotateImage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/048_RotateImage.js">
+      <file leaf-file-name="TimeConversion.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HackerRank/TimeConversion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+            <state relative-caret-position="459">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -28,20 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CountingValley.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackerRank/CountingValley.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+            <state relative-caret-position="595">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -64,7 +53,7 @@
       <file leaf-file-name="BreakingTheRecords.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackerRank/BreakingTheRecords.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
+            <state relative-caret-position="748">
               <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -73,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiagnalDifference.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiagnalDifference.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackerRank/DiagnalDifference.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="916">
+            <state relative-caret-position="986">
               <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -116,6 +105,7 @@
         <option value="$PROJECT_DIR$/HackerRank/Kangaroo.js" />
         <option value="$PROJECT_DIR$/HackerRank/BreakingTheRecords.js" />
         <option value="$PROJECT_DIR$/HackerRank/DiagnalDifference.js" />
+        <option value="$PROJECT_DIR$/HackerRank/TimeConversion.js" />
       </list>
     </option>
   </component>
@@ -177,26 +167,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.TimeConversion.js">
+  <component name="RunManager" selected="Node.js.DivisibleSumPairs.js">
     <configuration name="BreakingTheRecords.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="BreakingTheRecords.js" working-dir="$PROJECT_DIR$/HackerRank" />
-    <configuration name="CountingValley.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="CountingValley.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="DiagnalDifference.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="DiagnalDifference.js" working-dir="$PROJECT_DIR$/HackerRank" />
+    <configuration name="DivisibleSumPairs.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="DivisibleSumPairs.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="Kangaroo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Kangaroo.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <configuration name="TimeConversion.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="TimeConversion.js" working-dir="$PROJECT_DIR$/HackerRank" />
     <list>
-      <item itemvalue="Node.js.CountingValley.js" />
       <item itemvalue="Node.js.Kangaroo.js" />
       <item itemvalue="Node.js.BreakingTheRecords.js" />
       <item itemvalue="Node.js.DiagnalDifference.js" />
       <item itemvalue="Node.js.TimeConversion.js" />
+      <item itemvalue="Node.js.DivisibleSumPairs.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.DivisibleSumPairs.js" />
         <item itemvalue="Node.js.TimeConversion.js" />
         <item itemvalue="Node.js.DiagnalDifference.js" />
         <item itemvalue="Node.js.BreakingTheRecords.js" />
         <item itemvalue="Node.js.Kangaroo.js" />
-        <item itemvalue="Node.js.CountingValley.js" />
       </list>
     </recent_temporary>
   </component>
@@ -246,22 +236,22 @@
       <workItem from="1527865980961" duration="16000" />
       <workItem from="1527878420979" duration="611000" />
       <workItem from="1528122126906" duration="893000" />
-      <workItem from="1528133932082" duration="2039000" />
+      <workItem from="1528133932082" duration="2680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19318000" />
+    <option name="totallyTimeSpent" value="19959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-472" width="1096" height="1896" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27037036" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27037036" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3363279" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3363279" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.45390692" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -302,13 +292,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/819_MostCommonWord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/821_ShortestDistanceToACharacter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -594,16 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/048_RotateImage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/100_SameTree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -614,17 +587,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.js">
+    <entry file="file://$PROJECT_DIR$/HackerRank/DiagnalDifference.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="986">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HackerRank/CountingValley.js">
+    <entry file="file://$PROJECT_DIR$/HackerRank/BreakingTheRecords.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state relative-caret-position="748">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -641,20 +617,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HackerRank/BreakingTheRecords.js">
+    <entry file="file://$PROJECT_DIR$/HackerRank/CountingValley.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="595">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HackerRank/DiagnalDifference.js">
+    <entry file="file://$PROJECT_DIR$/temp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="916">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/048_RotateImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/TimeConversion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
