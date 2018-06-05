@@ -28,12 +28,7 @@ function minimumNumber(n, password) {
             hasSpecial = true;
         }
     }
-    let missing = 4 - count;
-    if (6 - n > missing) {
-        return 6 - n;
-    } else {
-        return missing;
-    }
+    return Math.max(6 - n, 4 - count);
 }
 
 console.log(minimumNumber(11, "#HackerRank"));
