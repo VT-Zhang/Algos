@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/HackerRank/MigratoryBirds.js" afterDir="false" />
-    </list>
+    <list default="true" id="58513a07-fd82-44ab-8997-3591693d9cb1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -45,7 +43,11 @@
       </file>
       <file leaf-file-name="MigratoryBirds.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HackerRank/MigratoryBirds.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -79,6 +81,7 @@
         <option value="$PROJECT_DIR$/HackerRank/jquery-impromptu-6.2.3.min.js" />
         <option value="$PROJECT_DIR$/HackerRank/AngryProfessor.js" />
         <option value="$PROJECT_DIR$/HackerRank/UtopianTree.js" />
+        <option value="$PROJECT_DIR$/HackerRank/MigratoryBirds.js" />
       </list>
     </option>
   </component>
@@ -89,10 +92,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1913" />
-    <option name="y" value="109" />
-    <option name="width" value="1336" />
-    <option name="height" value="1035" />
+    <option name="x" value="32767" />
+    <option name="y" value="-32768" />
+    <option name="width" value="3020" />
+    <option name="height" value="1940" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -209,22 +212,22 @@
       <workItem from="1527865980961" duration="16000" />
       <workItem from="1527878420979" duration="611000" />
       <workItem from="1528122126906" duration="893000" />
-      <workItem from="1528133932082" duration="8825000" />
+      <workItem from="1528133932082" duration="9402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26104000" />
+    <option name="totallyTimeSpent" value="26681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="109" width="1336" height="1035" extended-state="0" />
+    <frame x="32767" y="-32768" width="3020" height="1940" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22121212" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.09720373" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.31195652" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.15726027" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.45390692" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -647,7 +650,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/MigratoryBirds.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
