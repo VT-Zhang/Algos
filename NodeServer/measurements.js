@@ -23,17 +23,15 @@ function measurementConstructor(timestamp, temperature, dewPoint, precipitation)
 }
 
 function validateInput(obj) {
-    if (!obj.timestamp) {
+    let re = /^([\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$/;
+    if (!obj.timestamp ||
+        !re.test(obj.timestamp) ||
+        obj.temperature !== parseFloat(obj.temperature) ||
+        obj.dewPoint !== parseFloat(obj.dewPoint) ||
+        obj.precipitation !== parseFloat(obj.precipitation)) {
         return false;
     }
-    let re = /^([\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$/;
-    if (re.test(obj.timestamp) &&
-        obj.temperature === parseFloat(obj.temperature) &&
-        obj.dewPoint === parseFloat(obj.dewPoint) &&
-        obj.precipitation === parseFloat(obj.precipitation)) {
-        return true;
-    }
-    return false;
+    return true;
 }
 
 
@@ -44,7 +42,17 @@ module.exports = {
     },
 
     showAll: function(req, res) {
-        return res.json(database);
+        return res.send(200, database);
+    },
+
+    show: function(req, res) {
+        let searchKey = req.params.date;
+        database.forEach(function(item) {
+            if(item.timestamp === searchKey) {
+                return res.send(200, item);
+            }
+        });
+        return res.send(404);
     },
 
     create: function(req, res) {

@@ -6,7 +6,10 @@ module.exports = function (app) {
     });
     app.get('/measurements', function(req, res) {
         measurements.showAll(req, res);
-    })
+    });
+    app.get('/measurements/:date', function(req, res) {
+        measurements.show(req, res);
+    });
     app.post('/measurements', function (req, res) {
         measurements.create(req, res);
     });
