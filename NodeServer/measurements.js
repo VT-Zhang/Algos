@@ -10,6 +10,12 @@ let database = [
         temperature: 27.3,
         dewPoint: 16.9,
         precipitation: 0
+    },
+    {
+        timestamp: "2015-09-02T16:10:00.000Z",
+        temperature: 27.3,
+        dewPoint: 16.9,
+        precipitation: 1
     }
 ];
 
@@ -47,12 +53,25 @@ module.exports = {
 
     show: function(req, res) {
         let searchKey = req.params.date;
-        database.forEach(function(item) {
-            if(item.timestamp === searchKey) {
-                return res.status(200).send(item);
+        if (searchKey.length === 10) {
+            let result = [];
+            database.forEach(function(item) {
+                if (item.includes(searchKey)) {
+                    result.push(item);
+                }
+            });
+            if (result.length !== 0) {
+                return res.status(200).send(result);
             }
-        });
-        return res.sendStatus(404);
+            return sendStatus(404);
+        } else {
+            database.forEach(function(item) {
+                if (item.timestamp === searchKey) {
+                    return res.status(200).send(item);
+                }
+            });
+            return res.sendStatus(404);
+        }
     },
 
     create: function(req, res) {
