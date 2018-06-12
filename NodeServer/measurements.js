@@ -42,30 +42,30 @@ module.exports = {
     },
 
     showAll: function(req, res) {
-        return res.send(200, database);
+        return res.status(200).send(database);
     },
 
     show: function(req, res) {
         let searchKey = req.params.date;
         database.forEach(function(item) {
             if(item.timestamp === searchKey) {
-                return res.send(200, item);
+                return res.status(200).send(item);
             }
         });
-        return res.send(404);
+        return res.sendStatus(404);
     },
 
     create: function(req, res) {
         console.log(req.body);
         if (!req.body) {
-            return res.send(400);
+            return res.sendStatus(400);
         } else {
             let obj = measurementConstructor(res.body.timestamp, res.body.temperature, res.body.dewPoint, res.body.precipitation);
             if (validateInput(obj)) {
                 database.push(obj);
-                return res.send(201);
+                return res.sendStatus(201);
             } else {
-                return res.send(400);
+                return res.sendStatus(400);
             }
         }
     },
