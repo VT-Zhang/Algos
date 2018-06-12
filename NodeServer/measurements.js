@@ -56,14 +56,14 @@ module.exports = {
         if (searchKey.length === 10) {
             let result = [];
             database.forEach(function(item) {
-                if (item.includes(searchKey)) {
+                if (!item.timestamp.indexOf(searchKey)) {
                     result.push(item);
                 }
             });
             if (result.length !== 0) {
                 return res.status(200).send(result);
             }
-            return sendStatus(404);
+            return res.sendStatus(404);
         } else {
             database.forEach(function(item) {
                 if (item.timestamp === searchKey) {
