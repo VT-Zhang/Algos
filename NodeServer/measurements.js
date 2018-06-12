@@ -1,4 +1,4 @@
-let measurements = [];
+let database = [];
 
 function measurementConstructor(timestamp, temperature, dewPoint, precipitation) {
     let obj = {};
@@ -26,6 +26,10 @@ function validateInput(obj) {
 
 module.exports = {
 
+    index: function(req, res) {
+        return 'Weather tracker is up and running!\n';
+    },
+
     create: function(req, res) {
         console.log(req.body);
         if (!req.body) {
@@ -33,13 +37,15 @@ module.exports = {
         } else {
             let obj = measurementConstructor(res.body.timestamp, res.body.temperature, res.body.dewPoint, res.body.precipitation);
             if (validateInput(obj)) {
-                measurements.push(obj);
-                return res.send(200);
+                database.push(obj);
+                return res.send(201);
             } else {
                 return res.send(400);
             }
         }
-    }
+    },
+
+
 
 };
 
