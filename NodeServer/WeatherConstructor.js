@@ -8,9 +8,7 @@ function weatherConstructor(timestamp, temperature, dewPoint, precipitation) {
     return obj;
 }
 
-// console.log(weatherConstructor("01-01-2018", 55, 35, 10));
-
-function validate(obj) {
+function validateInput(obj) {
     if (!obj.timestamp) {
         return false;
     }
@@ -24,5 +22,6 @@ function validate(obj) {
     return false;
 }
 
-let obj = weatherConstructor("2012-10-06T04:13:00+00:00", 55, 35, 10);
-console.log(validate(obj));
+// console.log(weatherConstructor("01-01-2018", 55, 35, 10));
+let obj = weatherConstructor("2012-10-06T04:13:00+00:00", 55.1, 35, 10);
+console.log(validateInput(obj));
