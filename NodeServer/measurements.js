@@ -1,4 +1,17 @@
-let database = [];
+let database = [
+    {
+        timestamp: "2015-09-01T16:00:00.000Z",
+        temperature: 27.1,
+        dewPoint: 16.7,
+        precipitation: 0
+    },
+    {
+        timestamp: "2015-09-01T16:10:00.000Z",
+        temperature: 27.3,
+        dewPoint: 16.9,
+        precipitation: 0
+    }
+];
 
 function measurementConstructor(timestamp, temperature, dewPoint, precipitation) {
     let obj = {};
@@ -30,6 +43,10 @@ module.exports = {
         return 'Weather tracker is up and running!\n';
     },
 
+    showAll: function(req, res) {
+        return res.json(database);
+    },
+
     create: function(req, res) {
         console.log(req.body);
         if (!req.body) {
@@ -49,6 +66,6 @@ module.exports = {
 
 };
 
-console.log(measurementConstructor("01-01-2018", 55, 35, 10));
-let obj = measurementConstructor("2012-10-06T04:13:00Z", 55.1, 35, 10);
-console.log(validateInput(obj));
+// console.log(measurementConstructor("01-01-2018", 55, 35, 10));
+// let obj = measurementConstructor("2012-10-06T04:13:00Z", 55.1, 35, 10);
+// console.log(validateInput(obj));
