@@ -97,11 +97,11 @@ let database = [
 // let database = [];
 
 /**
- * Function to validate the input object.
+ * Function to check if all the fields in the input object are valid.
  * @param obj, the input object from the request.body.
- * @returns {boolean}, return true if the input object is valid, false otherwise.
+ * @returns {boolean}, return true if all the input fields are valid, false otherwise.
  */
-function validateInput(obj) {
+function isInputValid(obj) {
     const re = /\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z)/;
     if (!obj.timestamp || !re.test(obj.timestamp)) {
         return false;
@@ -210,7 +210,7 @@ module.exports = {
             return res.sendStatus(400);
         } else {
             const measurement = req.body;
-            if (validateInput(measurement)) {
+            if (isInputValid(measurement)) {
                 database.push(measurement);
                 return res.sendStatus(201);
             }
@@ -230,7 +230,7 @@ module.exports = {
         if (date !== measurement.timestamp) {
             return res.sendStatus(409);
         }
-        if (validateInput(measurement)) {
+        if (isInputValid(measurement)) {
             database.forEach(function (item) {
                 if (item.timestamp === date) {
                     item.temperature = measurement.temperature;
@@ -256,7 +256,7 @@ module.exports = {
         if (date !== timestamp) {
             return res.sendStatus(409);
         }
-        if (validateInput(req.body)) {
+        if (isInputValid(req.body)) {
             database.forEach(function (item) {
                 if (item.timestamp === date) {
                     if (req.body.temperature) {
@@ -297,7 +297,7 @@ module.exports = {
 
     /**
      * Function to query the database and return a certain array of measurements
-     * According to the query critera.
+     * According to the query criteria.
      * @param req
      * @param res
      * @returns {*|void}
