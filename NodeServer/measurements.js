@@ -44,7 +44,22 @@
 //   "precipitation": 0
 // }
 
-let database = [];
+let database = [
+	{
+		"timestamp": "2015-09-01T16:00:00.000Z",
+		"temperature": 27.1,
+		"dewPoint": 16.7,
+		"precipitation": 0
+	},
+	{
+		"timestamp": "2015-09-01T16:10:00.000Z",
+		"temperature": 27.3,
+		"dewPoint": 16.9,
+		"precipitation": 0
+	}
+]
+
+// let database = [];
 
 function measurementConstructor(timestamp, temperature, dewPoint, precipitation) {
     let obj = {};
@@ -114,6 +129,28 @@ module.exports = {
         }
     },
 
+    update: function(req, res) {
+        let date = req.params.date;
+        let measurement = measurementConstructor(req.body.timestamp, req.body.temperature, req.body.dewPoint, req.body.precipitation);
+        console.log(date);
+        console.log(measurement);
+        if (date !== measurement.timestamp) {
+            return res.sendStatus(409);
+        }
+        if (validateInput(measurement)) {
+            database.forEach(function(item) {
+                if (item.timestamp === date) {
+                    item.temperature = measurement.temperature;
+                    item.dewPoint = measurement.dewPoint;
+                    item.precipitation = measurement.precipitation;
+                    return res.sendStatus(204);
+                }
+            });
+            return res.sendStatus(404);
+        }
+        return res.sendStatus(400);
+    },
+
     delete: function(req, res) {
         let date = req.params.date;
         for(let i = 0; i < database.length; i++) {
@@ -122,7 +159,7 @@ module.exports = {
                 return res.sendStatus(204);
             }
         }
-        return res.sendStatus(400);
+        return res.sendStatus(404);
     }
 
 
