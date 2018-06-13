@@ -103,11 +103,11 @@ module.exports = {
     },
 
     show: function(req, res) {
-        const searchKey = req.params.date;
-        if (searchKey.length === 10) {
+        const date = req.params.date;
+        if (date.length === 10) {
             let result = [];
             database.forEach(function(item) {
-                if (!item.timestamp.indexOf(searchKey)) {
+                if (item.timestamp.includes(date)) {
                     result.push(item);
                 }
             });
@@ -117,7 +117,7 @@ module.exports = {
             return res.sendStatus(404);
         } else {
             database.forEach(function(item) {
-                if (item.timestamp === searchKey) {
+                if (item.timestamp === date) {
                     return res.status(200).send(item);
                 }
             });
@@ -161,8 +161,6 @@ module.exports = {
     patch: function(req, res) {
         const date = req.params.date;
         const timestamp = req.body.timestamp;
-        console.log(date);
-        console.log(timestamp);
         if (date !== timestamp) {
             return res.sendStatus(409);
         }
@@ -197,9 +195,5 @@ module.exports = {
         return res.sendStatus(404);
     }
 
-
 };
 
-// console.log(measurementConstructor("01-01-2018", 55, 35, 10));
-// let obj = measurementConstructor("2012-10-06T04:13:00Z", 55.1, 35, 10);
-// console.log(validateInput(obj));
