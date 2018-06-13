@@ -22,5 +22,7 @@ module.exports = function (app) {
     app.delete('/measurements/:date', function(req, res) {
         measurements.delete(req, res);
     });
-    
+    app.get('/stats', function(req, res) {
+        measurements.stats(req, res);
+    });
 };

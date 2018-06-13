@@ -1,3 +1,12 @@
+// {
+//   "timestamp": "2015-09-01T16:00:00.000Z",
+//   "temperature": 27.1,
+//   "dewPoint": 16.7,
+//   "precipitation": 0
+// }
+
+
+// TEST FOR DELETE AND SHOW
 // let database = [
 //     {
 //         timestamp: "2015-09-01T16:00:00.000Z",
@@ -37,52 +46,61 @@
 //     }
 // ];
 
-// {
-//   "timestamp": "2015-09-01T16:00:00.000Z",
-//   "temperature": 27.1,
-//   "dewPoint": 16.7,
-//   "precipitation": 0
-// }
+// TEST FOR PATCH AND PUT
+// let database = [
+// 	{
+// 		"timestamp": "2015-09-01T16:00:00.000Z",
+// 		"temperature": 27.1,
+// 		"dewPoint": 16.7,
+// 		"precipitation": 0
+// 	},
+// 	{
+// 		"timestamp": "2015-09-01T16:10:00.000Z",
+// 		"temperature": 27.3,
+// 		"dewPoint": 16.9,
+// 		"precipitation": 0
+// 	}
+// ]
 
+// TEST FOR STATS
 let database = [
-	{
-		"timestamp": "2015-09-01T16:00:00.000Z",
-		"temperature": 27.1,
-		"dewPoint": 16.7,
-		"precipitation": 0
-	},
-	{
-		"timestamp": "2015-09-01T16:10:00.000Z",
-		"temperature": 27.3,
-		"dewPoint": 16.9,
-		"precipitation": 0
-	}
-]
+    {
+        timestamp: "2015-09-01T16:00:00.000Z",
+        temperature: 27.1,
+        dewPoint: 16.9,
+    },
+    {
+        timestamp: "2015-09-01T16:10:00.000Z",
+        temperature: 27.3,
+    },
+    {
+        timestamp: "2015-09-01T16:20:00.000Z",
+        temperature: 27.5,
+        dewPoint: 17.1,
+    },
+    {
+        timestamp: "2015-09-01T16:30:00.000Z",
+        temperature: 27.4,
+        dewPoint: 17.3,
+    },
+    {
+        timestamp: "2015-09-01T16:40:00.000Z",
+        temperature: 27.2,
+    },
+    {
+        timestamp: "2015-09-01T17:00:00.000Z",
+        temperature: 28.1,
+        dewPoint: 18.3,
+    }
+];
 
 // let database = [];
 
-function measurementConstructor(timestamp, temperature, dewPoint, precipitation) {
-    let obj = {};
-    obj.timestamp = timestamp;
-    obj.temperature = temperature;
-    obj.dewPoint = dewPoint;
-    obj.precipitation = precipitation;
-    return obj;
-}
-
 function validateInput(obj) {
     const re = /^([\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$/;
-    if (!obj.timestamp ||
-        !re.test(obj.timestamp) ||
-        obj.temperature !== parseFloat(obj.temperature) ||
-        obj.dewPoint !== parseFloat(obj.dewPoint) ||
-        obj.precipitation !== parseFloat(obj.precipitation)) {
+    if (!obj.timestamp || !re.test(obj.timestamp)) {
         return false;
     }
-    return true;
-}
-
-function validatePatchInput(obj) {
     if (obj.temperature && obj.temperature !== parseFloat(obj.temperature)) {
         return false;
     }
@@ -95,6 +113,29 @@ function validatePatchInput(obj) {
     return true;
 }
 
+function getMax(arr) {
+    let max = Number.MIN_SAFE_INTEGER;
+    arr.forEach(function(item) {
+        max = Math.max(max, item);
+    });
+    return max.toFixed(1);
+}
+
+function getMin(arr) {
+    let min = Number.MAX_SAFE_INTEGER;
+    arr.forEach(function(item) {
+        min = Math.min(min, item);
+    });
+    return min.toFixed(1);
+}
+
+function getAvg(arr) {
+    let sum = 0;
+    arr.forEach(function(item) {
+        sum += item;
+    });
+    return (sum / arr.length).toFixed(1);
+}
 
 module.exports = {
 
@@ -129,7 +170,7 @@ module.exports = {
         if (!req.body) {
             return res.sendStatus(400);
         } else {
-            const measurement = measurementConstructor(req.body.timestamp, req.body.temperature, req.body.dewPoint, req.body.precipitation);
+            const measurement = req.body;
             if (validateInput(measurement)) {
                 database.push(measurement);
                 return res.sendStatus(201);
@@ -140,7 +181,7 @@ module.exports = {
 
     update: function(req, res) {
         const date = req.params.date;
-        const measurement = measurementConstructor(req.body.timestamp, req.body.temperature, req.body.dewPoint, req.body.precipitation);
+        const measurement = req.body;
         if (date !== measurement.timestamp) {
             return res.sendStatus(409);
         }
@@ -164,7 +205,7 @@ module.exports = {
         if (date !== timestamp) {
             return res.sendStatus(409);
         }
-        if (validatePatchInput(req.body)) {
+        if (validateInput(req.body)) {
             database.forEach(function(item) {
                 if (item.timestamp === date) {
                     if (req.body.temperature) {
@@ -193,6 +234,72 @@ module.exports = {
             }
         }
         return res.sendStatus(404);
+    },
+// http://localhost:5000/stats?stat=min&stat=max&stat=average&metric=temperature&fromDateTime=2015-09-01T16:00:00.000Z&toDateTime=2015-09-01T17:00:00.000Z
+// http://localhost:5000/stats?stat=min&stat=max&stat=average&metric=dewPoint&fromDateTime=2015-09-01T16:00:00.000Z&toDateTime=2015-09-01T17:00:00.000Z
+
+    stats: function(req, res) {
+        let result = [];
+        let dateRange = [];
+        console.log(req.query);
+
+        var stats = [];
+        var metrics = [];
+
+        if (typeof(req.query.stat) === "string") {
+            stats.push(req.query.stat);
+        } else {
+            stats = req.query.stat;
+        }
+        if (typeof(req.query.metric) === "string") {
+            metrics.push(req.query.metric);
+        } else {
+            metrics = req.query.metric;
+        }
+
+        const left = new Date(req.query.fromDateTime);
+        const right = new Date(req.query.toDateTime);
+
+        database.forEach(function(item) {
+            let date = new Date(item.timestamp);
+            if (date >= left && date < right) {
+                dateRange.push(item);
+            }
+        });
+        // console.log(dateRange);
+        
+        metrics.forEach(function(metric) {
+            stats.forEach(function(stat) {
+                let temp = [];
+                dateRange.forEach(function(date) {
+                    if (metric === "temperature" && date.temperature) {
+                        temp.push(date.temperature);
+                    }
+                    if (metric === "dewPoint" && date.dewPoint) {
+                        temp.push(date.dewPoint);
+                    }
+                    if (metric === "precipitation" && date.precipitation) {
+                        temp.push(date.precipitation);
+                    }
+                });
+                console.log(temp);
+                if (temp.length !== 0) {
+                    if (stat === "min") {
+                        let min = getMin(temp);
+                        result.push({"metric": metric, "stat": stat, "value": min});
+                    }
+                    if (stat === "max") {
+                        let max = getMax(temp);
+                        result.push({"metric": metric, "stat": stat, "value": max});
+                    }
+                    if (stat === "average") {
+                        let avg = getAvg(temp);
+                        result.push({"metric": metric, "stat": stat, "value": avg});
+                    }
+                }
+            });
+        });
+        return res.status(200).send(result);
     }
 
 };
