@@ -103,16 +103,11 @@ let database = [
  */
 function isInputValid(obj) {
     const RE = /\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z)/;
-    if (!obj.timestamp || !RE.test(obj.timestamp)) {
-        return false;
-    }
-    if (obj.temperature && obj.temperature !== parseFloat(obj.temperature)) {
-        return false;
-    }
-    if (obj.dewPoint && obj.dewPoint !== parseFloat(obj.dewPoint)) {
-        return false;
-    }
-    if (obj.precipitation && obj.precipitation !== parseFloat(obj.precipitation)) {
+    if (!obj.timestamp
+        || !RE.test(obj.timestamp)
+        || (obj.temperature && obj.temperature !== parseFloat(obj.temperature))
+        || (obj.dewPoint && obj.dewPoint !== parseFloat(obj.dewPoint))
+        || (obj.precipitation && obj.precipitation !== parseFloat(obj.precipitation))) {
         return false;
     }
     return true;
