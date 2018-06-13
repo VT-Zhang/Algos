@@ -1,23 +1,50 @@
-let database = [
-    {
-        timestamp: "2015-09-01T16:00:00.000Z",
-        temperature: 27.1,
-        dewPoint: 16.7,
-        precipitation: 0
-    },
-    {
-        timestamp: "2015-09-01T16:10:00.000Z",
-        temperature: 27.3,
-        dewPoint: 16.9,
-        precipitation: 0
-    },
-    {
-        timestamp: "2015-09-02T16:10:00.000Z",
-        temperature: 27.3,
-        dewPoint: 16.9,
-        precipitation: 1
-    }
-];
+// let database = [
+//     {
+//         timestamp: "2015-09-01T16:00:00.000Z",
+//         temperature: 27.1,
+//         dewPoint: 16.7,
+//         precipitation: 0
+//     },
+//     {
+//         timestamp: "2015-09-01T16:10:00.000Z",
+//         temperature: 27.3,
+//         dewPoint: 16.9,
+//         precipitation: 0
+//     },
+//     {
+//         timestamp: "2015-09-01T16:20:00.000Z",
+//         temperature: 27.5,
+//         dewPoint: 17.1,
+//         precipitation: 0
+//     },
+//     {
+//         timestamp: "2015-09-01T16:30:00.000Z",
+//         temperature: 27.4,
+//         dewPoint: 17.3,
+//         precipitation: 0
+//     },
+//     {
+//         timestamp: "2015-09-01T16:40:00.000Z",
+//         temperature: 27.2,
+//         dewPoint: 18.3,
+//         precipitation: 0
+//     },
+//     {
+//         timestamp: "2015-09-02T16:00:00.000Z",
+//         temperature: 28.1,
+//         dewPoint: 18.3,
+//         precipitation: 0
+//     }
+// ];
+
+// {
+//   "timestamp": "2015-09-01T16:00:00.000Z",
+//   "temperature": 27.1,
+//   "dewPoint": 16.7,
+//   "precipitation": 0
+// }
+
+let database = [];
 
 function measurementConstructor(timestamp, temperature, dewPoint, precipitation) {
     let obj = {};
@@ -79,7 +106,7 @@ module.exports = {
         if (!req.body) {
             return res.sendStatus(400);
         } else {
-            let obj = measurementConstructor(res.body.timestamp, res.body.temperature, res.body.dewPoint, res.body.precipitation);
+            let obj = measurementConstructor(req.body.timestamp, req.body.temperature, req.body.dewPoint, req.body.precipitation);
             if (validateInput(obj)) {
                 database.push(obj);
                 return res.sendStatus(201);
