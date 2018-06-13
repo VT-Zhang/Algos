@@ -102,20 +102,28 @@ module.exports = {
     },
 
     create: function(req, res) {
-        console.log(req.body);
         if (!req.body) {
             return res.sendStatus(400);
         } else {
-            let obj = measurementConstructor(req.body.timestamp, req.body.temperature, req.body.dewPoint, req.body.precipitation);
-            if (validateInput(obj)) {
-                database.push(obj);
+            let measurement = measurementConstructor(req.body.timestamp, req.body.temperature, req.body.dewPoint, req.body.precipitation);
+            if (validateInput(measurement)) {
+                database.push(measurement);
                 return res.sendStatus(201);
-            } else {
-                return res.sendStatus(400);
             }
+            return res.sendStatus(400);
         }
     },
 
+    delete: function(req, res) {
+        let date = req.params.date;
+        for(let i = 0; i < database.length; i++) {
+            if (date === database[i].timestamp) {
+                database.splice(i, 1);
+                return res.sendStatus(204);
+            }
+        }
+        return res.sendStatus(400);
+    }
 
 
 };

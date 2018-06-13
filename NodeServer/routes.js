@@ -13,4 +13,7 @@ module.exports = function (app) {
     app.post('/measurements', function (req, res) {
         measurements.create(req, res);
     });
+    app.delete('/measurements/:date', function(req, res) {
+        measurements.delete(req, res);
+    })
 };
