@@ -16,6 +16,9 @@ module.exports = function (app) {
     app.put('/measurements/:date', function(req, res) {
         measurements.update(req, res);
     });
+    app.patch('/measurements/:date', function(req, res) {
+        measurements.patch(req, res);
+    });
     app.delete('/measurements/:date', function(req, res) {
         measurements.delete(req, res);
     });

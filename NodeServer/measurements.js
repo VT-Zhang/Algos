@@ -71,7 +71,7 @@ function measurementConstructor(timestamp, temperature, dewPoint, precipitation)
 }
 
 function validateInput(obj) {
-    let re = /^([\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$/;
+    const re = /^([\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$/;
     if (!obj.timestamp ||
         !re.test(obj.timestamp) ||
         obj.temperature !== parseFloat(obj.temperature) ||
@@ -82,19 +82,28 @@ function validateInput(obj) {
     return true;
 }
 
+function validatePatchInput(obj) {
+    if (obj.temperature && obj.temperature !== parseFloat(obj.temperature)) {
+        return false;
+    }
+    if (obj.dewPoint && obj.dewPoint !== parseFloat(obj.dewPoint)) {
+        return false;
+    }
+    if (obj.precipitation && obj.precipitation !== parseFloat(obj.precipitation)) {
+        return false;
+    }
+    return true;
+}
+
 
 module.exports = {
-
-    index: function(req, res) {
-        return 'Weather tracker is up and running!\n';
-    },
 
     showAll: function(req, res) {
         return res.status(200).send(database);
     },
 
     show: function(req, res) {
-        let searchKey = req.params.date;
+        const searchKey = req.params.date;
         if (searchKey.length === 10) {
             let result = [];
             database.forEach(function(item) {
@@ -120,7 +129,7 @@ module.exports = {
         if (!req.body) {
             return res.sendStatus(400);
         } else {
-            let measurement = measurementConstructor(req.body.timestamp, req.body.temperature, req.body.dewPoint, req.body.precipitation);
+            const measurement = measurementConstructor(req.body.timestamp, req.body.temperature, req.body.dewPoint, req.body.precipitation);
             if (validateInput(measurement)) {
                 database.push(measurement);
                 return res.sendStatus(201);
@@ -130,10 +139,8 @@ module.exports = {
     },
 
     update: function(req, res) {
-        let date = req.params.date;
-        let measurement = measurementConstructor(req.body.timestamp, req.body.temperature, req.body.dewPoint, req.body.precipitation);
-        console.log(date);
-        console.log(measurement);
+        const date = req.params.date;
+        const measurement = measurementConstructor(req.body.timestamp, req.body.temperature, req.body.dewPoint, req.body.precipitation);
         if (date !== measurement.timestamp) {
             return res.sendStatus(409);
         }
@@ -151,8 +158,36 @@ module.exports = {
         return res.sendStatus(400);
     },
 
+    patch: function(req, res) {
+        const date = req.params.date;
+        const timestamp = req.body.timestamp;
+        console.log(date);
+        console.log(timestamp);
+        if (date !== timestamp) {
+            return res.sendStatus(409);
+        }
+        if (validatePatchInput(req.body)) {
+            database.forEach(function(item) {
+                if (item.timestamp === date) {
+                    if (req.body.temperature) {
+                        item.temperature = req.body.temperature;
+                    }
+                    if (req.body.dewPoint) {
+                        item.dewPoint = req.body.dewPoint;
+                    }
+                    if (req.body.precipitation) {
+                        item.precipitation = req.body.precipitation;
+                    }
+                    return res.sendStatus(204);
+                }
+            });
+            return res.sendStatus(404);
+        }
+        return res.sendStatus(400);
+    },
+
     delete: function(req, res) {
-        let date = req.params.date;
+        const date = req.params.date;
         for(let i = 0; i < database.length; i++) {
             if (date === database[i].timestamp) {
                 database.splice(i, 1);
