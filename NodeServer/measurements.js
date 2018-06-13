@@ -102,8 +102,8 @@ let database = [
  * @returns {boolean}, return true if all the input fields are valid, false otherwise.
  */
 function isInputValid(obj) {
-    const re = /\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z)/;
-    if (!obj.timestamp || !re.test(obj.timestamp)) {
+    const RE = /\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z)/;
+    if (!obj.timestamp || !RE.test(obj.timestamp)) {
         return false;
     }
     if (obj.temperature && obj.temperature !== parseFloat(obj.temperature)) {
@@ -177,11 +177,11 @@ module.exports = {
      * @returns {*}
      */
     show: function (req, res) {
-        const date = req.params.date;
-        if (date.length === 10) {
+        const DATE = req.params.date;
+        if (DATE.length === 10) {
             let result = [];
             database.forEach(function (item) {
-                if (item.timestamp.includes(date)) {
+                if (item.timestamp.includes(DATE)) {
                     result.push(item);
                 }
             });
@@ -191,7 +191,7 @@ module.exports = {
             return res.sendStatus(404);
         } else {
             database.forEach(function (item) {
-                if (item.timestamp === date) {
+                if (item.timestamp === DATE) {
                     return res.status(200).send(item);
                 }
             });
@@ -209,9 +209,9 @@ module.exports = {
         if (!req.body) {
             return res.sendStatus(400);
         } else {
-            const measurement = req.body;
-            if (isInputValid(measurement)) {
-                database.push(measurement);
+            const MEASUREMENT = req.body;
+            if (isInputValid(MEASUREMENT)) {
+                database.push(MEASUREMENT);
                 return res.sendStatus(201);
             }
             return res.sendStatus(400);
@@ -225,17 +225,17 @@ module.exports = {
      * @returns {*}
      */
     update: function (req, res) {
-        const date = req.params.date;
-        const measurement = req.body;
-        if (date !== measurement.timestamp) {
+        const DATE = req.params.date;
+        const MEASUREMENT = req.body;
+        if (DATE !== MEASUREMENT.timestamp) {
             return res.sendStatus(409);
         }
-        if (isInputValid(measurement)) {
+        if (isInputValid(MEASUREMENT)) {
             database.forEach(function (item) {
-                if (item.timestamp === date) {
-                    item.temperature = measurement.temperature;
-                    item.dewPoint = measurement.dewPoint;
-                    item.precipitation = measurement.precipitation;
+                if (item.timestamp === DATE) {
+                    item.temperature = MEASUREMENT.temperature;
+                    item.dewPoint = MEASUREMENT.dewPoint;
+                    item.precipitation = MEASUREMENT.precipitation;
                     return res.sendStatus(204);
                 }
             });
@@ -251,14 +251,14 @@ module.exports = {
      * @returns {*}
      */
     patch: function (req, res) {
-        const date = req.params.date;
-        const timestamp = req.body.timestamp;
-        if (date !== timestamp) {
+        const DATE = req.params.date;
+        const TIMESTAMP = req.body.timestamp;
+        if (DATE !== TIMESTAMP) {
             return res.sendStatus(409);
         }
         if (isInputValid(req.body)) {
             database.forEach(function (item) {
-                if (item.timestamp === date) {
+                if (item.timestamp === DATE) {
                     if (req.body.temperature) {
                         item.temperature = req.body.temperature;
                     }
@@ -283,9 +283,9 @@ module.exports = {
      * @returns {*}
      */
     delete: function (req, res) {
-        const date = req.params.date;
+        const DATE = req.params.date;
         for (let i = 0; i < database.length; i++) {
-            if (date === database[i].timestamp) {
+            if (DATE === database[i].timestamp) {
                 database.splice(i, 1);
                 return res.sendStatus(204);
             }
@@ -321,12 +321,12 @@ module.exports = {
             metrics = req.query.metric;
         }
 
-        const left = new Date(req.query.fromDateTime);
-        const right = new Date(req.query.toDateTime);
+        const LEFT = new Date(req.query.fromDateTime);
+        const RIGHT = new Date(req.query.toDateTime);
 
         database.forEach(function (item) {
             let date = new Date(item.timestamp);
-            if (date >= left && date < right) {
+            if (date >= LEFT && date < RIGHT) {
                 dateRange.push(item);
             }
         });
