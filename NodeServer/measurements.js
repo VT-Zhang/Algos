@@ -189,7 +189,8 @@ module.exports = {
                 return res.status(200).send(result);
             }
             return res.sendStatus(404);
-        } else {
+        }
+        else {
             database.forEach(function (item) {
                 if (item.timestamp === DATE) {
                     return res.status(200).send(item);
@@ -208,7 +209,8 @@ module.exports = {
     create: function (req, res) {
         if (!req.body) {
             return res.sendStatus(400);
-        } else {
+        }
+        else {
             const MEASUREMENT = req.body;
             if (isInputValid(MEASUREMENT)) {
                 database.push(MEASUREMENT);
@@ -312,12 +314,14 @@ module.exports = {
 
         if (typeof(req.query.stat) === "string") {
             stats.push(req.query.stat);
-        } else {
+        }
+        else {
             stats = req.query.stat;
         }
         if (typeof(req.query.metric) === "string") {
             metrics.push(req.query.metric);
-        } else {
+        }
+        else {
             metrics = req.query.metric;
         }
 
