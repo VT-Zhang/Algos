@@ -116,40 +116,40 @@ function isInputValid(obj) {
 /**
  * Function to get the max value from an array.
  * @param arr, the array.
- * @returns {string}, return the max value with 1 decimal place.
+ * @returns {float}, return the max value with 1 decimal place.
  */
 function getMax(arr) {
     let max = Number.MIN_SAFE_INTEGER;
     arr.forEach(function (item) {
         max = Math.max(max, item);
     });
-    return max.toFixed(1);
+    return parseFloat(max.toFixed(1));
 }
 
 /**
  * Function to get the min value from an array.
  * @param arr, the array.
- * @returns {string}, return the min value with 1 decimal place.
+ * @returns {float}, return the min value with 1 decimal place.
  */
 function getMin(arr) {
     let min = Number.MAX_SAFE_INTEGER;
     arr.forEach(function (item) {
         min = Math.min(min, item);
     });
-    return min.toFixed(1);
+    return parseFloat(min.toFixed(1));
 }
 
 /**
  * Function to get the average value from an array.
  * @param arr, the array.
- * @returns {string}, return the average value with 1 decimal place.
+ * @returns {float}, return the average value with 1 decimal place.
  */
 function getAvg(arr) {
     let sum = 0;
     arr.forEach(function (item) {
         sum += item;
     });
-    return (sum / arr.length).toFixed(1);
+    return parseFloat((sum / arr.length).toFixed(1));
 }
 
 module.exports = {
@@ -209,6 +209,7 @@ module.exports = {
             const MEASUREMENT = req.body;
             if (isInputValid(MEASUREMENT)) {
                 database.push(MEASUREMENT);
+                res.location('/measurements/' + MEASUREMENT.timestamp);
                 return res.sendStatus(201);
             }
             return res.sendStatus(400);
