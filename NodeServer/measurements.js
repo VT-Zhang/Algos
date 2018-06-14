@@ -308,25 +308,25 @@ module.exports = {
         let stats = [];
         let metrics = [];
 
-        if (typeof(req.query.stat) === "string") {
+        if (typeof req.query.stat === "string") {
             stats.push(req.query.stat);
         }
         else {
             stats = req.query.stat;
         }
-        if (typeof(req.query.metric) === "string") {
+        if (typeof req.query.metric === "string") {
             metrics.push(req.query.metric);
         }
         else {
             metrics = req.query.metric;
         }
 
-        const LEFT = new Date(req.query.fromDateTime);
-        const RIGHT = new Date(req.query.toDateTime);
+        const EARLIEST_DATE = new Date(req.query.fromDateTime);
+        const LATEST_DATE = new Date(req.query.toDateTime);
 
         database.forEach(function (item) {
             let date = new Date(item.timestamp);
-            if (date >= LEFT && date < RIGHT) {
+            if (date >= EARLIEST_DATE && date < LATEST_DATE) {
                 dateRange.push(item);
             }
         });
