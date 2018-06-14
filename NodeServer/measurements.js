@@ -280,9 +280,9 @@ module.exports = {
      * @returns {*}
      */
     destroy: function(req, res) {
-        const date = req.params.date;
+        const DATE = req.params.date;
         for(let i = 0; i < database.length; i++) {
-            if (date === database[i].timestamp) {
+            if (database[i].timestamp === DATE) {
                 database.splice(i, 1);
                 return res.sendStatus(204);
             }
