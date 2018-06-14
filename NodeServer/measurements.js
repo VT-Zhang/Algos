@@ -225,7 +225,7 @@ module.exports = {
         return res.sendStatus(400);
     },
 
-    delete: function(req, res) {
+    destroy: function(req, res) {
         const date = req.params.date;
         for(let i = 0; i < database.length; i++) {
             if (date === database[i].timestamp) {
