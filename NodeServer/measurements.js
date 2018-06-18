@@ -206,10 +206,9 @@ module.exports = {
             return res.sendStatus(400);
         }
         else {
-            const MEASUREMENT = req.body;
-            if (isInputValid(MEASUREMENT)) {
-                database.push(MEASUREMENT);
-                res.location('/measurements/' + MEASUREMENT.timestamp);
+            if (isInputValid(req.body)) {
+                database.push(req.body);
+                res.location('/measurements/' + req.body.timestamp);
                 return res.sendStatus(201);
             }
             return res.sendStatus(400);
