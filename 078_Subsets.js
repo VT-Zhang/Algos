@@ -45,9 +45,8 @@ function subsets(arr) {
     }
     let res = [[]];
     arr.forEach( function (n) {
-        let length = res.length;
         let i = 0;
-        while (i < length) {
+        while (i < res.length) {
             let subset = res[i].slice(0);
             subset.push(n);
             res.push(subset);
