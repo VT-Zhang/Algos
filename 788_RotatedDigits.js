@@ -19,32 +19,14 @@
  * @return {number}
  */
 function rotatedDigits(N) {
-    var res = 0;
-    for (var i = 1; i <= N; i++) {
-            if(isGood(i, false)) {
-                res++;
+    let count = 0;
+    for(let i = 1; i <= N; i++){
+        let tmp = i + '';
+        if(!/[347]/g.test(tmp) && /[2569]/g.test(tmp)) {
+            count++;
         }
     }
-    return res;
-}
-
-/**
- * @param {number} num
- * @param {boolean} flag
- * @return {boolean}
- */
-function isGood(num, flag) {
-    if(num === 0) {
-        return flag;
-    }
-    var digit = num % 10;
-    if (digit === 3 || digit === 4 || digit === 7) {
-        return false;
-    }
-    if (digit === 0 || digit === 1 || digit === 8) {
-        return isGood(num/10, flag);
-    }
-    return isGood(num/10, true);
+    return count;
 }
 
 console.log(rotatedDigits(2));
