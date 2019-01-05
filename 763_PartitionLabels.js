@@ -17,14 +17,23 @@
  * @param {string} S
  * @return {number[]}
  */
-var partitionLabels = function(S) {
-    var res = [];
-    var set = new Set();
-    for(var i = 0; i < S.length; i++) {
-        set.add(S[i]);
+function partitionLabels(S) {
+    let n = S.length;
+    let idxs = [];
+    let res = [];
+    for (let i = 0; i < n; i++) {
+        idxs[S[i]] = i;
     }
-    console.log(set);
-
-};
+    let bound = 0;
+    let l = 0;
+    for (let i = 0; i < n; i++) {
+        bound = Math.max(bound, idxs[S[i]]);
+        if (bound === i) {
+            res.push(i - l + 1);
+            l = i + 1;
+        }
+    }
+    return res;
+}
 
 console.log(partitionLabels("ababcbacadefegdehijhklij"));
