@@ -47,24 +47,24 @@
  * @param {character[]} chars
  * @return {number}
  */
-var compress = function(chars) {
-    var res = 0;
-    var i = 0;
+function compress(chars) {
+    let i = 0, j = 0;
     while (i < chars.length) {
-        var cur = chars[i];
-        var count = 0;
-        while(i < chars.length && chars[i] == cur) {
-            i++;
-            count++;
-        }
-        chars[res++] = cur;
-        if(count != 1) {
-            for(var c : String.valueOf(count).toCharArray()) {
-                chars[res++] = c;
-            }
+        if (chars[j] === chars[i]) {
+            j++;
+        } else if (j > i + 1) {
+            const nums = (j - i).toString().split('');
+            chars.splice(i + 1, j - i - 1, ...nums);
+            j = i = i + 1 + nums.length;
+        } else if (j = i + 1) {
+            i = j;
+            j++;
         }
     }
-    return res;
-};
+    console.log(chars);
+    return chars.length;
+}
 
 console.log(compress(["a","a","b","b","c","c","c"]));
+console.log(compress(["a"]));
+console.log(compress(["a","b","b","b","b","b","b","b","b","b","b","b","b"]));
