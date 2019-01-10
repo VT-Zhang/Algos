@@ -26,36 +26,28 @@
  * @param {number[]} nums
  * @return {number}
  */
-var deleteAndEarn = function(nums) {
-    var dict = {};
-    for(var i = 0; i < nums.length; i++) {
-        if(dict[nums[i]]) {
-            dict[nums[i]]++;
-        }
-        else {
-            dict[nums[i]] = 1;
-        }
+function deleteAndEarn(nums) {
+    if (nums.length === 0) {
+        return 0;
     }
-    console.log(dict);
-    var even = 0;
-    var odd = 0;
-    for(var key in dict) {
-        if(parseInt(key) % 2 == 0) {
-            even += dict[key] * key;
-        }
-        if(parseInt(key) % 2 == 1) {
-            odd += dict[key] * key;
+    let max = Math.max.apply(Math, nums);
+    let earn = Array.from(Array(max), () => 0);
+    for (let i = 0; i < nums.length; i++) {
+        let index = nums[i];
+        earn[index] = (earn[index] === undefined ? 0 : earn[index]) + nums[i];
+    }
+    let evenSum = 0;
+    let oddSum = 0;
+    for (let i = 0; i < earn.length; i++) {
+        if (i % 2 === 0) {
+            evenSum = Math.max(evenSum + earn[i], oddSum);
+        } else {
+            oddSum = Math.max(oddSum + earn[i], evenSum);
         }
     }
-    console.log(even);
-    if(odd > even) {
-        return odd;
-    }
-    else {
-        return even;
-    }
-};
+    return Math.max(oddSum, evenSum);
+}
 
-// console.log(deleteAndEarn([2, 2, 3, 3, 3, 4]));
-// console.log(deleteAndEarn([3, 4, 2]));
+console.log(deleteAndEarn([2, 2, 3, 3, 3, 4]));
+console.log(deleteAndEarn([3, 4, 2]));
 console.log(deleteAndEarn([8,10,4,9,1,3,5,9,4,10]));
