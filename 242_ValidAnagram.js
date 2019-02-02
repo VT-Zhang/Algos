@@ -15,46 +15,11 @@
  * @param {string} t
  * @return {boolean}
  */
-var isAnagram = function(s, t) {
-    if(t.length > s.length) {
-        return false;
-    }
-    var dict_s = {};
-    for(var i = 0; i < s.length; i++) {
-        if(!dict_s[s[i]]) {
-            dict_s[s[i]] = 1;
-        }
-        else {
-            dict_s[s[i]]++;
-        }
-    }
-    var dict_t = {};
-    for(var j = 0; j < t.length; j++) {
-        if(!dict_t[t[j]]) {
-            dict_t[t[j]] = 1;
-        }
-        else {
-            dict_t[t[j]]++;
-        }
-    }
-    console.log(dict_t);
-    for(var name in dict_t) {
-        if(!(name in dict_s)) {
-            return false;
-        }
-    }
-    for(var k = 0; k < t.length; k++) {
-        dict_s[t[k]]--;
-    }
-    for(var key in dict_s) {
-        if(dict_s[key] < 0) {
-            return false;
-        }
-    }
-    console.log(dict_s);
-    return true;
-};
+function isAnagram(s, t) {
+    return s.split('').sort().join('') === t.split('').sort().join('')
+}
 
-console.log(isAnagram("anagram", "nagram"));
+
+console.log(isAnagram("anagram", "nagaram"));
 console.log(isAnagram("rat", "cat"));
 console.log(isAnagram("ab", "a"));
