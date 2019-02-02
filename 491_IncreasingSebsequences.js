@@ -14,18 +14,34 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var findSubsequences = function(nums) {
-    var res = [];
-    var arr = nums.sort(function (a, b) { return a - b });
-    console.log(arr);
-    for(var i = 2; i < arr.length; i++) {
-        var temp = [];
-        for(var j = 0; j < arr.length; j++) {
-            temp.push(arr[j]);
-        }
-        res.push(temp);
+function findSubsequences(nums) {
+    let res = [];
+    if (!nums || nums.length === 0) {
+        return res;
+    }
+    let map = {};
+    helper(nums, 0, [], map);
+    for (let key in map) {
+        res.push(map[key]);
     }
     return res;
-};
+}
+
+function helper(nums, index, holder, res) {
+    if (holder.length >= 2) {
+        let key = '';
+        holder.forEach(num => {
+            key += num + '.';
+        });
+        res[key] = holder.slice();
+    }
+    for (let i = index; i < nums.length; i++) {
+        if (holder.length === 0 || holder[holder.length - 1] <= nums[i]) {
+            holder.push(nums[i]);
+            helper(nums, i+1, holder,res);
+            holder.pop();
+        }
+    }
+}
 
 console.log(findSubsequences([4,7,6,7]));
