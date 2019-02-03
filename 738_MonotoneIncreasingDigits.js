@@ -17,22 +17,20 @@
  * @param {number} N
  * @return {number}
  */
-var monotoneIncreasingDigits = function(N) {
-    if(N <= 10) {
-        return N - 1;
+function monotoneIncreasingDigits(N) {
+    let res = 0;
+    let case9 = false;
+    let m = 1;
+    while (N) {
+        let val = N % 10 - case9;
+        N = Math.floor(N / 10);
+        let next = N % 10;
+        case9 = val < next;
+        res = case9 ? m * 10 - 1 : res + val * m;
+        m *= 10;
     }
-    for(var i = N; i >= 0; i--) {
-        var num = i.toString();
-        for(var j = 0; j < num.length - 1; j++) {
-            if(parseInt(num[j]) > num[j+1]) {
-                break;
-            }
-            if(j == num.length - 2) {
-                return parseInt(num);
-            }
-        }
-    }
-};
+    return res;
+}
 
 console.log(monotoneIncreasingDigits(1234));
 console.log(monotoneIncreasingDigits(332));
