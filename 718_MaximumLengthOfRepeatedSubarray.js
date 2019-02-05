@@ -16,62 +16,23 @@
  * @param {number[]} B
  * @return {number}
  */
-var findLength = function(A, B) {
-    var mapA = {};
-    var mapB = {};
-    for(var i = 0; i < A.length; i++) {
-        var arr = [];
-        for(var j = i; j < A.length; j++) {
-            arr.push(A[j]);
-            if(mapA[arr]) {
-                mapA[arr]++;
-            }
-            else{
-                mapA[arr] = 1;
-            }
-        }
-    }
-    console.log(mapA);
-    for(var m = 0; m < B.length; m++) {
-        var array = [];
-        for(var n = m; n < B.length; n++) {
-            array.push(B[n]);
-            if(mapB[array]) {
-                mapB[array]++;
-            }
-            else{
-                mapB[array] = 1;
+function findLength(A, B) {
+    let l1 = A.length;
+    let l2 = B.length;
+    let max = 0;
+    for (let offset = -l2 + 1; offset < l1; offset++) {
+        let currLength = 0;
+        for (let i = Math.max(0, offset); i < l1 && i - offset < l2; i++) {
+            if (A[i] === B[i-offset]) {
+                currLength++;
+                max = Math.max(max, currLength);
+            } else {
+                currLength = 0;
             }
         }
-    }
-    console.log(mapB);
-    var res = [];
-    for(var key in mapA) {
-        if(key in mapB){
-            res.push(key);
-        }
-    }
-    console.log(res);
-    var max = 0;
-    for(var x = 0; x < res.length; x++) {
-        length = 1;
-        var flag = false;
-        for(var y = 0; y < res[x].length; y++) {
-            if(flag && res[x][y] != ","){
-                length++;
-            }
-            if(res[x][y] == ",") {
-                flag = true;
-            }
-            else {
-                flag = false;
-            }
-        }
-        console.log(length);
-        max = Math.max(max, length);
     }
     return max;
-};
+}
 
 console.log(findLength([1,2,3,2,1], [3,2,1,4,7]));
 console.log(findLength([5,14,53,80,48], [50,47,3,80,83]));
