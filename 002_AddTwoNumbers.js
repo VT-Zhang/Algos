@@ -20,11 +20,11 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var addTwoNumbers = function(l1, l2) {
-    var runner = new ListNode(0);
-    var res = runner;
-    var sum = 0;
-    var carry = 0;
+function addTwoNumbers(l1, l2) {
+    let runner = new ListNode(0);
+    let res = runner;
+    let sum = 0;
+    let carry = 0;
     while(l1 || l2 || carry > 0) {
         sum = 0;
         if(l1 != null) {
@@ -41,7 +41,7 @@ var addTwoNumbers = function(l1, l2) {
         runner = runner.next;
     }
     return res.next;
-};
+}
 
 function ListNode(val) {
     this.val = val;
