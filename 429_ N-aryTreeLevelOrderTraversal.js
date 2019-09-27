@@ -3,25 +3,26 @@
  * @return {number[][]}
  */
 function levelOrder(root) {
-    let array = [];
-    if (!root) {
-        return array;
-    }
-    let queue = [];
-    queue.push(root);
+    let levels = [];
 
-    while (queue.length !== 0) {
-        let currentLevel = [];
-        for (let i = 0; i < queue.length; i++) {
-            let node = queue.shift();
-            currentLevel.push(node.val);
-            node.children.forEach(child => {
-                queue.push(child);
-            });
-        }
-        array.push(currentLevel);
+    if (root) {
+        putLevels(root, 0);
     }
-    return array;
+
+    return levels;
+
+    function putLevels(root, depth) {
+        if (root) {
+            if (!levels[depth]) {
+                levels[depth] = [];
+            }
+            levels[depth].push(root.val);
+        }
+        depth++;
+        for (let i = 0; i < root.children.length; i++) {
+            putLevels(root.children[i], depth)
+        }
+    }
 }
 
 function Node(val, children) {
