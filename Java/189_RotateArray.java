@@ -13,4 +13,5 @@ class Solution {
             nums[right--] = temp;
         }
     }
+
 }
