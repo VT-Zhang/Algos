@@ -1,18 +1,17 @@
 class Solution {
-    public String countAndSay(int n) {
-        String s = "1";
-        while (n-- > 1) {
-            int c = 0;
-            String t = "";
-            for (int i = 0; i <= s.length(); i++) {
-                if (i == s.length() || (i > 0 && s.charAt(i) != s.charAt(i - 1))) {
-                    t += String.valueOf(c) + s.charAt(i - 1);
-                    c = 0;
-                }
-                c++;
+    public int[] sortArrayByParity(int[] A) {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        for (int i = 0; i < A.length; i++) {
+            if (A[i] % 2 == 0) {
+                list.add(A[i]);
             }
-            s = t;
         }
-        return s;
+        for (int i = 0; i < A.length; i++) {
+            if (A[i] % 2 == 1) {
+                list.add(A[i]);
+            }
+        }
+        int[] array = new int[list.size()];
+        return list.toArray(array);
     }
 }
