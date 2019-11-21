@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae42108a-c4b7-496a-b28a-68e4ebabadbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/067_AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/069_SquareX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,38 +29,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="709_ToLowerCase" value="1" />
-          <entry key="java" value="23" />
+          <entry key="java" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="709_ToLowerCase" value="250" />
-          <entry key="java" value="4939" />
+          <entry key="java" value="5182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5189" />
+          <entry key="JAVA" value="5432" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/136_SingleNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/014_LongestCommonPrefix.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,11 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/067_AddBinary.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="11">
               <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="18" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/069_SquareX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -180,6 +180,7 @@
         <option value="$PROJECT_DIR$/009_PalindromeNumber.java" />
         <option value="$PROJECT_DIR$/066_PlusOne.java" />
         <option value="$PROJECT_DIR$/067_AddBinary.java" />
+        <option value="$PROJECT_DIR$/069_SquareX.java" />
       </list>
     </option>
   </component>
@@ -221,7 +222,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574308151032" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574308447573" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -260,12 +261,12 @@
       <workItem from="1573348681179" duration="1651000" />
       <workItem from="1573527427973" duration="1488000" />
       <workItem from="1573936001168" duration="1448000" />
-      <workItem from="1574307425053" duration="823000" />
+      <workItem from="1574307425053" duration="1078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13796000" />
+    <option name="totallyTimeSpent" value="14051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="925" y="172" width="853" height="824" extended-state="0" />
@@ -466,6 +467,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
           <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/069_SquareX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
